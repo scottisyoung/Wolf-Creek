@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  font-size: 30px;
+  color: #9d0505; }
+  .App .App-logo {
+    height: 200px;
+    width: 270px; }
+
+.dbtest {
+  height: 500px;
+  width: 500px;
+  background-color: lightgray;
+  color: black;
+  overflow: auto;
+  font-size: 12px; }
