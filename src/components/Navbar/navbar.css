@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 15.5vh;
+  width: 100%;
+  background-color: rgba(198, 198, 246, 0.2); }
+  .navbar .logo {
+    height: 9vh;
+    width: 5.5%;
+    position: absolute;
+    top: 1.5vh;
+    left: 25.5vh; }
+  .navbar .logoTitle {
+    position: absolute;
+    top: 4.8vh;
+    left: 8.5vh;
+    font-size: 3.3em;
+    font-family: 'Qwigley', cursive;
+    color: rgba(16, 0, 38, 0.88);
+    font-weight: 500;
+    text-shadow: 1px 1px #2096FE;
+    letter-spacing: 1.5px; }
+    .navbar .logoTitle span {
+      font-size: 1.8em; }
+  .navbar .navLink {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 4vh;
+    margin-top: 8vh; }
+  .navbar .Link {
+    text-decoration: none;
+    color: #9A9DA2;
+    text-shadow: 0.5px 0.5px #2E009F;
+    font-family: 'Josefin Slab', serif; }
+    .navbar .Link:hover {
+      color: red;
+      font-weight: 600; }
