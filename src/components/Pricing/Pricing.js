@@ -1,5 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
+import './pricing.css';
 import {HashRouter, Route} from 'react-router-dom';
-import axios from 'axios';
+
+class Pricing extends Component {
+    render() {
+    return (
+        <div>
+            Pricing
+        </div>
+    )
+}
+}
+export default Pricing;
 

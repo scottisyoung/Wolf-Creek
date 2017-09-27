@@ -14,6 +14,8 @@ app.use(cors());
 
 massive( process.env.CONNECTION_STRING ).then(db => {
     app.set('db', db)
+    const PORT = 3080;
+    app.listen(PORT, () => console.log(`listening on port:`, PORT));
 }).catch(err => console.log(err))
 
 
@@ -38,7 +40,5 @@ app.get('/api/select_product', (req, res) =>{
     }
 })
 
-// SERVER PORT
 
-const PORT = 3080;
-app.listen(PORT, () => console.log(`listening on port:`, PORT));
+
