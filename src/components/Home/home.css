@@ -1,0 +1,104 @@
+.jumbotron {
+  height: 85vh;
+  width: 100%;
+  background-color: lightgray;
+  position: absolute; }
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #5563A9;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline; }
+
+.btn {
+  opacity: 1;
+  position: absolute;
+  right: 50px;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
+  transition: border .1s; }
+
+.slide {
+  height: 130vh;
+  width: 25%;
+  background: rgba(31, 29, 29, 0.5);
+  transition: .84s;
+  margin-top: 15vh;
+  margin-right: 5vh;
+  position: absolute;
+  border-radius: 5vh;
+  overflow: auto; }
+  .slide .slideTitle {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 1.8em; }
+
+.close {
+  height: 100vh;
+  width: 0%;
+  opacity: 0; }
+
+.dateparent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end; }
+  .dateparent .dayofweek {
+    color: #010148;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 3vh;
+    margin-right: 6vh; }
+  .dateparent .temp {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-top: 1vh;
+    margin-left: 3vh;
+    margin-right: 6vh;
+    margin-bottom: 1vh; }
+
+.conditionsParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center; }
+  .conditionsParent .wicon {
+    width: 5vh;
+    height: 6vh; }
+  .conditionsParent .temp {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-left: 2vh;
+    margin-right: 6vh;
+    margin-bottom: 1vh; }
+
+.dateParent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end; }
+  .dateParent .temp {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-left: 2vh;
+    margin-right: 6vh;
+    margin-bottom: 1vh; }
+
+.home2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #5563A9; }

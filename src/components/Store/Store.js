@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
-import './pricing.css';
+import './store.css';
 import {HashRouter, Route} from 'react-router-dom';
+import axios from 'axios';
 
-
-class Pricing extends Component {
+class Store extends Component {
+   
     render() {
-    return (
 
+    return (
         <div>
+
             <div className="logParent">
                 <div className="log">
                     <div><a className="auth" href={process.env.REACT_APP_LOGIN}><div>Login to Store</div></a></div>
                 </div>
             </div>
 
-       </div>
+        </div>
     )
 }
 }
-export default Pricing;
-
+export default Store;

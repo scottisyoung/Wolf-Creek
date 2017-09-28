@@ -9,10 +9,10 @@
   background-color: rgba(198, 198, 246, 0.2); }
   .navbar .logo {
     height: 9vh;
-    width: 5.5%;
+    width: 25%;
     position: absolute;
-    top: 1.5vh;
-    left: 25.5vh; }
+    top: -3vh;
+    left: 17vh; }
   .navbar .logoTitle {
     position: absolute;
     top: 4.8vh;
@@ -28,8 +28,8 @@
   .navbar .navLink {
     font-size: 1.3em;
     font-weight: 500;
-    margin: 4vh;
-    margin-top: 8vh; }
+    margin: 3vh;
+    margin-top: 12vh; }
   .navbar .Link {
     text-decoration: none;
     color: #9A9DA2;

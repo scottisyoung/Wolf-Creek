@@ -1,19 +1,22 @@
-.loginParent {
+.logParent {
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
     align-items: baseline;
     margin: 4vh;
-    .login {
+    .log {
         text-align: center;
         height: 5vh;
         width: 15vh;
         background-color: #2222A4;
-        color: white;
         border-radius: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
     }   
+            .auth {
+                color: white;
+                text-decoration: none;
+            }
 }

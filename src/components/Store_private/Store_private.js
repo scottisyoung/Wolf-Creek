@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './shop.css';
+import './store_private.css';
 import {HashRouter, Route} from 'react-router-dom';
 import axios from 'axios';
 
-class Shop extends Component {
+export default class Store_private extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -20,7 +20,6 @@ class Shop extends Component {
     }
 
 
-
     render() {
 
         const products = this.state.products.map(function(product,i){
@@ -33,21 +32,18 @@ class Shop extends Component {
           })
 
 
-    return (
-        <div>
-
-            <div className="loginParent">
-                <div className="login">
-                    <div>Login to Store</div>
+        return(
+            <div>
+                <div className="logParent">
+                    <div className="log">
+                        <div><a className="auth" href={process.env.REACT_APP_LOGOUT}><div>Logout</div></a></div>
+                    </div>
                 </div>
+                
+                <div className="dbtest"> <h3>Lift Tickets</h3> <p>{products}</p>
+                </div>
+
             </div>
-
-            <div className="dbtest"> <h3>Lift Tickets</h3> <p>{products}</p>
-            </div>
-
-
-        </div>
-    )
+        )
+    }
 }
-}
-export default Shop;
