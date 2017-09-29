@@ -60,8 +60,9 @@ class Home extends Component {
 
                 <div className="home">
 
-                    <button className='btn' onClick={ this.closeSlide}>Close</button>
-                    <div className={this.state.slideClosed ? 'slide close' : 'slide'}> 
+
+                    <div className={this.state.slideClosed ? 'slide close' : 'slide'} onClick={this.closeSlide}>
+                    <div className="previous round" onClick={this.closeSlide}>&#8249;</div>
                     <div className="slideTitle">4 Day Weather Forcast</div>{weather}</div>
 
                 </div>

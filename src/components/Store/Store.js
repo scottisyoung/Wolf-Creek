@@ -10,12 +10,6 @@ class Store extends Component {
     return (
         <div>
 
-            <div className="logParent">
-                <div className="log">
-                    <div><a className="auth" href={process.env.REACT_APP_LOGIN}><div>Login to Store</div></a></div>
-                </div>
-            </div>
-
         </div>
     )
 }

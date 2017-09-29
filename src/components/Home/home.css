@@ -29,11 +29,13 @@
   width: 25%;
   background: rgba(31, 29, 29, 0.5);
   transition: .84s;
-  margin-top: 15vh;
+  margin-top: 3vh;
   margin-right: 5vh;
   position: absolute;
-  border-radius: 5vh;
-  overflow: auto; }
+  border-radius: 1vh;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden; }
   .slide .slideTitle {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -41,10 +43,29 @@
     margin-top: 3vh;
     font-size: 1.8em; }
 
-.close {
-  height: 100vh;
-  width: 0%;
+.hiddenBtn {
+  opacity: 0;
+  height: 2vh;
+  width: 2vh; }
+
+.previous {
+  margin-top: 1vh;
+  font-size: 0em;
   opacity: 0; }
+
+.close {
+  height: 20vh;
+  width: 1.5%;
+  opacity: 0.4;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  .close .slideTitle {
+    opacity: 0; }
+  .close .previous {
+    margin-top: 4vh;
+    font-size: 4em;
+    color: #F7F7FB;
+    opacity: 1; }
 
 .dateparent {
   display: flex;

@@ -1,40 +1,64 @@
 .navbar {
+  height: 15vh;
+  width: 100%;
+  background-color: rgba(198, 198, 246, 0.2); }
+
+.navParent {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-  height: 15.5vh;
-  width: 100%;
-  background-color: rgba(198, 198, 246, 0.2); }
-  .navbar .logo {
-    height: 9vh;
+  align-items: center; }
+  .navParent .logo {
+    height: 8vh;
     width: 25%;
     position: absolute;
     top: -3vh;
-    left: 17vh; }
-  .navbar .logoTitle {
+    left: 15vh; }
+  .navParent .logoTitle {
     position: absolute;
-    top: 4.8vh;
+    top: 4vh;
     left: 8.5vh;
-    font-size: 3.3em;
+    font-size: 2.8em;
     font-family: 'Qwigley', cursive;
     color: rgba(16, 0, 38, 0.88);
     font-weight: 500;
     text-shadow: 1px 1px #2096FE;
     letter-spacing: 1.5px; }
-    .navbar .logoTitle span {
+    .navParent .logoTitle span {
       font-size: 1.8em; }
-  .navbar .navLink {
+  .navParent .navLink {
     font-size: 1.3em;
     font-weight: 500;
     margin: 3vh;
-    margin-top: 12vh; }
-  .navbar .Link {
+    margin-top: 8vh; }
+  .navParent .Link {
     text-decoration: none;
     color: #9A9DA2;
     text-shadow: 0.5px 0.5px #2E009F;
     font-family: 'Josefin Slab', serif; }
-    .navbar .Link:hover {
+    .navParent .Link:hover {
       color: red;
       font-weight: 600; }
+
+.navLink1 {
+  font-size: 1em;
+  font-weight: 500;
+  margin-left: 80vh;
+  margin-top: 2vh;
+  position: absolute; }
+
+.navLink2 {
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 2vh;
+  margin-left: 91vh;
+  position: absolute; }
+
+.auth1 {
+  color: #4A4444;
+  text-decoration: none; }
+
+.auth2 {
+  color: #424040;
+  text-decoration: none; }

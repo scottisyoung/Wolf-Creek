@@ -34,15 +34,7 @@ export default class Store_private extends Component {
 
         return(
             <div>
-                <div className="logParent">
-                    <div className="log">
-                        <div><a className="auth" href={process.env.REACT_APP_LOGOUT}><div>Logout</div></a></div>
-                    </div>
-                </div>
-                
-                <div className="dbtest"> <h3>Lift Tickets</h3> <p>{products}</p>
-                </div>
-
+                <div className="dbtest"> <h3>Lift Tickets</h3> <p>{products}</p></div>
             </div>
         )
     }
