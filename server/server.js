@@ -6,6 +6,8 @@ const express = require('express'),
       passport = require('passport'),
       cors = require('cors'),
       Auth0Strategy = require('passport-auth0');
+      controller = require('./controller/controller.js');
+
 
 // DATABASE
 
@@ -64,7 +66,7 @@ passport.deserializeUser( function(userId, done) {
 app.get('/auth', passport.authenticate('auth0'));
 
 app.get('/auth/callback', passport.authenticate('auth0',{
-    successRedirect: 'http://localhost:3000/#/Store_private/',
+    successRedirect: 'http://localhost:3000/#/Store/',
     failureRedirect: '/auth'
 }))
 
@@ -76,31 +78,16 @@ app.get('/auth/user', (req,res) => {
     }
 })
 
-app.get('/auth/logout', (req, res) => {
-    req.logOut();
-    res.redirect(302, 'http://localhost:3000/#/store')
+app.get('/auth/logout', (req, res, next) => {
+    req.session.destroy();
+    res.redirect(302, 'https://scottyoung.auth0.com/v2/logout?federated?returnTo=http%3A%2F%2Fwww.example.com&client_id=67shXAGzWudTEpWyxI4B625W0FVR8FgJ')
 })
 
 // SHOP ENDPOINTS
 
-app.get('/api/all_products', (req, res) => {
-    req.app.get('db').all_products().then(products => {
-    res.status(200).send(products);
-    })
-})
+app.get('/api/all_products', controller.all_products);
+app.get('/api/select_product', controller.select_product);
 
-app.get('/api/select_product', (req, res) =>{
-    if(req.query.id) {
-        req.app.get('db').select_product(+req.query.id).then(item => {
-        res.status(200).send(item)
-    })
-
-    } else {
-        req.app.get('db').select_product().then(items => {
-            res.status(200).send(items)
-        })
-    }
-})
 
 
 

@@ -1,33 +1,22 @@
-.jumbotron {
-  height: 85vh;
+video {
+  top: 20;
+  left: 0;
   width: 100%;
-  background-color: lightgray;
-  position: absolute; }
+  height: 100%; }
 
 .home {
-  height: 100vh;
+  height: 700px;
   width: 100%;
+  margin-top: -105vh;
   background-color: #5563A9;
   display: flex;
   justify-content: flex-end;
   align-items: baseline; }
 
-.btn {
-  opacity: 1;
-  position: absolute;
-  right: 50px;
-  font-size: 18px;
-  border: 1px solid white;
-  border-radius: 5px;
-  color: white;
-  background-color: black;
-  font-family: sans-serif;
-  transition: border .1s; }
-
 .slide {
   height: 130vh;
   width: 25%;
-  background: rgba(31, 29, 29, 0.5);
+  background: rgba(26, 24, 24, 0.86);
   transition: .84s;
   margin-top: 3vh;
   margin-right: 5vh;
@@ -43,28 +32,25 @@
     margin-top: 3vh;
     font-size: 1.8em; }
 
-.hiddenBtn {
-  opacity: 0;
-  height: 2vh;
-  width: 2vh; }
-
 .previous {
   margin-top: 1vh;
   font-size: 0em;
   opacity: 0; }
 
 .close {
-  height: 20vh;
-  width: 1.5%;
-  opacity: 0.4;
+  height: 18vh;
+  width: 1.8%;
+  opacity: .7;
   overflow-x: hidden;
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  background-color: #000000; }
   .close .slideTitle {
     opacity: 0; }
   .close .previous {
     margin-top: 4vh;
+    margin-left: 0.5vh;
     font-size: 4em;
-    color: #F7F7FB;
+    color: #FFFFFF;
     opacity: 1; }
 
 .dateparent {
@@ -74,7 +60,7 @@
   justify-content: flex-end;
   align-items: flex-end; }
   .dateparent .dayofweek {
-    color: #010148;
+    color: #46D3CC;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
     margin-top: 3vh;
@@ -120,6 +106,6 @@
     margin-bottom: 1vh; }
 
 .home2 {
-  height: 100vh;
+  height: 2000px;
   width: 100%;
   background-color: #5563A9; }

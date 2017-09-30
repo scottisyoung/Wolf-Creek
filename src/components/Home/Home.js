@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './home.css';
 import {HashRouter, Route} from 'react-router-dom';
 import axios from 'axios';
+import video from "./../../Video/wolf-creek.mp4";
 
 class Home extends Component {
     constructor(props) {
@@ -55,8 +56,10 @@ class Home extends Component {
 
     return (
         <div>
-            <div className="jumbotron">
-            </div>
+            <div>
+                <video loop muted preLoad="auto" autoPlay> 
+                        <source src={video} type="video/mp4" />
+                </video>
 
                 <div className="home">
 
@@ -66,6 +69,7 @@ class Home extends Component {
                     <div className="slideTitle">4 Day Weather Forcast</div>{weather}</div>
 
                 </div>
+            </div>
 
                     <div className="home2">
                     </div>

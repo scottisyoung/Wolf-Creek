@@ -12,7 +12,6 @@ import Pricing from './components/Pricing/Pricing.js';
 import Events from './components/Events/Events.js';
 import Vacation from './components/Vacation/Vacation.js';
 import Store from './components/Store/Store.js';
-import Store_private from './components/Store_private/Store_private.js';
 import Shop_items from './components/Shop_items/Shop_items.js';
 import Product_Description from './components/Product_Description/Product_description.js';
 import Cart from './components/Cart/Cart.js';
@@ -38,7 +37,6 @@ class App extends Component {
           <Route path='/events' component={Events} />
           <Route path='/vacation' component={Vacation} />
           <Route path='/store' component={Store} />
-          <Route path='/store_private' component={Store_private} />
         </Switch>
       </div>
 
