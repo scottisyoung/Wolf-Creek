@@ -1,7 +1,12 @@
 .navbar {
-    height: 15vh;
+    height: 14vh;
     width: 100%;
-    background-color: rgba(198, 198, 246, 0.20);
+    background: rgba(27, 24, 24, 0.96);
+        background: rgba(27, 24, 24, 0.96); /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(black,#444343); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(black, #444343); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(black, #444343); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(black, #444343); /* Standard syntax */
 }
 
     .navParent {
@@ -11,40 +16,43 @@
 	    justify-content: center;
         align-items: center;
             .logo {
-                height: 8vh;
+                height: 7vh;
                 width: 25%;
+                top: -6vh;
                 position: absolute;
-                top: -3vh;
-                left: 15vh;
+                left: 14vh;
             }
                 .logoTitle {
                     position: absolute;
-                    top: 4vh;
-                    left: 8.5vh;
-                    font-size: 2.8em;
-                    font-family: 'Qwigley', cursive;
-                    color: rgba(16, 0, 38, 0.88);
-                    font-weight: 500;
-                    text-shadow: 1px 1px #2096FE;
+                    top: 8vh;
+                    left: 6vh;
+                    font-size: 1.6em;
+                    color: #22CCF7;
+                    font-weight: 200;
+                    text-shadow: 1px 1px #090155;
                     letter-spacing: 1.5px;
+                    font-family: 'Julius Sans One', sans-serif;
+                    
                         span {
-                            font-size: 1.8em;
+                            font-size: 1.2em;
                         }
                 }
+
                     .navLink {
-                        font-size: 1.3em;
-                        font-weight: 500;
+                        font-size: 1.2em;
+                        font-weight: 400;
                         margin: 3vh;
                         margin-top: 8vh;
                     }
                         .Link {
                             text-decoration: none;
-                            color: #9A9DA2;
-                            text-shadow: 0.5px 0.5px #2E009F;
-                            font-family: 'Josefin Slab', serif;
+                            color: #CACACC;
+                            text-shadow: 1px 1px #5C5757;
+                            letter-spacing: 3px;
+                            font-family: 'Open Sans Condensed', sans-serif;
                             &:hover {
-                                color: red;
-                                font-weight: 600;
+                                color: #22CCF7;
+                                animation: pulse;
                             }
                         }
 }
@@ -52,25 +60,34 @@
 .navLink1 {
     font-size: 1em;
     font-weight: 500;
-    margin-left: 80vh;
-    margin-top: 2vh;
+    margin-left: 84vh;
+    margin-top: 1.8vh;
     position: absolute;
 }
 
 .navLink2{
     font-size: 1em;
     font-weight: 500;
-    margin-top: 2vh;
-    margin-left: 91vh;
+    margin-top: 1.8vh;
+    margin-left: 94vh;
     position: absolute;
 }
 .auth1 {
-    color: #4A4444;
+    color: #22CCF7;
     text-decoration: none;
-    
+    font-family: 'Buda', cursive;
+    letter-spacing: 0.5vh;
+    &:hover {
+        color: #FFFFFF;
+    }
 }
 
 .auth2 {
-    color: #424040;
+    color: #22CCF7;
     text-decoration: none;
+    font-family: 'Buda', cursive;
+    letter-spacing: 0.5vh;
+    &:hover {
+        color: #FDFFFF;
+    }
 }

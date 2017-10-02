@@ -14,19 +14,19 @@ $center-margin: 0px auto;
   }
 
   #landscape {
-    @include parallax-background("../../Images/johannes-waibel-4298.jpg")
+    @include parallax-background("../../Images/Pictures/johannes-waibel-4298.jpg")
   }
 
   #snowboard {
-    @include parallax-background("../../Images/paul-jarvis-19.jpg")
+    @include parallax-background("../../Images/Pictures/paul-jarvis-19.jpg")
   }
 
   #snow { 
-    @include parallax-background("../../Images/krista-lance-369572.jpg")
+    @include parallax-background("../../Images/Pictures/krista-lance-369572.jpg")
   }
 
   #ski {
-    @include parallax-background("../../Images/bryce-evans-202182.jpg")
+    @include parallax-background("../../Images/Pictures/bryce-evans-202182.jpg")
   }
 
   #landscape {

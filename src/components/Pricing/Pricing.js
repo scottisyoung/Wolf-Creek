@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './pricing.css';
 import {HashRouter, Route} from 'react-router-dom';
-import Images from "../../Images/bryce-evans-202182.jpg";
+import Images from "../../Images/Pictures/bryce-evans-202182.jpg";
 
 
 class Pricing extends Component {
