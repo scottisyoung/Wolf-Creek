@@ -16,7 +16,7 @@
 	    justify-content: center;
         align-items: center;
             .logo {
-                height: 7vh;
+                height: 8vh;
                 width: 25%;
                 top: -6vh;
                 position: absolute;
@@ -52,7 +52,6 @@
                             font-family: 'Open Sans Condensed', sans-serif;
                             &:hover {
                                 color: #22CCF7;
-                                animation: pulse;
                             }
                         }
 }

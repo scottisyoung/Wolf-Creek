@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center; }
   .navParent .logo {
-    height: 7vh;
+    height: 8vh;
     width: 25%;
     top: -6vh;
     position: absolute;
@@ -49,8 +49,7 @@
     letter-spacing: 3px;
     font-family: 'Open Sans Condensed', sans-serif; }
     .navParent .Link:hover {
-      color: #22CCF7;
-      animation: pulse; }
+      color: #22CCF7; }
 
 .navLink1 {
   font-size: 1em;

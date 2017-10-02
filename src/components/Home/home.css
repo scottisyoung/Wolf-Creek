@@ -5,7 +5,7 @@ video {
   height: 100%; }
 
 .home {
-  height: 700px;
+  height: 768px;
   width: 100%;
   margin-top: -105vh;
   background-color: #5563A9;
@@ -106,6 +106,34 @@ video {
     margin-bottom: 1vh; }
 
 .home2 {
-  height: 2000px;
-  width: 100%;
-  background-color: #5563A9; }
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  background: url(http://www.vikingskishop.com/OPENING-IMAGES/ski-tracks.jpg) no-repeat center center;
+  opacity: 0.7;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+
+.summer {
+  color: #000000;
+  text-shadow: 2px 1px black;
+  font-size: 1.4em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  margin-right: 3vh;
+  margin-left: 5vh;
+  margin-top: 7vh; }
+
+.winter {
+  color: #000000;
+  text-shadow: 2px 1px black;
+  font-size: 1.4em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  margin-right: 3vh;
+  margin-top: 7vh; }

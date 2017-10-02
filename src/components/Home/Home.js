@@ -72,6 +72,8 @@ class Home extends Component {
             </div>
 
                     <div className="home2">
+                        <div className="summer">SUMMER</div>
+                        <div className="winter">WINTER</div>
                     </div>
         </div>
     )

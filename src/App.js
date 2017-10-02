@@ -16,6 +16,8 @@ import Shop_items from './components/Shop_items/Shop_items.js';
 import Product_Description from './components/Product_Description/Product_description.js';
 import Cart from './components/Cart/Cart.js';
 import Checkout from './components/Checkout/Checkout.js';
+import Gmap from './components/Map/Gmap.js';
+import Skimap from './components/Map/Skimap.js';
 
 
 class App extends Component {
@@ -38,6 +40,9 @@ class App extends Component {
           <Route path='/events' component={Events} />
           <Route path='/vacation' component={Vacation} />
           <Route path='/store' component={Store} />
+          <Route path='/gmap' component={Gmap} />
+          <Route path='/skimap' component={Skimap} />
+
         </Switch>
         
         <Footer />
