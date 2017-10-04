@@ -1,6 +1,7 @@
 .navbar {
-    height: 14vh;
+    height: 16vh;
     width: 100%;
+    position: relative;
     background: rgba(27, 24, 24, 0.96);
         background: rgba(27, 24, 24, 0.96); /* For browsers that do not support gradients */
         background: -webkit-linear-gradient(black,#444343); /* For Safari 5.1 to 6.0 */
@@ -16,15 +17,15 @@
 	    justify-content: center;
         align-items: center;
             .logo {
-                height: 8vh;
-                width: 25%;
-                top: -6vh;
+                height: 80px;
+                width: 85px;
                 position: absolute;
-                left: 14vh;
+                top: -7.8vh;
+                left: 10.5vh;
             }
                 .logoTitle {
                     position: absolute;
-                    top: 8vh;
+                    top: 10vh;
                     left: 6vh;
                     font-size: 1.6em;
                     color: #22CCF7;

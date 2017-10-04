@@ -1,1 +1,116 @@
+@mixin transition($time){
+    transition: $time;
+    -webkit-transition: $time;
+    -moz-transition: $time;
+    -o-transition: $time;
+  }
 
+  @mixin transform-style($style){
+    transform-style: $style;
+    -moz-transform-style: $style;
+    -o-transform-style: $style;
+    -ms-transform-style: $style;
+    -webkit-transform-style: $style;
+  }
+    
+  @mixin backface-visibility($visibility: hidden) {
+    backface-visibility: $visibility;
+    -webkit-backface-visibility: $visibility;
+    -moz-backface-visibility: $visibility;
+    -ms-backface-visibility: $visibility;
+    -o-backface-visibility: $visibility;
+  }
+
+  @mixin transform($transformation) {
+    transform: $transformation;
+    -webkit-transform: $transformation;
+    -moz-transform: $transformation;
+    -ms-transform: $transformation;
+    -o-transform: $transformation;  
+  }  
+
+.shopParent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: url(http://www.vikingskishop.com/OPENING-IMAGES/ski-tracks.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 15vh;
+}
+
+.shopDivs {
+    @include transform-style(preserve-3d);
+    @include transition(2s);
+        &:hover{
+            @include transform(rotatey(-180deg));
+        }
+    height: 45vh;
+    width: 45vh;
+    background-color: gray;
+    display: inline-block;
+    margin-top: 15vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(24, 22, 22, 0.61);
+    box-shadow: 2px 1px 2px 2px rgba(0,0,0,.2);
+    border-radius: 2vh;
+}
+
+.font, .back {
+    position: fixed;
+    height: 95%;
+    width: 95%;
+    @include backface-visibility;
+}
+
+.front {
+    color: white;
+    font-size: 2.3em;
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5vh;
+        &:hover {
+            color: #22CCF7;
+        }
+    @include backface-visibility;
+}
+
+.back {
+    @include transform(rotatey(-180deg));
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  margin-top: 2vh;
+  list-style-type: none;
+}
+
+.purchaseParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+
+.purchase {
+    height: 4vh;
+    width: 40%;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

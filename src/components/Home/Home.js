@@ -55,26 +55,22 @@ class Home extends Component {
           })
 
     return (
-        <div>
-            <div>
-                <video loop muted preLoad="auto" autoPlay> 
-                        <source src={video} type="video/mp4" />
-                </video>
+        <div className="App">
 
-                <div className="home">
+                    <div className="videoDiv">
+                        <video loop muted preLoad="auto" autoPlay> 
+                            <source src={video} type="video/mp4" />
+                        </video>
+                    </div> 
 
+                    <div className="slideParent">
+                            <div className={this.state.slideClosed ? 'slide close' : 'slide'} onClick={this.closeSlide}>
+                            <div className="previous round" onClick={this.closeSlide}>&#8250;</div>
+                            <div className="slideTitle">4 Day Weather Forcast</div>{weather}</div>
+                    </div>  
 
-                    <div className={this.state.slideClosed ? 'slide close' : 'slide'} onClick={this.closeSlide}>
-                    <div className="previous round" onClick={this.closeSlide}>&#8249;</div>
-                    <div className="slideTitle">4 Day Weather Forcast</div>{weather}</div>
-
-                </div>
-            </div>
-
-                    <div className="home2">
-                        <div className="summer">SUMMER</div>
-                        <div className="winter">WINTER</div>
-                    </div>
+                    <div className="home">
+                    </div> 
         </div>
     )
 }

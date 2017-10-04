@@ -13,30 +13,9 @@ class Footer extends Component {
 
     render() {
     return (
-        <div>
+        <div className="App">
             <div className="footer">    
-
-            <Link className="Link" to='/'><div><span className="WCtitle">WCR</span><img className="logo2" src='https://openclipart.org/image/2400px/svg_to_png/252707/Chrome-Tribal-Wolf-No-Background.png'/></div></Link>
-
-            <div className="organizeFoot">
-                    <div className="footerList">
-                        <li className="footLink"><Link className="footLink" to='#'>Contact</Link></li>
-                        <li className="footLink"><Link className="footLink" to='#'>Careers</Link></li>
-                        <li className="footLink"><Link className="footLink" to='#'>Stats | Facts</Link></li>
-                    </div>
-                    <div className="footerList">
-                        <li className="footLink"><Link className="footLink" to='#'>Community</Link></li>
-                        <li className="footLink"><Link className="footLink" to='skimap'>Area Map</Link></li>
-                        <li className="footLink"><Link className="footLink" to='#'>Backcountry Trails</Link></li>
-                    </div>
-                    <div className="footerList">
-                        <li className="footLink"><Link className="footLink" to='#'>Calendar</Link></li>
-                        <li className="footLink"><Link className="footLink" to='#'>Safety</Link></li>
-                        <li className="footLink"><Link className="footLink" to='#'>Photos | Videos | Blog</Link></li>
-                    </div>
-    
-                </div>
-
+             
                 <div className="socialMedia">
                         <div><a href="https://www.facebook.com/wolfcreekskiarea/"><img className="socialLink" src={facebook}/></a></div>
                         <div><a href="https://www.instagram.com/explore/locations/216717777/wolf-creek-ski-resort/"><img className="socialLink" src={instagram}/></a></div>
@@ -45,6 +24,41 @@ class Footer extends Component {
                         <div><a href="https://www.yelp.com/biz/wolf-creek-ski-area-pagosa-springs"><img className="socialLink" src={yelp}/></a></div>
                         <Link to='gmap'><div><img className="socialLink" src={location}/></div></Link>
                 </div>
+                
+                    <div className="organizeFoot">
+                        <div className="footerList">
+                            <li className="footLink"><Link className="footLink" to='#'>Contact</Link></li>
+                        </div>
+
+                        <div className="footerList">
+                            <li className="footLink"><Link className="footLink" to='#'>Careers</Link></li>
+                        </div>
+
+                        <div className="footerList">
+                            <li className="footLink"><Link className="footLink" to='#'>Community</Link></li>
+                        </div>
+
+                        <div className="footerList">
+                            <li className="footLink"><Link className="footLink" to='skimap'>Area Map</Link></li>
+                        </div>
+
+                        <div className="footerList">
+                            <li className="footLink"><Link className="footLink" to='#'>Calendar</Link></li>
+                        </div>
+
+                        <div className="footerList">
+                            <li className="footLink"><Link className="footLink" to='#'>Safety</Link></li>
+                        </div>
+
+                        <div className="footerList">
+                            <li className="footLink"><Link className="footLink" to='#'>Stats | Facts</Link></li>
+                        </div>
+
+                        <div>
+                            <li className="footLink"><Link className="footLink" to='#'>Photos | Videos | Blog</Link></li>
+                        </div>
+                </div>
+
             </div>
         </div>
     )

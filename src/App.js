@@ -32,21 +32,26 @@ class App extends Component {
       return(
 
       <div className="App">
-        <Navbar/>
+          <div>
+              <Navbar/>
+                <Switch>
+                  <Route exact path='/' component={Home} />
+                  <Route path='/pricing' component={Pricing} />
+                  <Route path='/events' component={Events} />
+                  <Route path='/vacation' component={Vacation} />
+                  <Route path='/store' component={Store} />
+                  <Route path='/gmap' component={Gmap} />
+                  <Route path='/skimap' component={Skimap} />
+                  <Route path='/shop_items' component={Shop_items}/>
+                </Switch>
+          </div>
+          
+          <div>
+            <Footer />
+          </div>
 
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/pricing' component={Pricing} />
-          <Route path='/events' component={Events} />
-          <Route path='/vacation' component={Vacation} />
-          <Route path='/store' component={Store} />
-          <Route path='/gmap' component={Gmap} />
-          <Route path='/skimap' component={Skimap} />
-
-        </Switch>
-        
-        <Footer />
       </div>
+
 
     );
   }

@@ -1,2 +1,11 @@
 ::-webkit-scrollbar {
   display: none; }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.content {
+  height: 100vh;
+  widht: 100%; }

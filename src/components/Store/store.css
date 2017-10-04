@@ -1,0 +1,99 @@
+.shopParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: url(http://www.vikingskishop.com/OPENING-IMAGES/ski-tracks.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 15vh; }
+
+.shopDivs {
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 2s;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  height: 45vh;
+  width: 45vh;
+  background-color: gray;
+  display: inline-block;
+  margin-top: 15vh;
+  margin-right: 2vh;
+  margin-left: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(24, 22, 22, 0.61);
+  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 2vh; }
+  .shopDivs:hover {
+    transform: rotatey(-180deg);
+    -webkit-transform: rotatey(-180deg);
+    -moz-transform: rotatey(-180deg);
+    -ms-transform: rotatey(-180deg);
+    -o-transform: rotatey(-180deg); }
+
+.font, .back {
+  position: fixed;
+  height: 95%;
+  width: 95%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden; }
+
+.front {
+  color: white;
+  font-size: 2.3em;
+  text-align: center;
+  position: relative;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5vh;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden; }
+  .front:hover {
+    color: #22CCF7; }
+
+.back {
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1.6;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  margin-top: 2vh;
+  list-style-type: none; }
+
+.purchaseParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh; }
+
+.purchase {
+  height: 4vh;
+  width: 40%;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
