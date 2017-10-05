@@ -1,39 +1,46 @@
-#landscape {
+#snowboard {
   background: url("../../Images/Pictures/johannes-waibel-4298.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-#snowboard {
-  background: url("../../Images/Pictures/paul-jarvis-19.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-#snow {
+#aspen {
   background: url("../../Images/Pictures/krista-lance-369572.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-#ski {
-  background: url("../../Images/Pictures/bryce-evans-202182.jpg") no-repeat center center fixed;
+#snow {
+  background: url("../../Images/Pictures/paul-jarvis-19.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-#landscape {
+#ski {
+  background: url("../../Images/Pictures/pexels-photo-326057.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#mountain {
+  background: url("../../Images/Pictures/freerider-skiing-ski-sports-47356.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#snowboard {
   width: 100%;
   height: 100vh;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
   overflow-y: auto; }
-  #landscape h1 {
+  #snowboard h1 {
     transform: translateZ(-1px);
     text-transform: uppercase;
     font-family: serif;
@@ -43,26 +50,59 @@
     opacity: 0.7;
     text-align: center; }
 
-#snowboard, #snow {
+#aspen, #snow, #ski {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
   overflow-y: auto; }
 
-#ski {
+#mountain {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
   overflow-y: auto; }
 
-p {
-  width: 70%;
-  padding: 3%;
-  margin: 20vh;
-  font-size: 20px;
-  font-weight: 200;
-  line-height: 1.4; }
+.titleparents {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.priceParent {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.listItems1 {
+  height: 2vh;
+  width: 15vh;
+  margin-top: 2vh;
+  margin-right: 15vh;
+  margin-bottom: 8vh; }
+
+.listItems2 {
+  height: 2vh;
+  width: 15vh;
+  margin-right: 15vh; }
+
+.listItems3 {
+  height: 2vh;
+  width: 15vh;
+  margin-right: 15vh; }
+
+.listItems4 {
+  height: 2vh;
+  width: 15vh; }
+
+.pricediv {
+  margin-top: 2vh; }
+
+.indentdiv {
+  margin-left: 3vh; }

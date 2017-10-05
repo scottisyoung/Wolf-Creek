@@ -6,7 +6,7 @@ const express = require('express'),
       passport = require('passport'),
       cors = require('cors'),
       Auth0Strategy = require('passport-auth0');
-      controller = require('./controller/controller.js');
+      controller = require('./controller/controller');
 
 
 // DATABASE
@@ -87,6 +87,14 @@ app.get('/auth/logout', (req, res, next) => {
 
 app.get('/api/all_products', controller.all_products);
 app.get('/api/select_product', controller.select_product);
+
+
+
+// app.post('/api/addToCart', (req, res) => {
+    
+//     // products.push(req.body)
+//     // res.json(products)
+// })
 
 
 

@@ -9,39 +9,309 @@ class Pricing extends Component {
     return (
 
         <div>
-            <div id="landscape">
+            <div id="snowboard">
                             <div> <h1 class="title">Wolf Creek Pricing</h1> </div>
             </div>
-                                <div><p>
-                                    Descriptions to come. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur,
-                                    libero eget bibendum elementum, lorem orci rutrum justo, at fermentum neque felis ac ex. Phasellus 
-                                    suscipit dapibus ante, eu sodales risus sagittis ut. Phasellus eget augue purus. Sed eget auctor felis, 
-                                    egestas vestibulum augue. Aenean pharetra metus quis orci consequat dapibus. Integer aliquam aliquet 
-                                    ipsum ut pellentesque. Curabitur cursus, nibh ut vehicula maximus, eros libero pretium diam, eu luctus 
-                                    nisl mauris a augue. Nulla luctus in orci non vulputate. Suspendisse at tortor elit.
-                                </p></div>
+                                <div>
+                                    <div className="titleparents">
+                                    <h3>Lift Tickets</h3>
+                                    </div>
 
-            <div id="snowboard">
+                                    <div className="priceParent">
+                                        <div className="listItems1">Adult
+                                            <div className="pricediv">Price</div>
+                                        </div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Senior
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Child
+                                            <div className="pricediv">Price</div></div> 
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Tot
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Military
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Beginner
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                </div>
+
+            <div id="aspen">
             </div>
-                                <div><p>
-                                    Descriptions to come. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur,
-                                    libero eget bibendum elementum, lorem orci rutrum justo, at fermentum neque felis ac ex. Phasellus 
-                                    suscipit dapibus ante, eu sodales risus sagittis ut. Phasellus eget augue purus. Sed eget auctor felis, 
-                                    egestas vestibulum augue. Aenean pharetra metus quis orci consequat dapibus. Integer aliquam aliquet 
-                                    ipsum ut pellentesque. Curabitur cursus, nibh ut vehicula maximus, eros libero pretium diam, eu luctus 
-                                    nisl mauris a augue. Nulla luctus in orci non vulputate. Suspendisse at tortor elit.
-                                </p></div>
+                                
+                                <div>
+                                    <div className="titleparents">
+                                    <h3>Season Passes</h3>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Adult
+                                            <div className="pricediv">Price</div>
+                                        </div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Senior
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Child
+                                            <div className="pricediv">Price</div></div> 
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Tot
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Military
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Beginner
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+                                </div>
             <div id="snow">
             </div>
-                                <div><p>
-                                    Descriptions to come. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur,
-                                    libero eget bibendum elementum, lorem orci rutrum justo, at fermentum neque felis ac ex. Phasellus 
-                                    suscipit dapibus ante, eu sodales risus sagittis ut. Phasellus eget augue purus. Sed eget auctor felis, 
-                                    egestas vestibulum augue. Aenean pharetra metus quis orci consequat dapibus. Integer aliquam aliquet 
-                                    ipsum ut pellentesque. Curabitur cursus, nibh ut vehicula maximus, eros libero pretium diam, eu luctus 
-                                    nisl mauris a augue. Nulla luctus in orci non vulputate. Suspendisse at tortor elit.
-                                </p></div>
+                            
+                                <div>
+                                    <div className="titleparents">
+                                    <h3>Equipment Rental</h3>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Adult
+                                            <div className="pricediv">Price</div>
+                                        </div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Senior
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Child
+                                            <div className="pricediv">Price</div></div> 
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Tot
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Military
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Beginner
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+                                </div>
             <div id="ski">
+            </div>
+
+                            <div>
+                                    <div className="titleparents">
+                                    <h3>Ski / Snowboard School</h3>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Adult
+                                            <div className="pricediv">Price</div>
+                                        </div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Senior
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Child
+                                            <div className="pricediv">Price</div></div> 
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Tot
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Military
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+
+                                    <div className="priceParent">
+                                        <div className="listItems1">Beginner
+                                            <div className="pricediv">Price</div></div>
+                                        <div className="listItems2"><div className="indentdiv">Full Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems3"><div className="indentdiv">Half Day</div>
+                                            <div className="pricediv">$</div></div>
+                                        <div className="listItems4"><div className="indentdiv">3 Day</div>
+                                            <div className="pricediv">$</div></div>
+                                    </div>
+                            </div>
+            <div id="mountain">
             </div>
             
 

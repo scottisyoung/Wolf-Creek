@@ -14,7 +14,7 @@
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#444343, black);
   /* Standard syntax */
-  overflow: auto; }
+  overflow: hidden; }
 
 .organizeFoot {
   display: flex;

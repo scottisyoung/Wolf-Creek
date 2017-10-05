@@ -1,0 +1,67 @@
+.lifttickets {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+  
+  .LTParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+  }
+  
+  .LTPname {
+    width: 25vh;
+    margin: 1vh;
+  }
+  
+  .LTPprice {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 4vh;
+  }
+  
+  .ATcart {
+    width: 10vh;
+    height: 3vh;
+    margin-left: 3vh;
+    background-color: #FCFCFC;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .LTCategories {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 4vh;
+  }
+  
+  .LT {
+    height: 30vh;
+    width: 60vh;
+    margin-bottom: 5vh;
+    background-color: gray;
+    overflow: auto;
+    border-radius: 1vh;
+  }
+  
+  h2 {
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  .productsLT {
+    list-style-type: none;
+    margin-left: 3vh;
+  }

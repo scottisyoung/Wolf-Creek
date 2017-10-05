@@ -1,6 +1,7 @@
 video {
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 70%;
+  bottom: 70%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -14,15 +15,16 @@ video {
   background-size: cover; }
 
 .slideParent {
-  margin-top: 15vh; }
+  margin-top: 12vh; }
 
 .slide {
-  height: 140vh;
+  height: 920px;
   width: 18%;
   background: rgba(26, 24, 24, 0.86);
   transition: .84s;
   margin-top: -10vh;
   margin-right: 5vh;
+  position: absolute;
   border-radius: 1vh;
   z-index: 1;
   overflow: auto;
@@ -33,7 +35,7 @@ video {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 3vh;
-    font-size: 1.8em; }
+    font-size: 1.5em; }
 
 .previous {
   margin-top: 1vh;
@@ -85,8 +87,8 @@ video {
   justify-content: flex-start;
   align-items: center; }
   .conditionsParent .wicon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-left: 2vh; }
   .conditionsParent .temp {
     color: white;
@@ -111,5 +113,5 @@ video {
     margin-bottom: 1vh; }
 
 .home {
-  height: 65vh;
+  height: 93vh;
   width: 100vh; }

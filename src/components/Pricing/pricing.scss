@@ -13,23 +13,27 @@ $center-margin: 0px auto;
     @include background-size(cover);
   }
 
-  #landscape {
+  #snowboard {
     @include parallax-background("../../Images/Pictures/johannes-waibel-4298.jpg")
   }
 
-  #snowboard {
-    @include parallax-background("../../Images/Pictures/paul-jarvis-19.jpg")
-  }
-
-  #snow { 
+  #aspen {
     @include parallax-background("../../Images/Pictures/krista-lance-369572.jpg")
   }
 
-  #ski {
-    @include parallax-background("../../Images/Pictures/bryce-evans-202182.jpg")
+  #snow { 
+    @include parallax-background("../../Images/Pictures/paul-jarvis-19.jpg")
   }
 
-  #landscape {
+  #ski {
+    @include parallax-background("../../Images/Pictures/pexels-photo-326057.jpeg")
+  }
+
+  #mountain {
+    @include parallax-background("../../Images/Pictures/freerider-skiing-ski-sports-47356.jpeg")
+  }
+
+  #snowboard {
     width: 100%;
    height: 100vh;
    perspective: 1px;
@@ -49,18 +53,18 @@ $center-margin: 0px auto;
       }
   }
 
-  #snowboard, #snow{
+  #aspen, #snow, #ski{
     width: 100%;
-   height: 80vh;
+   height: 100vh;
    perspective: 1px;
    transform: translateZ(-1px);
    overflow-x: hidden;
    overflow-y: auto;
   }
 
-  #ski {
+  #mountain {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     perspective: 1px;
     transform: translateZ(-1px);
     overflow-x: hidden;
@@ -68,12 +72,53 @@ $center-margin: 0px auto;
   }
 
 
-  
-  p {
-      width: 70%;
-      padding: 3%;
-      margin: 20vh;
-      font-size: 20px;
-      font-weight: 200;
-      line-height: 1.4;
+  .titleparents{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .priceParent{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .listItems1 {
+    height: 2vh;
+    width: 15vh;
+    margin-top: 2vh;
+    margin-right: 15vh;
+    margin-bottom: 8vh;
+  }
+
+  .listItems2 {
+    height: 2vh;
+    width: 15vh;
+    margin-right: 15vh;
+  }
+
+  .listItems3 {
+    height: 2vh;
+    width: 15vh;
+    margin-right: 15vh;
+   
+  }
+
+  .listItems4 {
+    height: 2vh;
+    width: 15vh;
+   
+  }
+
+  .pricediv{
+    margin-top: 2vh;
+  }
+
+  .indentdiv {
+    margin-left: 3vh;
   }
