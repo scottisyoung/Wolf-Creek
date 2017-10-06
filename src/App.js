@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import {HashRouter, Link, Route, Switch} from 'react-router-dom';
-import promiseMiddleware from 'redux-promise-middleware';
-import axios from 'axios';
+import {Route, Switch} from 'react-router-dom';
+
 
 // Import all Components
+
 import Navbar from './components/Navbar/Navbar.js';
 import Home from './components/Home/Home.js';
 import Footer from './components/Footer/Footer.js';
@@ -16,20 +16,17 @@ import Lift_tickets from "./components/Shop_items/Lift_tickets/Lift_tickets.js";
 import Season_passes from "./components/Shop_items/Season_passes/Season_passes.js";
 import Equipment from "./components/Shop_items/Equipment/Equipment.js";
 import School from "./components/Shop_items/School/School.js";
-import Product_Description from './components/Product_Description/Product_description.js';
-import Cart from './components/Cart/Cart.js';
-import Checkout from './components/Checkout/Checkout.js';
+// import Product_Description from './components/Product_Description/Product_description.js';
+// import Cart from './components/Cart/Cart.js';
+// import Checkout from './components/Checkout/Checkout.js';
 import Gmap from './components/Map/Gmap.js';
 import Skimap from './components/Map/Skimap.js';
 
 
-class App extends Component {
-      constructor(props) {
-        super(props)
-        this.state = {
-        }
-      }
 
+
+class App extends Component {
+      
   render() {
 
       return(
@@ -63,4 +60,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

@@ -90,12 +90,6 @@ app.get('/api/select_product', controller.select_product);
 
 
 
-// app.post('/api/addToCart', (req, res) => {
-    
-//     // products.push(req.body)
-//     // res.json(products)
-// })
-
 
 
 

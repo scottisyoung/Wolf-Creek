@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './navbar.css';
-import {HashRouter, Route} from 'react-router-dom';
+// import {HashRouter, Route} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
 class Navbar extends Component {
@@ -10,8 +10,12 @@ class Navbar extends Component {
 
                 <div className="navbar">    
                     <div className="navParent">
-                        <Link className="Link" to='/'><div className="logoTitle"><span>W</span>olf Creek <span>R</span>esort
-                        <img className="logo" src='https://openclipart.org/image/2400px/svg_to_png/252707/Chrome-Tribal-Wolf-No-Background.png'/></div></Link>
+                        <Link className="Link" to='/'>
+                            <div className="logoTitle">
+                                <span>W</span>olf Creek <span>R</span>esort
+                                <img className="logo" src='https://openclipart.org/image/2400px/svg_to_png/252707/Chrome-Tribal-Wolf-No-Background.png' alt="Wolf Creek Logo"/>
+                            </div>
+                        </Link>
                         <div className="navLink"><Link className="Link" to='/'> HOME </Link></div>
                         <div className="navLink"><Link className="Link" to='/events'> EVENTS </Link></div>                      
                         <div className="navLink"><Link className="Link" to='/vacation'> VACATION </Link></div>

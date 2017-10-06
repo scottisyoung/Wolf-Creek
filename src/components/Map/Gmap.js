@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './gmap.css';
-import {HashRouter, Route} from 'react-router-dom';
-import axios from 'axios';
+// import {HashRouter, Route} from 'react-router-dom';
+// import axios from 'axios';
 
 class Gmap extends Component {
     render() {
     return (
         <div>
-            <iframe
+            <iframe title="Google Map"
                 width="100%"
                 height="600"
                 frameborder="0" style={{border: "0"}}

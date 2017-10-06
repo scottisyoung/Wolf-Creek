@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './equipment.css';
-import {HashRouter, Route} from 'react-router-dom';
+// import {HashRouter, Route} from 'react-router-dom';
 import axios from 'axios';
 
 class Equipment extends Component {

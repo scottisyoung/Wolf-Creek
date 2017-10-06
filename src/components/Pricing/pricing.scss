@@ -71,6 +71,17 @@ $center-margin: 0px auto;
     overflow-y: auto;
   }
 
+  .ParentCharts {
+    background: rgba(27, 24, 24, 0.96); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#52ABBB,rgba(22, 63, 106, 0.90)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#52ABBB, rgba(22, 63, 106, 0.90)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#52ABBB, rgba(22, 63, 106, 0.90)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#52ABBB, rgba(22, 63, 106, 0.90)); /* Standard syntax */
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.3em;
+  }
+
 
   .titleparents{
     display: flex;
@@ -78,6 +89,7 @@ $center-margin: 0px auto;
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
+    font-size: 1.5em;
   }
 
   .priceParent{
@@ -90,29 +102,29 @@ $center-margin: 0px auto;
 
   .listItems1 {
     height: 2vh;
-    width: 15vh;
+    width: 20vh;
     margin-top: 2vh;
     margin-right: 15vh;
-    margin-bottom: 8vh;
+    margin-bottom: 11vh;
+    color: #FFFFFF;
   }
 
   .listItems2 {
     height: 2vh;
-    width: 15vh;
+    width: 20vh;
     margin-right: 15vh;
   }
 
   .listItems3 {
     height: 2vh;
-    width: 15vh;
+    width: 20vh;
     margin-right: 15vh;
    
   }
 
   .listItems4 {
     height: 2vh;
-    width: 15vh;
-   
+    width: 20vh;
   }
 
   .pricediv{
@@ -120,5 +132,5 @@ $center-margin: 0px auto;
   }
 
   .indentdiv {
-    margin-left: 3vh;
+    margin-left: 5vh;
   }

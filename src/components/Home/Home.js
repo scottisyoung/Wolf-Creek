@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
-import {HashRouter, Route} from 'react-router-dom';
+// import {HashRouter, Route} from 'react-router-dom';
 import axios from 'axios';
 import video from "./../../Video/wolf-creek.mp4";
 
@@ -41,7 +41,7 @@ class Home extends Component {
                         <div className="temp">{report.date.pretty}</div>
                     </div>
                     <div className="conditionsParent">
-                        <div><img className="wicon" src={report.icon_url}/></div>
+                        <div><img className="wicon" src={report.icon_url} alt="weather-icon"/></div>
                         <div className="temp">{report.conditions}</div>
                     </div>
                     <div className="dateParent">
@@ -58,7 +58,7 @@ class Home extends Component {
         <div className="App">
 
                     <div className="videoDiv">
-                        <video loop muted preLoad="auto" autoPlay> 
+                        <video loop muted preload="auto" autoPlay> 
                             <source src={video} type="video/mp4" />
                         </video>
                     </div> 

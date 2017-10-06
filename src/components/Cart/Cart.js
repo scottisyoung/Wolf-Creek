@@ -14,7 +14,7 @@ class Cart extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3080/api/all_products').then(res => {
+        axios.get('http://localhost:3080/api/auth/user').then(res => {
             this.setState({
             products: res.data
             })

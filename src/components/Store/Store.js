@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './store.css';
-import {HashRouter, Route} from 'react-router-dom';
-import axios from 'axios';
+// import {HashRouter, Route} from 'react-router-dom';
+// import axios from 'axios';
 import {Link} from 'react-router-dom';
 
 class Store extends Component {
