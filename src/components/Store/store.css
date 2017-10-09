@@ -67,6 +67,7 @@
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
   letter-spacing: 0.5vh;
+  text-shadow: 1px 1.5px #242424;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -88,6 +89,7 @@
   text-align: center;
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
+  text-shadow: 1px 1.5px #242424;
   font-size: 1.1em;
   letter-spacing: 0.2vh;
   margin-top: 2vh;
@@ -120,6 +122,7 @@
   background: -moz-linear-gradient(#08EE08, #012E1E);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#08EE08, #012E1E);
+  text-shadow: 1px 1.5px #242424;
   color: #FFFFFF;
   display: flex;
   justify-content: center;

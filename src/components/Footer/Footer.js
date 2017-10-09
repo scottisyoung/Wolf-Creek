@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './footer.css';
-// import {HashRouter, Route} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import facebook from '../../Images/Pictures/../Icons/facebook.png';
 import instagram from '../../Images/Pictures/../Icons/instagram.png';
@@ -43,7 +42,7 @@ class Footer extends Component {
                         </div>
 
                         <div className="footerList">
-                            <li className="footLink"><Link className="footLink" to='#'>Calendar</Link></li>
+                            <li className="footLink"><Link className="footLink" to='/events'>Calendar</Link></li>
                         </div>
 
                         <div className="footerList">

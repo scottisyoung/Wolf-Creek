@@ -1,0 +1,59 @@
+.backgroundevents {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-image: url(https://wallpapershome.com/images/wallpapers/trees-3840x2160-5k-4k-wallpaper-pines-mountains-snow-winter-sunset-5701.jpg);
+  background-size: 100%; }
+
+.eventsInfo {
+  height: 30vh;
+  width: 40%;
+  background-color: rgba(3, 3, 3, 0.438);
+  margin: 3vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-direction: column;
+  color: cyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  padding: 1vh;
+  text-shadow: 1px 0.8px #363636; }
+
+.centParent1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline; }
+
+.centParent2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-top: -3vh; }
+
+.evList {
+  font-size: 0.8em;
+  letter-spacing: 0.2vh;
+  font-weight: 900;
+  text-align: left;
+  list-style-type: none;
+  color: #fffdfd;
+  text-shadow: 1px 1.5px #242424;
+  margin-left: 1vh;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.imgalign {
+  position: absolute;
+  margin-top: 14vh;
+  margin-left: 55vh; }
+
+.laimg {
+  height: 30vh;
+  width: 25vh;
+  margin-top: -14vh;
+  margin-left: 3vh; }

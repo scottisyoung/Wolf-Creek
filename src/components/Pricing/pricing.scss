@@ -48,6 +48,7 @@ $center-margin: 0px auto;
             letter-spacing: 0.06em;
             font-size:7em;
             color: rgba(22, 63, 106, 0.90);
+            text-shadow: 1px 1.5px rgb(36, 36, 36);
             opacity: 0.7;
             text-align: center;
       }
@@ -80,6 +81,7 @@ $center-margin: 0px auto;
     color: white;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 1.3em;
+    font-weight: 900;
   }
 
 
@@ -90,6 +92,8 @@ $center-margin: 0px auto;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 1.5em;
+    font-weight: 900;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
   }
 
   .priceParent{
@@ -102,35 +106,301 @@ $center-margin: 0px auto;
 
   .listItems1 {
     height: 2vh;
-    width: 20vh;
+    width: 10vh;
     margin-top: 2vh;
-    margin-right: 15vh;
     margin-bottom: 11vh;
     color: #FFFFFF;
+    font-weight: 900;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
   }
 
   .listItems2 {
     height: 2vh;
     width: 20vh;
-    margin-right: 15vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
   }
 
   .listItems3 {
     height: 2vh;
     width: 20vh;
-    margin-right: 15vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
    
   }
 
   .listItems4 {
     height: 2vh;
     width: 20vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems5 {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems6 {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems7 {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems8 {
+    height: 2vh;
+    width: 20vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
   }
 
   .pricediv{
     margin-top: 2vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction:  row;
+    margin-left: 2vh;
+  }
+
+  .actual-price {
+    margin-left: 2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #06CF06;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
   }
 
   .indentdiv {
     margin-left: 5vh;
+    width: 20vh;
+  }
+
+  .indentdivPass {
+    margin-left: 5vh;
+    width: 30vh;
+  }
+
+  .indentdivpass {
+    margin-left: 5vh;
+    width: 30vh;
+  }
+
+  .listItems1Pass {
+    height: 2vh;
+    width: 25vh;
+    margin-top: 2vh;
+    margin-bottom: 11vh;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-right: 3vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems2Pass {
+    height: 2vh;
+    width: 25vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems3Pass {
+    height: 2vh;
+    width: 30vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+   
+  }
+
+  .listItems4Pass {
+    height: 2vh;
+    width: 30vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems5Pass {
+    height: 2vh;
+    width: 30vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems6Pass {
+    height: 2vh;
+    width: 30vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems1Pass {
+    height: 2vh;
+    width: 15vh;
+    margin-top: 2vh;
+    margin-bottom: 11vh;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-right: 2vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems2pass {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems3pass {
+    height: 2vh;
+    width: 25vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+   
+  }
+
+  .listItems4pass {
+    height: 2vh;
+    width: 25vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems5pass {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems6pass {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 5vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems7pass {
+    height: 2vh;
+    width: 35vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .splitup {
+    height: 8vh;
+  }
+
+  .listItems1ER {
+    height: 2vh;
+    width: 15vh;
+    margin-top: 2vh;
+    margin-bottom: 11vh;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-left: -20vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems2ER {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 20vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems3ER {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 30vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+   
+  }
+
+  .listItems4ER {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 30vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems5ER {
+    height: 2vh;
+    width: 30vh;
+    margin-right: 25vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems6ER {
+    height: 2vh;
+    width: 30vh;
+    margin-right: 25vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .indentdivER {
+    margin-left: 5vh;
+    width: 50vh;
+  }
+
+  .listItems1S {
+    height: 2vh;
+    width: 15vh;
+    margin-top: 2vh;
+    margin-bottom: 11vh;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-left: -15vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems2S {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 25vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems3S {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 35vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems4S {
+    height: 2vh;
+    width: 20vh;
+    margin-right: 25vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems5S {
+    height: 2vh;
+    width: 30vh;
+    margin-right: 25vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .listItems6S {
+    height: 2vh;
+    width: 30vh;
+    margin-right: 25vh;
+    margin-bottom: 8vh;
+    text-shadow: 1px 1.5px rgb(36, 36, 36);
+  }
+
+  .indentdivS {
+    margin-left: 5vh;
+    width: 60vh;
   }

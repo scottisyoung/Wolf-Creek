@@ -18,26 +18,33 @@ class Lift_tickets extends Component {
                 <div><h1>LIFT TICKETS</h1></div>
                 </div>
 
-                <div className="LTCategories">
+                <div className="lifttickparent">
 
-                    <div className="LT"><h2>ADULT LIFT TICKETS</h2>
+                    <div className="LiftTick">
+                        <div className="LTTitle"><h2>ADULT LIFT TICKETS</h2></div>
                         <div><Category category="LiftTicket" subcategory="Adult"/></div>
                     </div>
-                    <div className="LT"><h2>SENIOR LIFT TICKETS</h2>
+                    <div className="LiftTick">
+                        <div className="LTTitle"><h2>SENIOR LIFT TICKETS</h2></div>
                         <div><Category category="LiftTicket" subcategory="Senior"/></div>                     
                     </div>
-                    <div className="LT"><h2>CHILD LIFT TICKETS</h2>
+                    <div className="LiftTick">
+                        <div className="LTTitle"><h2>CHILD LIFT TICKETS</h2></div>
                         <div><Category category="LiftTicket" subcategory="Child"/></div>
                     </div>
-                    <div className="LT"><h2>TOT LIFT TICKETS</h2>
+                    <div className="LiftTick">
+                        <div className="LTTitle"><h2>TOT LIFT TICKETS</h2></div>
                         <div><Category category="LiftTicket" subcategory="Tot"/></div>
                     </div>
-                    <div className="LT"><h2>MILITARY LIFT TICKETS</h2>
+                    <div className="LiftTick">
+                        <div className="LTTitle"><h2>MILITARY LIFT TICKETS</h2></div>
                         <div><Category category="LiftTicket" subcategory="Military"/></div>
                     </div>
-                    <div className="LT"><h2>BEGINNER LIFT TICKETS</h2>
+                    <div className="LiftTick">
+                        <div className="LTTitle"><h2>BEGINNER LIFT TICKETS</h2></div>
                         <div><Category category="LiftTicket" subcategory="Beginner"/></div>
                     </div>
+
                 </div>
         </div>
 

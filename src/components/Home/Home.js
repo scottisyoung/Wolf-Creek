@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './home.css';
-// import {HashRouter, Route} from 'react-router-dom';
 import axios from 'axios';
 import video from "./../../Video/wolf-creek.mp4";
 

@@ -12,13 +12,11 @@ class Category extends Component {
         })
         .map((product) => {
             return(
-              <div key={product.id}>
-                    <div className="LTParent">
-                        <div className="LTPname"><div className="LTname">{product.name}</div></div>
-                        <div className="LTPprice"><li className="LTPrice">${product.price}</li></div>
-                        <div className="ATcart"> Add to Cart</div>
-                    </div>
-              </div>
+            <div>
+                        <div key={product.id}></div>
+                        <div className="products">{product.name} ${product.price}</div> 
+                        <div className="products2">Add to Cart</div>
+            </div>
             )
         })
 

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './gmap.css';
-// import {HashRouter, Route} from 'react-router-dom';
-// import axios from 'axios';
 
 class Gmap extends Component {
     render() {
