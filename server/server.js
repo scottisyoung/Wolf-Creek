@@ -89,6 +89,12 @@ app.get('/api/all_products', controller.all_products);
 app.get('/api/select_product', controller.select_product);
 
 
+// var order = [];
+// var id = 0;
+
+// app.post('api/order', controller.order);
+
+
 
 
 

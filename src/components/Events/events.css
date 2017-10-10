@@ -1,16 +1,16 @@
 .backgroundevents {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  background-image: url(https://wallpapershome.com/images/wallpapers/trees-3840x2160-5k-4k-wallpaper-pines-mountains-snow-winter-sunset-5701.jpg);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/0e/67/4a/0e674a68d546502753b1a9d94298779b.jpg);
   background-size: 100%; }
 
 .eventsInfo {
-  height: 30vh;
+  height: 40vh;
   width: 40%;
   background-color: rgba(3, 3, 3, 0.438);
   margin: 3vh;
@@ -19,11 +19,12 @@
   align-items: baseline;
   flex-direction: column;
   color: cyan;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 1.5em;
   font-weight: 900;
   padding: 1vh;
-  text-shadow: 1px 0.8px #363636; }
+  text-shadow: 1px 0.8px #363636;
+  padding: 2vh; }
 
 .centParent1 {
   display: flex;
@@ -37,23 +38,25 @@
   margin-top: -3vh; }
 
 .evList {
-  font-size: 0.8em;
-  letter-spacing: 0.2vh;
+  font-size: 0.7em;
+  letter-spacing: 0.3vh;
+  line-height: 2.8vh;
   font-weight: 900;
   text-align: left;
   list-style-type: none;
   color: #fffdfd;
   text-shadow: 1px 1.5px #242424;
   margin-left: 1vh;
-  font-family: 'Open Sans Condensed', sans-serif; }
+  overflow: auto;
+  padding: 1vh; }
 
 .imgalign {
   position: absolute;
-  margin-top: 14vh;
-  margin-left: 55vh; }
+  margin-top: 13vh;
+  margin-left: 54vh; }
 
 .laimg {
   height: 30vh;
   width: 25vh;
-  margin-top: -14vh;
+  margin-top: -8vh;
   margin-left: 3vh; }

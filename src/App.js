@@ -17,7 +17,7 @@ import Season_passes from "./components/Shop_items/Season_passes/Season_passes.j
 import Equipment from "./components/Shop_items/Equipment/Equipment.js";
 import School from "./components/Shop_items/School/School.js";
 // import Product_Description from './components/Product_Description/Product_description.js';
-// import Cart from './components/Cart/Cart.js';
+import Cart from './components/Cart/Cart.js';
 // import Checkout from './components/Checkout/Checkout.js';
 import Gmap from './components/Map/Gmap.js';
 import Skimap from './components/Map/Skimap.js';
@@ -46,6 +46,7 @@ class App extends Component {
                   <Route path='/season_passes' component={Season_passes}/>
                   <Route path='/equipment' component={Equipment}/>
                   <Route path='/school' component={School}/>
+                  <Route path='/cart' component={Cart}/>
                 </Switch>
           </div>
           

@@ -60,7 +60,7 @@
 .navLink1 {
     font-size: 1em;
     font-weight: 500;
-    margin-left: 84vh;
+    margin-left: 82vh;
     margin-top: 1.8vh;
     position: absolute;
 }
@@ -90,4 +90,11 @@
     &:hover {
         color: #FDFFFF;
     }
+}
+
+.cart {
+    position: absolute;
+    margin-top: 1.8vh;
+    margin-left: 70vh;
+
 }

@@ -8,6 +8,22 @@ UPDATE products
 SET category = 'LiftTicket'
 WHERE subcategory = 'Beginner';
 
+CREATE TABLE orders
+(id SERIAL PRIMARY KEY,
+shipname TEXT,
+billname TEXT,
+total DECIMAL,
+orderdate DATE,
+status TEXT,
+userid INT REFERENCES users(id)
+);
+
+CREATE TABLE line_items
+(id SERIAL PRIMARY KEY,
+product_id INT REFERENCES products(id),
+order_id INT REFERENCES orders(id)
+);
+
 INSERT INTO products
 (name, description, price, ticket, category, subcategory)
 VALUES

@@ -12,9 +12,9 @@ class Events extends Component {
                                 <div className="centParent1"><div className="centerevent">Wolf Creek Cosmic Event</div></div>
                                 <div className="centParent2"><h5>Saturday, November 18th 2017</h5></div>
                                 <div className="evList">   
-                                        <li>Race Course is 5 climbs and ± 5,000 ft.<br /></li>
+                                        <li>Race Course is 5 climbs<br /> and ± 5,000 ft.</li>
                                         <li>Mandatory Gear: Skis/skins/helmet <br />pack/beacon/shovel/probe<br /><br /></li>
-                                        <li>Recreation Course is 3 climbs and ± 2,500 ft.<br /></li>
+                                        <li>Recreation Course is 3 climbs<br /> and ± 2,500 ft.</li>
                                         <li>Mandatory Gear: Skis/skins/helmet<br /></li>
                                 </div>
                                 <div className="imgalign"><a href="https://www.webscorer.com/register?raceid=55916"><img src="https://s.ws-images.com/uploadedimages/medium/55916_8d2deeff2b83aab.jpg"/></a></div>

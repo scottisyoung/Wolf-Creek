@@ -21,6 +21,15 @@ module.exports = {
         }
     },
 
+    // order:(req,res) => {
+    //     req.body.id = id;
+    //     id++;
+    //     order.push(req.body)
+    //     res.json(order)
+    // }
+
+
+
 }
 
 
