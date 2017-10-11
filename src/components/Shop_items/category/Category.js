@@ -17,7 +17,7 @@ class Category extends Component {
             <div key={product.id}>
                 <div className="productParent">
                         <div className="products">{product.name}</div> 
-                        <div className="products2">${product.price}</div> 
+                        <div className="products2">$ {product.price}</div> 
                         <div className="products3"><div onClick={(e) => this.props.addToCart(product)}>Add to Cart</div></div>
                 </div>
             </div>

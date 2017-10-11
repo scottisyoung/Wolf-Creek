@@ -5,6 +5,7 @@ class School extends Component {
     render() {
     return (
         <div>
+
         </div>
     )
 }
