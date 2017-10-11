@@ -25,20 +25,22 @@ export function getUser() {
     })
 }
 
+// export function addToCart(product) {
+//     return {
+//         type: ADD_TO_CART,
+//         payload: product
+//     }
+// }
+
 export function addToCart(product) {
+
     return {
         type: ADD_TO_CART,
-        payload: product
+        payload: axios.post('/api/cart', {product_id: product.id, userid: 1}).then((cart)=>{
+            return cart.data
+        }).catch(err => console.log(err))
     }
 }
-
-// const newOrder =[...this.state.order, order];
-
-// axios.post("http://localhost:3080/api/order", {order: order}).then((res) => {
-//     this.setState({
-//         order: res.data
-//     })
-// })
 
 export function removeFromCart(productIndex) {
     console.log(productIndex)
@@ -66,9 +68,8 @@ export default function reducer(state = initialState, action) {
             return Object.assign({}, state, {user: action.payload})                 // The Action Payload
         case GET_PRODUCTS + '_FULFILLED':
             return Object.assign({}, state, {products: action.payload} )
-        case ADD_TO_CART:
-            return Object.assign({}, state, {
-                cart:[...state.cart, action.payload]});
+        case ADD_TO_CART + '_FULFILLED':
+            return Object.assign({}, state, {cart: action.payload})
         case REMOVE_FROM_CART:
                 let newArray = state.cart.slice();
                 newArray.splice(action.payload, 1);

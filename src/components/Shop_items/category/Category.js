@@ -14,9 +14,8 @@ class Category extends Component {
         })
         .map((product) => {
             return(
-            <div>
+            <div key={product.id}>
                 <div className="productParent">
-                        <div key={product.id}></div>
                         <div className="products">{product.name}</div> 
                         <div className="products2">${product.price}</div> 
                         <div className="products3"><div onClick={(e) => this.props.addToCart(product)}>Add to Cart</div></div>

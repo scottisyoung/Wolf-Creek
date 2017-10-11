@@ -87,12 +87,17 @@ app.get('/auth/logout', (req, res, next) => {
 
 app.get('/api/all_products', controller.all_products);
 app.get('/api/select_product', controller.select_product);
+app.post('/api/cart', controller.cart);
 
 
-// var order = [];
-// var id = 0;
+// POST TO ORDERS
 
-// app.post('api/order', controller.order);
+// app.post('/api/newOrder', (req, res) => {
+//     let { shipname, billname, total, orderdate, status, userid } = req.body;
+//     req.app.get('db').createNewOrder([shipname, billname, total, orderdate, status, userid]).then(order => {
+//         res.status(200).json('It Worked')
+//     })
+// })
 
 
 

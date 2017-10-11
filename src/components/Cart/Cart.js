@@ -2,33 +2,33 @@ import React, { Component } from 'react';
 import './cart.css';
 import { connect } from 'react-redux';
 import {getUser} from './../../ducks/users.js';
-import axios from 'axios';
+// import axios from 'axios';
 import {removeFromCart} from '../../ducks/users.js';
 
 class Cart extends Component {
-    constructor(props) {
-        super(props)
-        this.state={
-            user:{}
-        }
-    }
+    // constructor(props) {
+    //     super(props)
+    //     this.state={
+    //         user:{}
+    //     }
+    // }
 
     
-    componentDidMount() {
-        axios.get('http://localhost:3080/api/auth/user').then(res => {
-            this.setState({
-            products: res.data
-            })
-        })
+    // componentDidMount() {
+    //     axios.get('http://localhost:3080/api/auth/user').then(res => {
+    //         this.setState({
+    //         products: res.data
+    //         })
+    //     })
 
-        // this.props.getUser();
+    //     // this.props.getUser();
 
-    }
+    // }
 
 
 
     render() {
-
+                
         let shoppingCartDisplay = this.props.cart.map((product, i) => {
             return (
                 <div key={i} className='item-display'>
