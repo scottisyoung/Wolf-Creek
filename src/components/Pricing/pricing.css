@@ -45,10 +45,10 @@
     text-transform: uppercase;
     font-family: serif;
     letter-spacing: 0.06em;
-    font-size: 7em;
-    color: rgba(22, 63, 106, 0.9);
-    text-shadow: 1px 1.5px #242424;
-    opacity: 0.7;
+    font-size: 7.5em;
+    color: #2376a7;
+    text-shadow: 1.5px 1.5px #242424;
+    opacity: 1;
     text-align: center; }
 
 #aspen, #snow, #ski {
@@ -68,20 +68,23 @@
   overflow-y: auto; }
 
 .ParentCharts {
-  background: rgba(27, 24, 24, 0.96);
+  -webkit-box-shadow: 0px 75px 35px -55px #2b2d42;
+  -moz-box-shadow: 0px 75px 35px -55px #2b2d42;
+  box-shadow: 0px 75px 35px -55px #2b2d42;
+  background: rgba(77, 28, 28, 0.96);
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#52ABBB, rgba(22, 63, 106, 0.9));
+  background: -webkit-linear-gradient(#1d5d83, #0d4261);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#52ABBB, rgba(22, 63, 106, 0.9));
+  background: -o-linear-gradient(#1d5d83, #0d4261);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#52ABBB, rgba(22, 63, 106, 0.9));
+  background: -moz-linear-gradient(#1d5d83, #0d4261);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#52ABBB, rgba(22, 63, 106, 0.9));
+  background: linear-gradient(#1d5d83, #0d4261);
   /* Standard syntax */
-  color: white;
+  color: #EDF2F4;
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 1.3em;
-  font-weight: 900; }
+  font-size: 1.1em;
+  font-weight: 400; }
 
 .titleparents {
   display: flex;
@@ -89,9 +92,13 @@
   align-items: baseline;
   flex-direction: row;
   flex-wrap: wrap;
-  font-size: 1.5em;
-  font-weight: 900;
-  text-shadow: 1px 1.5px #242424; }
+  font-size: 1.4em;
+  font-weight: 700;
+  text-shadow: 1px 2px #2b2d42; }
+  .titleparents h3 {
+    color: #0bf8ec;
+    font-weight: 700;
+    font-size: 1.6em; }
 
 .priceParent {
   display: flex;
@@ -104,8 +111,8 @@
   height: 2vh;
   width: 10vh;
   margin-top: 2vh;
-  margin-bottom: 11vh;
-  color: #FFFFFF;
+  margin-bottom: 9vh;
+  color: #dde1eb;
   font-weight: 900;
   margin-right: 5vh;
   text-shadow: 1px 1.5px #242424; }
@@ -162,9 +169,9 @@
 .actual-price {
   margin-left: 2vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5em;
-  font-weight: 900;
-  color: #06CF06;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #0bf8ec;
   text-shadow: 1px 1.5px #242424; }
 
 .indentdiv {
@@ -183,7 +190,7 @@
   height: 2vh;
   width: 25vh;
   margin-top: 2vh;
-  margin-bottom: 11vh;
+  margin-bottom: 9vh;
   color: #FFFFFF;
   font-weight: 900;
   margin-right: 3vh;
@@ -223,7 +230,7 @@
   height: 2vh;
   width: 15vh;
   margin-top: 2vh;
-  margin-bottom: 11vh;
+  margin-bottom: 9vh;
   color: #FFFFFF;
   font-weight: 900;
   margin-right: 2vh;
@@ -265,13 +272,13 @@
   text-shadow: 1px 1.5px #242424; }
 
 .splitup {
-  height: 8vh; }
+  height: 7vh; }
 
 .listItems1ER {
   height: 2vh;
   width: 15vh;
   margin-top: 2vh;
-  margin-bottom: 11vh;
+  margin-bottom: 9vh;
   color: #FFFFFF;
   font-weight: 900;
   margin-left: -20vh;
@@ -315,7 +322,7 @@
   height: 2vh;
   width: 15vh;
   margin-top: 2vh;
-  margin-bottom: 11vh;
+  margin-bottom: 9vh;
   color: #FFFFFF;
   font-weight: 900;
   margin-left: -15vh;

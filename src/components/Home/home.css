@@ -29,9 +29,10 @@ video {
   z-index: 1;
   overflow: auto;
   overflow-x: hidden;
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  cursor: pointer; }
   .slide .slideTitle {
-    color: white;
+    color: #e5e7e7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 3vh;
@@ -44,20 +45,24 @@ video {
 
 .close {
   height: 15vh;
-  width: 2%;
-  opacity: .7;
+  width: 2.5%;
+  margin-left: -1vh;
+  opacity: .8;
   overflow: auto;
   overflow-x: hidden;
   overflow-y: hidden;
   background-color: #000000;
-  border-radius: 0.3vh; }
+  cursor: pointer;
+  border-radius: 1vh; }
+  .close:hover {
+    background-color: #1883c2; }
   .close .slideTitle {
     opacity: 0; }
   .close .previous {
     margin-top: 2vh;
-    margin-left: 0.8vh;
+    margin-left: 2vh;
     font-size: 4em;
-    color: #FFFFFF;
+    color: #e5e7e7;
     opacity: 1; }
 
 .dateparent {
@@ -67,13 +72,13 @@ video {
   justify-content: flex-start;
   align-items: flex-start; }
   .dateparent .dayofweek {
-    color: #46D3CC;
+    color: #0bf8ec;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5em;
     margin-top: 3vh;
     margin-left: 3vh; }
   .dateparent .temp {
-    color: white;
+    color: #e5e7e7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.9em;
     margin-top: 1vh;
@@ -91,7 +96,7 @@ video {
     height: 30px;
     margin-left: 2vh; }
   .conditionsParent .temp {
-    color: white;
+    color: #e5e7e7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     margin-left: 1vh;
@@ -105,7 +110,7 @@ video {
   align-items: flex-start;
   margin-top: 1vh; }
   .dateParent .temp {
-    color: white;
+    color: #e5e7e7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.9em;
     margin-left: 2vh;

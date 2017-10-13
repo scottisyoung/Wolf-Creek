@@ -1,5 +1,5 @@
 .backgroundLT {
-  background-image: url(http://www.ski.com/blog/wp-content/uploads/2015/01/0112_Coastwebshots_LS01.jpg);
+  background-image: url(https://www.walldevil.com/wallpapers/a83/tree-snow-winter-forest-mountain-sky.jpg);
   background-size: cover;
   height: 100vh; }
 
@@ -49,7 +49,7 @@
 
 .accordion-select:hover ~ .accordion-title,
 .accordion-select:checked ~ .accordion-title {
-  background-color: #3068cc; }
+  background-color: #1883c2; }
 
 .accordion-title span {
   transform: rotate(-90deg);
@@ -69,7 +69,7 @@
   padding: 29px;
   font-size: 1.2em; }
   .accordion-content h3 {
-    color: white;
+    color: #edf2f4;
     text-align: center; }
 
 .accordion-title,
@@ -117,3 +117,10 @@ generated automatically and are common for each slider. */
   -o-transition: margin 0.3s ease 0.1s;
   -moz-transition: margin 0.3s ease 0.1s;
   -webkit-transition: margin 0.3s ease 0.1s; }
+
+.cartbadge {
+  border-radius: 10vh;
+  height: 3vh;
+  width: 3vh;
+  color: #edf2f4;
+  background-color: #1883c2; }

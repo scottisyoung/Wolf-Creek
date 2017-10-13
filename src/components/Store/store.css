@@ -23,15 +23,17 @@
   -o-transition: 1.8s;
   height: 45vh;
   width: 45vh;
-  background: #01396E;
+  background: rgba(46, 42, 42, 0.96);
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#01396E, #01CCF0, #01396E);
+  background: -webkit-linear-gradient(#616060, #0760fa, #2c2b2b);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#01396E, #01CCF0, #01396E);
+  background: -o-linear-gradient(#616060, #0760fa, #616060);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#01396E, #01CCF0, #01396E);
+  background: -moz-linear-gradient(#616060, #0760fa, #616060);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#01396E, #01CCF0, #01396E);
+  background: linear-gradient(#292828, #0760fa, #292828);
+  /* Standard syntax */
+  box-shadow: 2px 2px 1px rgba(56, 56, 56, 0.719);
   display: inline-block;
   margin-top: 15vh;
   margin-right: 2vh;
@@ -39,9 +41,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(24, 22, 22, 0.61);
-  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 2vh; }
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6vh; }
   .shopDivs:hover {
     transform: rotatey(-180deg);
     -webkit-transform: rotatey(-180deg);
@@ -61,20 +62,21 @@
 
 .front {
   color: white;
-  font-size: 2.5em;
+  font-size: 2.3em;
   text-align: center;
   position: relative;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 0.5vh;
-  text-shadow: 1px 1.5px #242424;
+  text-shadow: 1.5px 1.8px #1a1a1a;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   -o-backface-visibility: hidden; }
   .front:hover {
-    color: #08FA00;
+    color: white;
+    text-shadow: 1.5px 1.8px #1a1a1a;
     font-weight: 900; }
 
 .back {
@@ -89,8 +91,8 @@
   text-align: center;
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
-  text-shadow: 1px 1.5px #242424;
-  font-size: 1.1em;
+  text-shadow: 1.5px 1.5px #242424;
+  font-size: 1em;
   letter-spacing: 0.2vh;
   margin-top: 2vh;
   list-style-type: none;
@@ -112,23 +114,17 @@
 
 .purchase {
   height: 5vh;
-  width: 65%;
+  width: 60%;
   border-radius: 5px;
-  background-color: #08EE08;
-  background: -webkit-linear-gradient(#08EE08, #012E1E);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#08EE08, #012E1E);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#08EE08, #012E1E);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#08EE08, #012E1E);
-  text-shadow: 1px 1.5px #242424;
-  color: #FFFFFF;
+  background-color: #363636;
+  text-shadow: 1.5px 1.5px #202020;
+  color: white;
   display: flex;
   justify-content: center;
-  font-family: "Qwigley", sans-serif;
+  font-family: 'Buda', cursive;
   align-items: center;
   text-decoration: none;
-  font-size: 1.2em;
-  letter-spacing: 0.5vh;
+  font-size: 0.9em;
   font-weight: 400; }
+  .purchase:hover {
+    background-color: #10da10; }

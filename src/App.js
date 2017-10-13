@@ -14,8 +14,8 @@ import Vacation from './components/Vacation/Vacation.js';
 import Store from './components/Store/Store.js';
 import Lift_tickets from "./components/Shop_items/Lift_tickets/Lift_tickets.js";
 import Season_passes from "./components/Shop_items/Season_passes/Season_passes.js";
-import Equipment from "./components/Shop_items/Equipment/Equipment.js";
-import School from "./components/Shop_items/School/School.js";
+// import Equipment from "./components/Shop_items/Equipment/Equipment.js";
+// import School from "./components/Shop_items/School/School.js";
 import Cart from './components/Cart/Cart.js';
 // import Checkout from './components/Checkout/Checkout.js';
 import Gmap from './components/Map/Gmap.js';
@@ -43,8 +43,8 @@ class App extends Component {
                   <Route path='/skimap' component={Skimap} />
                   <Route path='/lift_tickets' component={Lift_tickets}/>
                   <Route path='/season_passes' component={Season_passes}/>
-                  <Route path='/equipment' component={Equipment}/>
-                  <Route path='/school' component={School}/>
+                  {/* <Route path='/equipment' component={Equipment}/>
+                  <Route path='/school' component={School}/> */}
                   <Route path='/cart' component={Cart}/>
                 </Switch>
           </div>

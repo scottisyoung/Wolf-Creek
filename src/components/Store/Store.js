@@ -42,7 +42,7 @@ class Store extends Component {
                     <li>Equipment can be rented on the mountain in our rental office or you can reserve your equipment online today.</li><br />
                     <li>Click the Reserve button to reserve your equipment today.</li><br /> 
                 <div className="purchaseParent">
-                <Link className="purchase" to='/equipment'><div className="purchase">Coming Soon</div></Link></div></div></div>
+                <Link className="purchase" to='#'><div className="purchase">COMING SOON</div></Link></div></div></div>
 
 
                 <div className="shopDivs"><div className="front">Snow School</div>
@@ -52,7 +52,7 @@ class Store extends Component {
                     <li>You can reserve your place in our Snow School at the base of the mountain or online today.</li><br />
                     <li>Click on the Reserve button to secure your spot in one of our classes.</li><br /> 
                 <div className="purchaseParent">
-                <Link className="purchase" to='/school'><div className="purchase">Coming Soon</div></Link></div></div></div>
+                <Link className="purchase" to='#'><div className="purchase">COMING SOON</div></Link></div></div></div>
 
 
                 <div className="shopDivs"><div className="front">Skis / Snowboards</div>

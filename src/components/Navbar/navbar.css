@@ -21,19 +21,19 @@
   justify-content: center;
   align-items: center; }
   .navParent .logo {
-    height: 80px;
-    width: 85px;
+    height: 70px;
+    width: 80px;
     position: absolute;
-    top: -7.8vh;
-    left: 10.5vh; }
+    top: -8vh;
+    left: 14vh; }
   .navParent .logoTitle {
     position: absolute;
     top: 10vh;
     left: 6vh;
     font-size: 1.6em;
-    color: #22CCF7;
-    font-weight: 200;
-    text-shadow: 1px 1px #090155;
+    color: #1883c2;
+    font-weight: 700;
+    text-shadow: 1px 1.5px #242424;
     letter-spacing: 1.5px;
     font-family: 'Julius Sans One', sans-serif; }
     .navParent .logoTitle span {
@@ -45,44 +45,50 @@
     margin-top: 8vh; }
   .navParent .Link {
     text-decoration: none;
-    color: #CACACC;
-    text-shadow: 1px 1px #5C5757;
+    color: #e6f0f0;
+    text-shadow: 1px 1.5px #242424;
     letter-spacing: 3px;
     font-family: 'Open Sans Condensed', sans-serif; }
     .navParent .Link:hover {
-      color: #22CCF7; }
+      color: #0bf8ec;
+      font-weight: 500; }
 
 .navLink1 {
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 500;
   margin-left: 82vh;
   margin-top: 1.8vh;
-  position: absolute; }
+  position: absolute;
+  text-shadow: 1px 1.5px #242424; }
 
 .navLink2 {
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 500;
   margin-top: 1.8vh;
-  margin-left: 94vh;
+  margin-left: 92vh;
   position: absolute; }
 
 .auth1 {
-  color: #22CCF7;
+  color: #1883c2;
   text-decoration: none;
-  font-family: 'Buda', cursive;
-  letter-spacing: 0.5vh; }
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.1em; }
   .auth1:hover {
-    color: #FFFFFF; }
+    color: #0bf8ec;
+    font-weight: 500; }
 
 .auth2 {
-  color: #22CCF7;
+  color: #1883c2;
   text-decoration: none;
-  font-family: 'Buda', cursive;
-  letter-spacing: 0.5vh; }
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.1em; }
   .auth2:hover {
-    color: #FDFFFF; }
+    color: #0bf8ec;
+    font-weight: 500; }
 
 .cart {
   position: absolute;
   margin-top: 1.8vh;
-  margin-left: 70vh; }
+  margin-left: 72vh; }

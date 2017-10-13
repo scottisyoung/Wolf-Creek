@@ -33,7 +33,7 @@
   text-decoration: none;
   list-style-type: none;
   margin-bottom: 3vh;
-  color: #BEBDBD;
+  color: #e5e7e7;
   font-family: 'Open Sans Condensed', sans-serif;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,8 @@
   align-items: center;
   flex-wrap: wrap; }
   .footLink:hover {
-    color: #22CCF7; }
+    color: #0bf8ec;
+    font-weight: 500; }
 
 .socialMedia {
   display: flex;
@@ -59,7 +60,7 @@
 
 .Link {
   text-decoration: none;
-  color: #CACACC;
+  color: #e5e7e7;
   text-shadow: 1px 1px #5C5757;
   letter-spacing: 3px;
   font-family: 'Open Sans Condensed', sans-serif; }

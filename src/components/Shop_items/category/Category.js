@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import {addToCart} from '../../../ducks/users.js';
 
 class Category extends Component {
+ 
 
       render() {
 
@@ -18,7 +19,7 @@ class Category extends Component {
                 <div className="productParent">
                         <div className="products">{product.name}</div> 
                         <div className="products2">$ {product.price}</div> 
-                        <div className="products3"><div onClick={(e) => this.props.addToCart(product)}>Add to Cart</div></div>
+                        <div className="products3"><div className = "clickMe" onClick={(e) => {this.props.addToCart(product)}}>Add to Cart</div></div>  
                 </div>
             </div>
             )
@@ -37,8 +38,9 @@ class Category extends Component {
 
 function mapStateToProps(state) {
     return {
-      products: state.products
+      products: state.products,
     }
   }
   
   export default connect(mapStateToProps, {addToCart})(Category)
+
