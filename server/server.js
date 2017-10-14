@@ -89,6 +89,7 @@ app.get('/api/all_products', controller.all_products);
 app.get('/api/select_product', controller.select_product);
 app.post('/api/cart', controller.cart);
 
+app.delete('/api/cart/:id/:userid', controller.deleteItems);
 
 // POST TO ORDERS
 

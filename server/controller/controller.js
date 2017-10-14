@@ -3,6 +3,7 @@ module.exports = {
 // Store Endpoints
 
     all_products:(req, res) => {
+        console.log(req.user)
         req.app.get('db').all_products().then(products => {
         res.status(200).send(products);
         }).catch((err) => {console.log(err)})
@@ -68,10 +69,19 @@ module.exports = {
                     })
                 } 
             })
-        }
+        },
 
+deleteItems:(req, res) => {
+    req.app.get('db').get_cart([req.params.userid]).then((order) => {
+        console.log(order[0].id, req.params.id)
+    req.app.get('db').deleteItems([req.params.id, order[0].id]).then(() => {
+        req.app.get('db').return_cart([order[0].id]).then((cartItems)=>{
+            res.send(cartItems)
+    });
+    });
+});
 }
 
-
+}
 
 

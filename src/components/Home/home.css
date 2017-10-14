@@ -1,6 +1,6 @@
 video {
   position: absolute;
-  top: 70%;
+  top: 70vh;
   bottom: 70%;
   left: 50%;
   min-width: 100%;
@@ -118,5 +118,5 @@ video {
     margin-bottom: 1vh; }
 
 .home {
-  height: 93vh;
+  height: 88vh;
   width: 100vh; }

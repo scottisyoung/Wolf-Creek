@@ -50,3 +50,5 @@ VALUES
 ('Family Regular Season Pass 4th', '4th Member Regular Season', 353.00, true, 'SeasonPass', 'Family'),
 ('Family Regular Season Pass 5th', '5th Member Regular Season', 353.00, true, 'SeasonPass', 'Family');
 
+DELETE FROM line_items
+WHERE product_id = 1 AND order_id = 19;

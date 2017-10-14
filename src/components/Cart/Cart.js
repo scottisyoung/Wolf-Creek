@@ -6,27 +6,7 @@ import {getUser} from './../../ducks/users.js';
 import {removeFromCart} from '../../ducks/users.js';
 
 class Cart extends Component {
-    // constructor(props) {
-    //     super(props)
-    //     this.state={
-    //         user:{}
-    //     }
-    // }
-
-    
-    // componentDidMount() {
-    //     axios.get('http://localhost:3080/api/auth/user').then(res => {
-    //         this.setState({
-    //         products: res.data
-    //         })
-    //     })
-
-    //     // this.props.getUser();
-
-    // }
-
-
-
+ 
     render() {
                 
         let shoppingCartDisplay = this.props.cart.map((product, i) => {
@@ -38,7 +18,7 @@ class Cart extends Component {
                     <div className="CartDescription"><div><span className="itemspan">Item Description:</span><br /> {product.description}</div></div>
                     <div className="CartPrice"><div><span className="itemspan">Price:</span><br />{product.price}<br /></div></div>
                     <div className="QuantityCart"><div>Quantity <input type="number" placeholder="1" name="quantity" min="1" max='999'/></div></div>
-                    <div className ="RemoveCart" onClick={(e) => this.props.removeFromCart(i)}><div className="remove">REMOVE</div></div>
+                    <div className ="RemoveCart" onClick={(e) => this.props.removeFromCart(product.id)}><div className="remove">REMOVE</div></div>
                 </div>
                 
                 </div>
@@ -52,13 +32,29 @@ class Cart extends Component {
             <div>
                 <div className="CartBackground"> 
     
-                            <div className="emptyParent">
-                                {shoppingCartDisplay[0] ? shoppingCartDisplay:
+                        <div className="emptyParent">
+                            {shoppingCartDisplay[0] ? shoppingCartDisplay:
                             <div className="emptyCart"><div>Your Cart is Currently Empty</div></div>}
                         </div>
+                
+                <div className="cartTotal">
+                {
+                    this.props.cart.reduce((sum, item) =>{
+                        return sum + (item.price * item.qty)
+                    },0)
+                }
+                </div>
+                <div>
+                {
+                    this.props.cart.reduce((sum, items) => {
+                        return sum + (items.qty)
+                    },0)
+                }
+                </div>
+
+
                 </div>
             </div>
-
         </div>
     )
 }
