@@ -14,7 +14,9 @@ class Store extends Component {
 
     return (
         <div>
+            <div className="shopBackground"></div>
             <div className="shopParent">
+                    <div className="centerShopTitle"><h1>Wolf Creek Store</h1></div>
                 <div className="shopDivs"><div className="front">Lift Tickets</div>
                 <div className="back">
                     <li>Wolf Creek offeres a variety of Lift Tickets so that everyone has the opportunity to hit up the 
@@ -55,7 +57,7 @@ class Store extends Component {
                 <Link className="purchase" to='#'><div className="purchase">COMING SOON</div></Link></div></div></div>
 
 
-                <div className="shopDivs"><div className="front">Skis / Snowboards</div>
+                <div className="shopDivs1"><div className="front">Skis / Snowboards</div>
                 <div className="back">
                     <li>Wolf Creek has some sweet gear, however our online shop is not quite ready.</li><br />
                     <li>Gear can still be purchased in our shop at the base of the mountain.</li><br />
@@ -63,7 +65,7 @@ class Store extends Component {
                 <div className="purchase">COMING SOON</div></div></div></div>
 
 
-                <div className="shopDivs"><div className="front">Boots / Bindings</div>
+                <div className="shopDivs1"><div className="front">Boots / Bindings</div>
                 <div className="back">
                     <li>Wolf Creek has some sweet gear, however our online shop is not quite ready.</li><br />
                     <li>Gear can still be purchased in our shop at the base of the mountain.</li><br />
@@ -71,7 +73,7 @@ class Store extends Component {
                 <div className="purchase">COMING SOON</div></div></div></div>
 
 
-                <div className="shopDivs"><div className="front">Accessories</div>
+                <div className="shopDivs1"><div className="front">Accessories</div>
                 <div className="back">
                     <li>Wolf Creek has some sweet gear, however our online shop is not quite ready.</li><br />
                     <li>Gear can still be purchased in our shop at the base of the mountain.</li><br />
@@ -79,13 +81,15 @@ class Store extends Component {
                 <div className="purchase">COMING SOON</div></div></div></div>
 
 
-                <div className="shopDivs"><div className="front">Clothing</div>
+                <div className="shopDivs1"><div className="front">Clothing</div>
                 <div className="back">
                     <li>Want some amazing threads? Well unfortunately our online shop is not quite available.</li><br />
                     <li>However, you can still buy our clothing products at our shop at the base of the mountain.</li><br />
                 <div className="purchaseParent">
                 <div className="purchase">COMING SOON</div></div></div></div>
             </div>
+
+            <div className="footerShopBackground"></div>
         </div>
 
         )

@@ -1,3 +1,265 @@
+.backgroundvacation {
+  background-image: url(http://orecommunications.com/wordpress/wp-content/uploads/2012/11/downtown_winter.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+
+.backgroundvacationbelow {
+  margin-top: 0vh;
+  height: 235vh;
+  width: 100%;
+  background-color: #e2dbdb;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e2dbdb, #b6b5b5);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e2dbdb, #b6b5b5);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e2dbdb, #b6b5b5);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e2dbdb, #b6b5b5);
+  /* Standard syntax */ }
+
+.centerVacaTitle {
+  position: absolute;
+  top: 113vh;
+  right: 5%;
+  color: white;
+  font-size: 60px;
+  opacity: 0.7; }
+
+.centerVacationTitle {
+  position: absolute;
+  top: 135vh;
+  right: 9%;
+  color: rgba(128, 128, 128, 0.192);
+  font-size: 40px;
+  text-shadow: 0.5px 0.5px #4b4b4b;
+  opacity: 0.4; }
+
+.backgroundfootVacation {
+  background-image: url(https://www.uncovercolorado.com/wp-content/uploads/2014/12/Pagosa-Springs-Hot-Air-Balloons-Lake-1200x600.jpg);
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  opacity: 0.5; }
+
+.vacationFlex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 45vh;
+  position: absolute; }
+
+.overLay1 {
+  position: absolute;
+  z-index: 1;
+  top: 0.2vh;
+  left: 0.6vh;
+  height: 40vh;
+  width: 69vh;
+  background-color: rgba(10, 163, 18, 0.527); }
+  .overLay1:hover {
+    opacity: 0; }
+
+.overLay2 {
+  position: absolute;
+  z-index: 1;
+  top: 0.2vh;
+  height: 40vh;
+  width: 69vh;
+  background-color: rgba(10, 163, 18, 0.527); }
+  .overLay2:hover {
+    opacity: 0; }
+
+.overLay3 {
+  position: absolute;
+  z-index: 1;
+  top: 0.2vh;
+  right: 0.6vh;
+  height: 40vh;
+  width: 69vh;
+  background-color: rgba(10, 163, 18, 0.527); }
+  .overLay3:hover {
+    opacity: 0; }
+
+.DivVaca1 {
+  height: 40vh;
+  width: 69vh;
+  margin: 0.2vh;
+  margin-bottom: 2vh;
+  background-color: gray;
+  background-image: url(http://blog.coloradoski.com/wp-content/uploads/2013/03/02202013_WinterPark_BradTorchia_01-650x407.jpg);
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px #4b4b4b;
+  font-size: 35px; }
+
+.DivVaca2 {
+  height: 40vh;
+  width: 69vh;
+  margin: 0.2vh;
+  margin-bottom: 2vh;
+  background-color: gray;
+  background-image: url(https://photos.smugmug.com/Travel/Pagosa-Springs-Colorado/i-hdwxfGJ/0/6467cf64/L/The%20Springs%20Resort%209940W8C-L.jpg);
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px #4b4b4b;
+  font-size: 35px; }
+
+.DivVaca3 {
+  height: 40vh;
+  width: 69vh;
+  margin: 0.2vh;
+  margin-bottom: 2vh;
+  background-color: gray;
+  background-image: url(http://epmgaa.media.clients.ellingtoncms.com/img/photos/2013/06/04/restaurant-fine-dining-1.jpg);
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px #4b4b4b;
+  font-size: 35px; }
+
+.DivVaca4 {
+  height: 45vh;
+  width: 69vh;
+  margin: 0.2vh;
+  background-color: #4491bb;
+  overflow: auto; }
+  .DivVaca4 h4 {
+    margin-bottom: 1vh;
+    margin-left: 5vh;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0bf8ec;
+    text-shadow: 1px 1px #4b4b4b; }
+  .DivVaca4 li {
+    list-style-type: none;
+    margin-left: 8vh;
+    font-size: 1.1em;
+    line-height: 3vh;
+    color: white;
+    text-shadow: 1px 1px #4b4b4b; }
+
+.vacationFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 145vh;
+  position: absolute; }
+
+.overlay1 {
+  position: absolute;
+  z-index: 1;
+  top: 0.2vh;
+  left: 0.6vh;
+  height: 40vh;
+  width: 69vh;
+  background-color: rgba(197, 105, 13, 0.589); }
+  .overlay1:hover {
+    opacity: 0; }
+
+.overlay2 {
+  position: absolute;
+  z-index: 1;
+  top: 0.2vh;
+  height: 40vh;
+  width: 69vh;
+  background-color: rgba(197, 105, 13, 0.589); }
+  .overlay2:hover {
+    opacity: 0; }
+
+.overlay3 {
+  position: absolute;
+  z-index: 1;
+  top: 0.2vh;
+  right: 0.6vh;
+  height: 40vh;
+  width: 69vh;
+  background-color: rgba(197, 105, 13, 0.589); }
+  .overlay3:hover {
+    opacity: 0; }
+
+.divVaca1 {
+  height: 40vh;
+  width: 69vh;
+  margin: 0.2vh;
+  margin-bottom: 2vh;
+  background-color: gray;
+  background-image: url(https://img1.onthesnow.com/image/la/13/13644.jpg);
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px #4b4b4b;
+  font-size: 35px; }
+
+.divVaca2 {
+  height: 40vh;
+  width: 69vh;
+  margin: 0.2vh;
+  margin-bottom: 2vh;
+  background-color: gray;
+  background-image: url(https://ssl.c.photoshelter.com/img-get2/I0000B1v4HcPY3uQ/fit=1000x750/Molas-Pass.jpg);
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px #4b4b4b;
+  font-size: 35px; }
+
+.divVaca3 {
+  height: 40vh;
+  width: 69vh;
+  margin: 0.2vh;
+  margin-bottom: 2vh;
+  background-color: gray;
+  background-image: url(http://childcareaware.org/wp-content/uploads/2016/03/shutterstock_201736367-e1467162959831.jpg);
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px #4b4b4b;
+  font-size: 35px; }
+
+.divVaca4 {
+  height: 45vh;
+  width: 69vh;
+  margin: 0.2vh;
+  background-color: #4f7f99; }
+  .divVaca4 h4 {
+    margin-bottom: 1vh;
+    margin-left: 5vh;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0bf8ec;
+    text-shadow: 1px 1px #4b4b4b; }
+  .divVaca4 li {
+    list-style-type: none;
+    margin-left: 8vh;
+    font-size: 1.1em;
+    line-height: 3vh;
+    color: white;
+    text-shadow: 1px 1px #4b4b4b; }
+
 .vacationBackground {
   background-image: url(http://20dqe434dcuq54vwy1wai79h.wpengine.netdna-cdn.com/wp-content/uploads/2016/09/The-Springs-Resort-and-Spa-OutThere-Colorado-1.jpg);
   background-size: cover;

@@ -1,12 +1,48 @@
-.backgroundevents {
-    height: 160vh;
+.backgroundEvents {
+    background-image:url(http://www.meublegiustina.it/wp-content/uploads/2016/06/gruppo.jpg);
+    background-size: cover;
+    height: 100vh;
     width: 100%;
-    background-color: rgb(245, 240, 240);
+}
+
+.backgroundevents {
+    height: 235vh;
+    width: 100%;
+    background-color: rgb(226, 219, 219); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(226, 219, 219),#e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(226, 219, 219), #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(226, 219, 219), #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(226, 219, 219), #e6e6e6); /* Standard syntax */
+}
+
+.backgoundfooterevents {
+    background-image:url(https://cdn.pixabay.com/photo/2017/04/18/21/31/ski-race-2240476_960_720.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    color: rgb(13, 56, 94);
+    opacity: 0.6;
+}
+
+.backTitle {
+    position: absolute;
+    top: 355vh;
+    left: 15vh;
+    font-size: 30px;
+}
+
+.eventsTitleParent {
+    position: absolute;
+    top: 113vh;
+    right: 3%;
+    color: white;
+    opacity: 0.7;
+    font-size: 60px;
 }
 
 .calendar {
     position: absolute;
-    top: 26vh;
+    top: 250vh;
     left: 4vh;
     border-radius: 1vh;
 }
@@ -16,8 +52,8 @@
     width: 50%;
     margin: 4vh;
     position: absolute;
-    top: 20vh;
-    left: 53%;
+    top: 150vh;
+    left: 5%;
     display: flex;
     justify-content: flex-start;
     align-items:  baseline;
@@ -70,6 +106,10 @@
     position: absolute;
     margin-top: 1vh;
     margin-left: 45vh;
+    opacity: 0.7;
+        &:hover {
+             opacity: 1; 
+        }
 }
 
 .eventsInfo2 {
@@ -78,7 +118,7 @@
     background-color:rgba(3, 3, 3, 0);
     margin: 4vh;
     position: absolute;
-    top: 65vh;
+    top: 150vh;
     left: 53%;
     display: flex;
     justify-content: flex-start;
@@ -98,6 +138,10 @@
     position: absolute;
     margin-top: 2vh;
     margin-left: 45vh;
+    opacity: 0.7;
+    &:hover {
+        opacity: 1; 
+   }
 }
 
 .laimg {
@@ -113,7 +157,7 @@
     background-color:rgba(3, 3, 3, 0);
     margin: 4vh;
     position: absolute;
-    top: 120vh;
+    top: 200vh;
     left: 5%;
     display: flex;
     justify-content: flex-start;
@@ -133,13 +177,17 @@
     position: absolute;
     margin-top: 2vh;
     margin-left: 56vh;
+    opacity: 0.7;
+        &:hover {
+        opacity: 1; 
+   }
 }
 
 .race {
     height: 15vh;
     width: 100%;
     border-radius: 2vh;
-    box-shadow: 2px 1.5px 1px rgba(56, 56, 56, 0.719); 
+    box-shadow: 2px 1.5px 1px rgba(56, 56, 56, 0.719);
 }
 
 .eventsInfo4 {
@@ -148,7 +196,7 @@
     background-color:rgba(3, 3, 3, 0);
     margin: 4vh;
     position: absolute;
-    top: 120vh;
+    top: 200vh;
     left: 53%;
     display: flex;
     justify-content: flex-start;

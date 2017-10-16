@@ -1,11 +1,48 @@
+.backgroundEvents {
+  background-image: url(http://www.meublegiustina.it/wp-content/uploads/2016/06/gruppo.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+
 .backgroundevents {
-  height: 160vh;
+  height: 235vh;
   width: 100%;
-  background-color: #f5f0f0; }
+  background-color: #e2dbdb;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e2dbdb, #e6e6e6);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e2dbdb, #e6e6e6);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e2dbdb, #e6e6e6);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e2dbdb, #e6e6e6);
+  /* Standard syntax */ }
+
+.backgoundfooterevents {
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/18/21/31/ski-race-2240476_960_720.jpg);
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  color: #0d385e;
+  opacity: 0.6; }
+
+.backTitle {
+  position: absolute;
+  top: 355vh;
+  left: 15vh;
+  font-size: 30px; }
+
+.eventsTitleParent {
+  position: absolute;
+  top: 113vh;
+  right: 3%;
+  color: white;
+  opacity: 0.7;
+  font-size: 60px; }
 
 .calendar {
   position: absolute;
-  top: 26vh;
+  top: 250vh;
   left: 4vh;
   border-radius: 1vh; }
 
@@ -14,8 +51,8 @@
   width: 50%;
   margin: 4vh;
   position: absolute;
-  top: 20vh;
-  left: 53%;
+  top: 150vh;
+  left: 5%;
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
@@ -63,7 +100,10 @@
 .imgalign {
   position: absolute;
   margin-top: 1vh;
-  margin-left: 45vh; }
+  margin-left: 45vh;
+  opacity: 0.7; }
+  .imgalign:hover {
+    opacity: 1; }
 
 .eventsInfo2 {
   height: 50vh;
@@ -71,7 +111,7 @@
   background-color: rgba(3, 3, 3, 0);
   margin: 4vh;
   position: absolute;
-  top: 65vh;
+  top: 150vh;
   left: 53%;
   display: flex;
   justify-content: flex-start;
@@ -89,7 +129,10 @@
 .imgalign2 {
   position: absolute;
   margin-top: 2vh;
-  margin-left: 45vh; }
+  margin-left: 45vh;
+  opacity: 0.7; }
+  .imgalign2:hover {
+    opacity: 1; }
 
 .laimg {
   height: 37vh;
@@ -103,7 +146,7 @@
   background-color: rgba(3, 3, 3, 0);
   margin: 4vh;
   position: absolute;
-  top: 120vh;
+  top: 200vh;
   left: 5%;
   display: flex;
   justify-content: flex-start;
@@ -121,7 +164,10 @@
 .imgalign3 {
   position: absolute;
   margin-top: 2vh;
-  margin-left: 56vh; }
+  margin-left: 56vh;
+  opacity: 0.7; }
+  .imgalign3:hover {
+    opacity: 1; }
 
 .race {
   height: 15vh;
@@ -135,7 +181,7 @@
   background-color: rgba(3, 3, 3, 0);
   margin: 4vh;
   position: absolute;
-  top: 120vh;
+  top: 200vh;
   left: 53%;
   display: flex;
   justify-content: flex-start;

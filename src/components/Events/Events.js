@@ -5,7 +5,12 @@ class Events extends Component {
     render() {
     return (
         <div>
+
+                <div className="backgroundEvents"></div>
                  <div className="backgroundevents">
+                        <div className="eventsTitleParent">
+                                <div className="centerEventTitle"><h1>Wolf Creek Events</h1></div>           
+                        </div>
 
                  <div className="eventsInfo">
                                 <div className="centParent1"><div className="centerevent">College Days</div></div>
@@ -34,10 +39,10 @@ class Events extends Component {
                                 </div>
                                 <div className="imgalign2"><a href="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg"><img className="laimg" src="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg?zoom=1.25&resize=240%2C311"/></a></div> 
                         </div>
-                
+
                         <div>
                                 <iframe className="calendar" src="https://calendar.google.com/calendar/embed?src=3d2qpgeeghdu7kqh7ppld6j7sg%40group.calendar.google.com&ctz=America/PagosaSprings" 
-                                width="50%" height="640" frameborder="0" scrolling="no"></iframe>
+                                width="96%" height="690" frameborder="0" scrolling="no"></iframe>
                         </div>
 
                         <div className="eventsInfo3">
@@ -67,6 +72,14 @@ class Events extends Component {
                                 <div className="imgalign"><a href="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Fun-Race.jpg"><img className="laimg" src="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Fun-Race.jpg?zoom=1.25&resize=240%2C310"/></a></div>
                         </div>
         </div>
+
+
+        <div className="backgoundfooterevents">
+                <div className="backTitle"><h1>Keep Posted for Future Events</h1></div>
+
+        </div>
+
+
         </div>
     )
 }
