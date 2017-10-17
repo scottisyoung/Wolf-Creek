@@ -2,10 +2,28 @@ import React, { Component } from 'react';
 import './cart.css';
 import { connect } from 'react-redux';
 import {getUser} from './../../ducks/users.js';
-// import axios from 'axios';
+import axios from 'axios';
 import {removeFromCart} from '../../ducks/users.js';
+import StripeCheckout from 'react-stripe-checkout';
+import stripe from './StripeKey/stripeKey.js';
+
 
 class Cart extends Component {
+        constructor(props) {
+            super(props) 
+            this.state = {
+            }
+
+        this.onToken=this.onToken.bind(this);
+        }
+
+        onToken(token) {
+                  token.card = void 0;
+                  console.log('token', this.state);
+                  axios.post('/api/payment', { token, amount: 0.00, options: this.state} ).then(response => {
+                    alert('we are in business')
+                  });
+                }
  
     render() {
                 
@@ -17,7 +35,8 @@ class Cart extends Component {
                     <div className="CartName"><div><span className="itemspan">Item Name:</span><br /> {product.name}</div></div>
                     <div className="CartDescription"><div><span className="itemspan">Item Description:</span><br /> {product.description}</div></div>
                     <div className="CartPrice"><div><span className="itemspan">Price:</span><br />{product.price}<br /></div></div>
-                    <div className="QuantityCart"><div>Quantity <input type="number" placeholder="1" name="quantity" min="1" max='999'/></div></div>
+                    <div className="QuantityCart"><div>Quantity <input type="number" value= {product.qty} name="quantity" min="1" max='999' 
+                    onChange={(e) => {}}/></div></div>
                     <div className ="RemoveCart" onClick={(e) => this.props.removeFromCart(product.id)}><div className="remove">REMOVE</div></div>
                 </div>
                 
@@ -26,6 +45,10 @@ class Cart extends Component {
         })
 
 
+        let total =    this.props.cart.reduce((sum, item) => {
+                        return sum + (item.price * item.qty)
+                        },0.00)
+        
 
     return (
         <div>
@@ -36,22 +59,30 @@ class Cart extends Component {
                             {shoppingCartDisplay[0] ? shoppingCartDisplay:
                             <div className="emptyCart"><div>Your Cart is Currently Empty</div></div>}
                         </div>
-                
-                <div className="cartTotal">
-                {
-                    this.props.cart.reduce((sum, item) =>{
-                        return sum + (item.price * item.qty)
-                    },0)
-                }
-                </div>
-                <div>
-                {
-                    this.props.cart.reduce((sum, items) => {
-                        return sum + (items.qty)
-                    },0)
-                }
-                </div>
 
+            <div className="TotalParent">
+                <div className="CartTotal"> Total:</div>
+                <div className="cartTotal"> $&nbsp;
+                {
+                    this.props.cart.reduce((sum, item) => {
+                        return sum + (item.price * item.qty)
+                    },0.00)
+                }
+                </div>
+                <div className="total">
+     
+                    <div>
+                        <StripeCheckout
+                            token={this.onToken}
+                            stripeKey={ stripe }
+                            amount={total * 100}
+                        />
+                    </div>
+
+                </div>
+            
+            
+            </div>
 
                 </div>
             </div>
@@ -66,3 +97,8 @@ function mapStateToProps(state) {
     }
 }
 export default connect(mapStateToProps, {getUser, removeFromCart})(Cart)
+
+
+
+
+

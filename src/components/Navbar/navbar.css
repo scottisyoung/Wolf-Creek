@@ -56,7 +56,7 @@
 .navLink1 {
   font-size: 1.1em;
   font-weight: 500;
-  margin-left: 82vh;
+  margin-left: 80vh;
   margin-top: 1.8vh;
   position: absolute;
   text-shadow: 1px 1.5px #242424; }
@@ -65,7 +65,7 @@
   font-size: 1.1em;
   font-weight: 500;
   margin-top: 1.8vh;
-  margin-left: 92vh;
+  margin-left: 90vh;
   position: absolute; }
 
 .auth1 {
@@ -91,4 +91,19 @@
 .cart {
   position: absolute;
   margin-top: 1.8vh;
-  margin-left: 72vh; }
+  margin-left: 69vh; }
+
+.badgenumber {
+  color: #00f8e8;
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  margin-top: -2vh;
+  margin-left: 2.8vh;
+  background-color: #164561;
+  height: 2.5vh;
+  width: 2.5vh;
+  border-radius: 10vh;
+  border: 1px solid silver;
+  box-shadow: 0.3px 0.3px 0.5px #dfdfdf;
+  text-align: center; }

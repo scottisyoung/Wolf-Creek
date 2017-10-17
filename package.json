@@ -14,17 +14,21 @@
     "node-sass-chokidar": "0.0.3",
     "passport": "^0.4.0",
     "passport-auth0": "^0.6.0",
-    "react": "^15.6.1",
+    "react": "^15.6.2",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
+    "react-stripe-checkout": "^2.6.3",
     "redux": "^3.7.2",
-    "redux-promise-middleware": "^4.4.1"
+    "redux-promise-middleware": "^4.4.1",
+    "stripe": "^5.1.1",
+    "stripe-checkout": "^1.0.9"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "server": "nodemon --watch server ./server/server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

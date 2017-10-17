@@ -1,10 +1,8 @@
 .CartBackground {
   background-image: url(https://c1.staticflickr.com/1/162/436657570_5831184e14_b.jpg);
   background-size: cover;
-  height: 100vh;
-  width: 100%;
-  overflow: scroll;
-  background-attachment: fixed; }
+  height: 200vh;
+  width: 100%; }
 
 .emptyParent {
   display: flex;
@@ -153,6 +151,68 @@ input {
   color: white;
   font-family: 'Buda', cursive; }
 
+.TotalParent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6vh; }
+
+.CartTotal {
+  height: 13vh;
+  width: 30vh;
+  margin-right: 3vh;
+  margin-left: 0vh;
+  margin-top: 3vh;
+  border-radius: 1.5vh;
+  background-color: #3068cc;
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 700;
+  font-family: 'Buda', cursive;
+  overflow: auto;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
 .cartTotal {
-  font-size: 2em;
-  color: red; }
+  width: 20%;
+  font-size: 3em;
+  height: 13vh;
+  width: 30vh;
+  margin-top: 3vh;
+  margin-right: 3vh;
+  border-radius: 1.5vh;
+  background-color: #3068cc;
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  overflow: auto;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+.total {
+  height: 13vh;
+  width: 30vh;
+  margin-top: 3vh;
+  border-radius: 1.5vh;
+  background-color: #3068cc;
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }

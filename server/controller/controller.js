@@ -3,7 +3,6 @@ module.exports = {
 // Store Endpoints
 
     all_products:(req, res) => {
-        console.log(req.user)
         req.app.get('db').all_products().then(products => {
         res.status(200).send(products);
         }).catch((err) => {console.log(err)})
@@ -24,7 +23,7 @@ module.exports = {
 
     checkuser:() => {
         const db = req.app.get('db');
-        db.get_cart([1]).then((cart)=>{
+        db.get_cart([req.user.id]).then((cart)=>{
           if(cart[0]){
             console.log('found cart!')
           } else{
@@ -36,8 +35,8 @@ module.exports = {
 
     cart:(req, res) => {
         const db = req.app.get('db');
-        const {userid, product_id} = req.body;
-        db.get_cart([userid]).then((cart)=>{
+        const {product_id} = req.body;
+        db.get_cart([req.user.id]).then((cart)=>{
             if(cart[0]){
                 db.check_duplicates([product_id, cart[0].id]).then((dup)=>{
                     if(dup[0]){
@@ -58,8 +57,8 @@ module.exports = {
                     }
                  })
                 } else{
-                    db.make_order([userid]).then(()=>{
-                        db.get_cart([userid]).then((cart)=>{
+                    db.make_order([req.user.id]).then(()=>{
+                        db.get_cart([req.user.id]).then((cart)=>{
                             db.add_to_cart([product_id, cart[0].id]).then(()=>{
                                 db.return_cart([cart[0].id]).then((cartItems)=>{
                                     res.send(cartItems)
@@ -72,7 +71,7 @@ module.exports = {
         },
 
 deleteItems:(req, res) => {
-    req.app.get('db').get_cart([req.params.userid]).then((order) => {
+    req.app.get('db').get_cart([req.user.id]).then((order) => {
         console.log(order[0].id, req.params.id)
     req.app.get('db').deleteItems([req.params.id, order[0].id]).then(() => {
         req.app.get('db').return_cart([order[0].id]).then((cartItems)=>{
@@ -82,6 +81,24 @@ deleteItems:(req, res) => {
 });
 }
 
+// quantityItems:(req, res) => {
+//     db.get_cart([userid]).then((cart)=>{
+//         if(cart[0]){
+//             db.check_duplicates([product_id, cart[0].id]).then((dup)=>{
+//                 if(dup[0]){
+//                     console.log(dup[0].qty)
+//                     db.update_quantity([dup[0].qty + 1, dup[0].product_id]).then(()=>{
+//                      db.return_cart([cart[0].id]).then((cartItems)=>{
+//                          res.send(cartItems)
+//                      });
+//                     });
+//                 }
+//             });
+//         }
+//     })
+// }
+
 }
+
 
 

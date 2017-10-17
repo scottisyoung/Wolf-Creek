@@ -75,17 +75,17 @@
 
 .shopDivs {
     @include transform-style(preserve-3d);
-    @include transition(1.8s);
+    @include transition(1s);
         &:hover{
             @include transform(rotatey(-180deg));
         }
     height: 45vh;
     width: 45vh;
     background: rgba(46, 42, 42, 0.96); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgb(97, 96, 96),#0760fa, rgb(44, 43, 43)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( rgb(97, 96, 96), #0760fa, rgb(97, 96, 96)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgb(97, 96, 96), #0760fa, rgb(97, 96, 96)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient( rgb(41, 40, 40),#0760fa, rgb(41, 40, 40)); /* Standard syntax */
+    background: -webkit-linear-gradient(rgb(97, 96, 96),#196496, rgb(44, 43, 43)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( rgb(97, 96, 96), #196496, rgb(97, 96, 96)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(97, 96, 96), #196496, rgb(97, 96, 96)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgb(41, 40, 40),#196496, rgb(41, 40, 40)); /* Standard syntax */
     box-shadow: 2px 2px 1px rgba(56, 56, 56, 0.719); 
 
     display: inline-block;
@@ -101,17 +101,17 @@
 
 .shopDivs1 {
     @include transform-style(preserve-3d);
-    @include transition(1.8s);
+    @include transition(1s);
         &:hover{
             @include transform(rotatey(-180deg));
         }
     height: 45vh;
     width: 45vh;
     background: rgba(46, 42, 42, 0.96); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgb(97, 96, 96),#0760fa, rgb(44, 43, 43)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( rgb(97, 96, 96), #0760fa, rgb(97, 96, 96)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgb(97, 96, 96), #0760fa, rgb(97, 96, 96)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient( rgb(41, 40, 40),#0760fa, rgb(41, 40, 40)); /* Standard syntax */
+    background: -webkit-linear-gradient(rgb(97, 96, 96),#196496, rgb(44, 43, 43)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( rgb(97, 96, 96), #196496, rgb(97, 96, 96)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(97, 96, 96), #196496, rgb(97, 96, 96)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgb(41, 40, 40),#196496, rgb(41, 40, 40)); /* Standard syntax */
     box-shadow: 2px 2px 1px rgba(56, 56, 56, 0.719); 
 
     display: inline-block;
@@ -154,7 +154,7 @@
     @include transform(rotatey(-180deg));
   z-index: 1;
   word-wrap: break-word;
-  line-height: 1.04;
+  line-height: 1.15;
   text-align: center;
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -175,21 +175,21 @@
     justify-content: center;
     align-items: center;
     margin: 1vh;
+    
 }
 
 .purchase {
-    height: 5vh;
+    height: 6vh;
     width: 60%;
     border-radius: 5px;
     background-color: rgb(54, 54, 54);
-    text-shadow: 1.5px 1.5px rgb(32, 32, 32);
     color: white;
     display: flex;
     justify-content: center;
     font-family: 'Buda', cursive;
     align-items: center;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 400;
         &:hover {
             background-color: rgb(16, 218, 16);

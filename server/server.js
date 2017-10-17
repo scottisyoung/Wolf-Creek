@@ -5,8 +5,9 @@ const express = require('express'),
       session = require('express-session'),
       passport = require('passport'),
       cors = require('cors'),
-      Auth0Strategy = require('passport-auth0');
-      controller = require('./controller/controller');
+      Auth0Strategy = require('passport-auth0'),
+      controller = require('./controller/controller'),
+      stripe = require('stripe')('sk_test_ya7gO8Vvgej5ffnOj9mgK5ZL');
 
 
 // DATABASE
@@ -89,19 +90,40 @@ app.get('/api/all_products', controller.all_products);
 app.get('/api/select_product', controller.select_product);
 app.post('/api/cart', controller.cart);
 
-app.delete('/api/cart/:id/:userid', controller.deleteItems);
-
-// POST TO ORDERS
-
-// app.post('/api/newOrder', (req, res) => {
-//     let { shipname, billname, total, orderdate, status, userid } = req.body;
-//     req.app.get('db').createNewOrder([shipname, billname, total, orderdate, status, userid]).then(order => {
-//         res.status(200).json('It Worked')
-//     })
-// })
+app.delete('/api/cart/:id', controller.deleteItems);
 
 
+// STRIPE
 
+app.post('/api/payment', function (req, res, next) {
+console.log('yup this is it', req.body)
+const amountArray = req.body.amount.toString().split('');
+const pennies = [];
+for (var i = 0; i < amountArray.length; i++) {
+  if (amountArray[i] === ".") {
+    if (typeof amountArray[i + 1] === "string") {
+      pennies.push(amountArray[i + 1]);
+    } else {
+      pennies.push("0");
+    }
+    if (typeof amountArray[i + 2] === "string") {
+      pennies.push(amountArray[i + 2]);
+    } else {
+      pennies.push("0");
+    }
+    break;
+  } else {
+    pennies.push(amountArray[i])
+  }
+}
+const convertedAmt = parseInt(pennies.join(''));
+const charge = stripe.charges.create({
+  amount: convertedAmt, // amount in cents, again
+  currency: 'usd',
+  source: req.body.token.id,
+  description: 'Test charge from react app'
+}, function (err, charge) {
+  if (err) return res.sendStatus(500)
 
-
-
+}) 
+})

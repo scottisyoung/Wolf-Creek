@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './navbar.css';
 import {Link} from 'react-router-dom';
 import image from '../../Images/Icons/shopping-cart-24.ico';
+import { connect } from 'react-redux';
 
 class Navbar extends Component {
     render() {
@@ -24,7 +25,16 @@ class Navbar extends Component {
                         <div className="navLink"><Link className="Link" to='/store'> STORE </Link></div>
                         <div className="navLink1"><a className="auth1" href={process.env.REACT_APP_LOGIN}>Login</a></div>
                         <div className ="navLink2"><a className="auth2" href={process.env.REACT_APP_LOGOUT}>Logout</a></div>
-                        <div className ="cart"><Link className="cart2" to='/cart'><img src={image}/></Link></div>
+                        <div className ="cart"><Link className="cart2" to='/cart'><img src={image}/>
+                        <div className="badgenumber">
+                            <div>
+                               {
+                                    this.props.cart.reduce((sum, items) => {
+                                    return sum + (items.qty)
+                                    },0)
+                                }
+                            </div>   
+                        </div></Link></div>
                     </div>
                 </div>  
             </div>
@@ -32,4 +42,9 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+function mapStateToProps(state) {
+    return {
+        cart: state.cart
+    }
+}
+export default connect(mapStateToProps)(Navbar)

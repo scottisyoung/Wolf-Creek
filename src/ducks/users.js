@@ -29,16 +29,16 @@ export function addToCart(product) {
 
     return {
         type: ADD_TO_CART,
-        payload: axios.post('/api/cart', {product_id: product.id, userid: 1}).then((cart)=>{
+        payload: axios.post('/api/cart', {product_id: product.id}).then((cart)=>{
             return cart.data
         }).catch(err => console.log(err))
     }
 }
 
-export function removeFromCart(productIndex, userid) {
+export function removeFromCart(productIndex) {
     return {
         type: REMOVE_FROM_CART,
-        payload: axios.delete(`/api/cart/${productIndex}/1`).then((cart) => {
+        payload: axios.delete(`/api/cart/${productIndex}`).then((cart) => {
             return cart.data
         }).catch(err => console.log(err))
     }
