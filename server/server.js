@@ -7,7 +7,7 @@ const express = require('express'),
       cors = require('cors'),
       Auth0Strategy = require('passport-auth0'),
       controller = require('./controller/controller'),
-      stripe = require('stripe')('sk_test_ya7gO8Vvgej5ffnOj9mgK5ZL');
+      stripe = require('stripe') (process.env.STRIPE_SECRET);
 
 
 // DATABASE
