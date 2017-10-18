@@ -40,9 +40,8 @@ class Events extends Component {
                                 <div className="imgalign2"><a href="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg"><img className="laimg" src="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg?zoom=1.25&resize=240%2C311"/></a></div> 
                         </div>
 
-                        <div>
-                                <iframe className="calendar" src="https://calendar.google.com/calendar/embed?src=3d2qpgeeghdu7kqh7ppld6j7sg%40group.calendar.google.com&ctz=America/PagosaSprings" 
-                                width="96%" height="690" frameborder="0" scrolling="no"></iframe>
+                        <div className="calendar">
+                        <iframe src="https://calendar.google.com/calendar/embed?src=3d2qpgeeghdu7kqh7ppld6j7sg%40group.calendar.google.com&ctz=America/Denver" style={{border: 0}} width="1480" height="690" frameBorder="0" scrolling="no"></iframe>
                         </div>
 
                         <div className="eventsInfo3">

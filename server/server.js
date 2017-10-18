@@ -16,6 +16,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
+app.use( express.static( `${__dirname}/../build` ) );
 
 massive( process.env.CONNECTION_STRING ).then(db => {
     app.set('db', db)
@@ -67,7 +68,7 @@ passport.deserializeUser( function(userId, done) {
 app.get('/auth', passport.authenticate('auth0'));
 
 app.get('/auth/callback', passport.authenticate('auth0',{
-    successRedirect: 'http://localhost:3000/#/Store/',
+    successRedirect: process.env.SUCCESS_REDIRECT,
     failureRedirect: '/auth'
 }))
 
@@ -81,7 +82,7 @@ app.get('/auth/user', (req,res) => {
 
 app.get('/auth/logout', (req, res, next) => {
     req.session.destroy();
-    res.redirect(302, 'https://scottyoung.auth0.com/v2/logout?federated?returnTo=http%3A%2F%2Fwww.example.com&client_id=67shXAGzWudTEpWyxI4B625W0FVR8FgJ')
+    res.redirect(302, process.env.LOGOUT_REDIRECT)
 })
 
 // SHOP ENDPOINTS
@@ -126,4 +127,12 @@ const charge = stripe.charges.create({
   if (err) return res.sendStatus(500)
 
 }) 
+})
+
+
+// Hosting
+
+const path = require('path')
+app.get('*', (req, res)=>{
+  res.sendFile(path.join(__dirname, '../build/index.html'));
 })

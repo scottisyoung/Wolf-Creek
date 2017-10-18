@@ -5,7 +5,7 @@ import {getUser} from './../../ducks/users.js';
 import axios from 'axios';
 import {removeFromCart} from '../../ducks/users.js';
 import StripeCheckout from 'react-stripe-checkout';
-import stripe from './StripeKey/stripeKey.js';
+// import stripe from './StripeKey/stripeKey.js';
 
 
 class Cart extends Component {
@@ -74,7 +74,7 @@ class Cart extends Component {
                     <div>
                         <StripeCheckout
                             token={this.onToken}
-                            stripeKey={ stripe }
+                            stripeKey={process.env.REACT_APP_STRIPE_PUBLIC }
                             amount={total * 100}
                         />
                     </div>

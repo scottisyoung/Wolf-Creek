@@ -8,7 +8,6 @@ class Navbar extends Component {
     render() {
         return (
             <div>
-
                 <div className="navbar">    
                     <div className="navParent">
                         <Link className="Link" to='/'>

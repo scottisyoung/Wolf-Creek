@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
 import axios from 'axios';
-import video from "./../../Video/wolf-creek.mp4";
 
 class Home extends Component {
     constructor(props) {
@@ -21,7 +20,7 @@ class Home extends Component {
       }
 
       componentDidMount() {
-        axios.get('http://api.wunderground.com/api/8f0608c41c2f0427/forecast/q/CO/Pagosa_Springs.json').then(res => {
+        axios.get(`https://api.wunderground.com/api/${process.env.REACT_APP_WEATHER}/forecast/q/CO/Pagosa_Springs.json`).then(res => {
         this.setState({
                 weather: res.data.forecast.simpleforecast.forecastday
             
@@ -59,8 +58,8 @@ class Home extends Component {
 
                     <div className="videoDiv">
                         <video loop muted preload="auto" autoPlay> 
-                            <source src={video} type="video/mp4" />
-                        </video>
+                            <source src="https://i.imgur.com/3oAK8x3.mp4" type="video/mp4" /> 
+                        </video> 
                     </div> 
 
                     <div className="slideParent">
