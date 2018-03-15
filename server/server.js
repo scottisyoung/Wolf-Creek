@@ -85,6 +85,7 @@ app.get('/auth/logout', (req, res, next) => {
     res.redirect(302, process.env.LOGOUT_REDIRECT)
 })
 
+
 // SHOP ENDPOINTS
 
 app.get('/api/all_products', controller.all_products);

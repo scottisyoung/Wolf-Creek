@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './home.css';
 import axios from 'axios';
+import video from "../../Videos/wolf-creek.mp4";
 
 class Home extends Component {
     constructor(props) {
@@ -58,7 +59,7 @@ class Home extends Component {
 
                     <div className="videoDiv">
                         <video loop muted preload="auto" autoPlay> 
-                            <source src="https://i.imgur.com/3oAK8x3.mp4" type="video/mp4" /> 
+                            <source src={video} type="video/mp4" /> 
                         </video> 
                     </div> 
 

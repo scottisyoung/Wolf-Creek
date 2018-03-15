@@ -72,7 +72,7 @@ module.exports = {
 
 deleteItems:(req, res) => {
     req.app.get('db').get_cart([req.user.id]).then((order) => {
-        console.log(order[0].id, req.params.id)
+        // console.log(order[0].id, req.params.id)
     req.app.get('db').deleteItems([req.params.id, order[0].id]).then(() => {
         req.app.get('db').return_cart([order[0].id]).then((cartItems)=>{
             res.send(cartItems)

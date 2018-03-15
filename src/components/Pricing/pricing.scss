@@ -18,11 +18,11 @@ $center-margin: 0px auto;
   }
 
   #aspen {
-    @include parallax-background("https://i.imgur.com/ctk87CH.jpg")
+    @include parallax-background("../../Images/Pictures/aspen.jpg")
   }
 
   #snow { 
-    @include parallax-background("https://i.imgur.com/vTUoyT9.jpg")
+    @include parallax-background("../../Images/Pictures/paul-jarvis-19.jpg")
   }
 
   #ski {

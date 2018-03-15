@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './events.css';
 
+
 class Events extends Component {
     render() {
     return (
@@ -23,7 +24,7 @@ class Events extends Component {
                                         <li>March: 25th, 28th<br /></li>
                                         <li>April: 1st<br /></li>
                                 </div>
-                                <div className="imgalign"><a href="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg"><img className="laimg" src="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg?zoom=1.25&resize=240%2C311"/></a></div>
+                                <div className="imgalign1"><a href="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg"><img className="laimg" src="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg?zoom=1.25&resize=240%2C311"/></a></div>
                         </div>
 
                         <div className="eventsInfo2">

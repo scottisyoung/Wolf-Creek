@@ -1,5 +1,5 @@
 .backgroundvacation {
-  background-image: url(http://orecommunications.com/wordpress/wp-content/uploads/2012/11/downtown_winter.jpg);
+  background-image: url(../../Images/Pictures/downtown_winter.jpeg);
   background-size: cover;
   height: 100vh;
   width: 100%; }
@@ -37,7 +37,7 @@
   opacity: 0.4; }
 
 .backgroundfootVacation {
-  background-image: url(https://www.uncovercolorado.com/wp-content/uploads/2014/12/Pagosa-Springs-Hot-Air-Balloons-Lake-1200x600.jpg);
+  background-image: url(../../Images/Pictures/Pagosa-Springs-Hot-Air-Balloons-Lake.jpeg);
   background-size: cover;
   height: 70vh;
   width: 100%;
@@ -89,7 +89,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(http://blog.coloradoski.com/wp-content/uploads/2013/03/02202013_WinterPark_BradTorchia_01-650x407.jpg);
+  background-image: url(../../Images/Pictures/Colorado-Wolf-Creek-Pass.jpeg);
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -105,7 +105,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(https://photos.smugmug.com/Travel/Pagosa-Springs-Colorado/i-hdwxfGJ/0/6467cf64/L/The%20Springs%20Resort%209940W8C-L.jpg);
+  background-image: url(../../Images/Pictures/TheSpringsResort.jpeg);
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -121,7 +121,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(http://epmgaa.media.clients.ellingtoncms.com/img/photos/2013/06/04/restaurant-fine-dining-1.jpg);
+  background-image: url(../../Images/Pictures/restaurant-fine-dining-1.jpg);
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -198,7 +198,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(https://img1.onthesnow.com/image/la/13/13644.jpg);
+  background-image: url(../../Images/Pictures/ski.jpg);
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -214,7 +214,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(https://ssl.c.photoshelter.com/img-get2/I0000B1v4HcPY3uQ/fit=1000x750/Molas-Pass.jpg);
+  background-image: url(../../Images/Pictures/Molas-Pass.jpg);
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -230,7 +230,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(http://childcareaware.org/wp-content/uploads/2016/03/shutterstock_201736367-e1467162959831.jpg);
+  background-image: url(../../Images/Pictures/child.jpg);
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -244,7 +244,8 @@
   height: 45vh;
   width: 69vh;
   margin: 0.2vh;
-  background-color: #4f7f99; }
+  background-color: #4f7f99;
+  overflow: auto; }
   .divVaca4 h4 {
     margin-bottom: 1vh;
     margin-left: 5vh;
