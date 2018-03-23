@@ -14,23 +14,23 @@ $center-margin: 0px auto;
   }
 
   #snowboard {
-    @include parallax-background("../../Images/Pictures/johannes-waibel-4298.jpg")
+    @include parallax-background("http://res.cloudinary.com/scottisyoung/image/upload/v1521752714/Wolf%20Creek/johannes-waibel-4298.jpg")
   }
 
   #aspen {
-    @include parallax-background("../../Images/Pictures/aspen.jpg")
+    @include parallax-background("http://res.cloudinary.com/scottisyoung/image/upload/v1521752714/Wolf%20Creek/aspen.jpg")
   }
 
   #snow { 
-    @include parallax-background("../../Images/Pictures/paul-jarvis-19.jpg")
+    @include parallax-background("http://res.cloudinary.com/scottisyoung/image/upload/v1521752715/Wolf%20Creek/paul-jarvis-19.jpg")
   }
 
   #ski {
-    @include parallax-background("../../Images/Pictures/pexels-photo-326057.jpeg")
+    @include parallax-background("http://res.cloudinary.com/scottisyoung/image/upload/v1521752715/Wolf%20Creek/pexels-photo-326057.jpg")
   }
 
   #mountain {
-    @include parallax-background("../../Images/Pictures/freerider-skiing-ski-sports-47356.jpeg")
+    @include parallax-background("http://res.cloudinary.com/scottisyoung/image/upload/v1521752713/Wolf%20Creek/freerider-skiing-ski-sports-47356.jpg")
   }
 
   #snowboard {

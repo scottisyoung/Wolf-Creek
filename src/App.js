@@ -47,12 +47,8 @@ class App extends Component {
                   <Route path='/school' component={School}/> */}
                   <Route path='/cart' component={Cart}/>
                 </Switch>
+              <Footer />
           </div>
-          
-          <div>
-            <Footer />
-          </div>
-
       </div>
 
 

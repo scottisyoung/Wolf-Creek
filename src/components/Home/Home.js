@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
 import axios from 'axios';
-import video from "../../Videos/wolf-creek.mp4";
 
 class Home extends Component {
     constructor(props) {
@@ -59,7 +58,7 @@ class Home extends Component {
 
                     <div className="videoDiv">
                         <video loop muted preload="auto" autoPlay> 
-                            <source src={video} type="video/mp4" /> 
+                            <source src="http://res.cloudinary.com/scottisyoung/video/upload/v1521753792/WC%20Video/wolf-creek.mp4" type="video/mp4" /> 
                         </video> 
                     </div> 
 

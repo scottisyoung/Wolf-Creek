@@ -16,11 +16,11 @@ class Footer extends Component {
             <div className="footer">    
              
                 <div className="socialMedia">
-                        <div><a href="https://www.facebook.com/wolfcreekskiarea/"><img className="socialLink" src={facebook} alt="facebook-icon"/></a></div>
-                        <div><a href="https://www.instagram.com/explore/locations/216717777/wolf-creek-ski-resort/"><img className="socialLink" src={instagram} alt="instagram-icon"/></a></div>
-                        <div><a href="https://twitter.com/wolfcreekski2?lang=en"><img className="socialLink" src={twitter} alt="twitter-icon"/></a></div>
-                        <div><a href="https://www.youtube.com/channel/UCyB1OLcKwrg21ltMiKeo2ug"><img className="socialLink" src={youtube} alt="youtube-icon"/></a></div>
-                        <div><a href="https://www.yelp.com/biz/wolf-creek-ski-area-pagosa-springs"><img className="socialLink" src={yelp} alt="yelp-icon"/></a></div>
+                        <div><a href="https://www.facebook.com/wolfcreekskiarea/" target="_blank"><img className="socialLink" src={facebook} alt="facebook-icon"/></a></div>
+                        <div><a href="https://www.instagram.com/explore/locations/216717777/wolf-creek-ski-resort/" target="_blank"><img className="socialLink" src={instagram} alt="instagram-icon"/></a></div>
+                        <div><a href="https://twitter.com/wolfcreekski2?lang=en" target="_blank"><img className="socialLink" src={twitter} alt="twitter-icon"/></a></div>
+                        <div><a href="https://www.youtube.com/channel/UCyB1OLcKwrg21ltMiKeo2ug" target="_blank"><img className="socialLink" src={youtube} alt="youtube-icon"/></a></div>
+                        <div><a href="https://www.yelp.com/biz/wolf-creek-ski-area-pagosa-springs" target="_blank"><img className="socialLink" src={yelp} alt="yelp-icon"/></a></div>
                         <Link to='gmap'><div><img className="socialLink" src={location} alt="map-icon"/></div></Link>
                 </div>
                 

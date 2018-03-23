@@ -1,5 +1,5 @@
 .CartBackground {
-  background-image: url(../../Images/Pictures/mountain.jpg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752715/Wolf%20Creek/mountain.jpg");
   background-size: cover;
   height: 200vh;
   width: 100%; }

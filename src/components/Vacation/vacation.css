@@ -1,5 +1,5 @@
 .backgroundvacation {
-  background-image: url(../../Images/Pictures/downtown_winter.jpeg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752713/Wolf%20Creek/downtown_winter.jpg");
   background-size: cover;
   height: 100vh;
   width: 100%; }
@@ -37,7 +37,7 @@
   opacity: 0.4; }
 
 .backgroundfootVacation {
-  background-image: url(../../Images/Pictures/Pagosa-Springs-Hot-Air-Balloons-Lake.jpeg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752714/Wolf%20Creek/Pagosa-Springs-Hot-Air-Balloons-Lake.jpg");
   background-size: cover;
   height: 70vh;
   width: 100%;
@@ -89,7 +89,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(../../Images/Pictures/Colorado-Wolf-Creek-Pass.jpeg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752713/Wolf%20Creek/Colorado-Wolf-Creek-Pass.jpg");
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -105,7 +105,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(../../Images/Pictures/TheSpringsResort.jpeg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752711/Wolf%20Creek/TheSpringsResort.jpg");
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -121,7 +121,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(../../Images/Pictures/restaurant-fine-dining-1.jpg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752715/Wolf%20Creek/restaurant-fine-dining-1.jpg");
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -198,7 +198,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(../../Images/Pictures/ski.jpg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752710/Wolf%20Creek/ski.jpg");
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -214,7 +214,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(../../Images/Pictures/Molas-Pass.jpg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752714/Wolf%20Creek/Molas-Pass.jpg");
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -230,7 +230,7 @@
   margin: 0.2vh;
   margin-bottom: 2vh;
   background-color: gray;
-  background-image: url(../../Images/Pictures/child.jpg);
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752712/Wolf%20Creek/child.jpg");
   background-size: cover;
   opacity: 1;
   display: flex;

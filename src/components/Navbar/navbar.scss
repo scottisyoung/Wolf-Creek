@@ -1,13 +1,14 @@
 .navbar {
-    height: 16vh;
+    height: 180px;
     width: 100%;
-    position: relative;
+    position: fixed;
     background: rgba(27, 24, 24, 0.96);
         background: rgba(27, 24, 24, 0.96); /* For browsers that do not support gradients */
         background: -webkit-linear-gradient(black,#444343); /* For Safari 5.1 to 6.0 */
         background: -o-linear-gradient(black, #444343); /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient(black, #444343); /* For Firefox 3.6 to 15 */
         background: linear-gradient(black, #444343); /* Standard syntax */
+    z-index: 200;
 }
 
     .navParent {
@@ -16,19 +17,20 @@
 	    flex-wrap: nowrap;
 	    justify-content: center;
         align-items: center;
+        position: relative;
             .logo {
                 height: 70px;
-                width: 80px;
+                width: 70px;
                 position: absolute;
-                top: -8vh;
-                left: 14vh;
+                top: -80px;
+                left: 110px;
             }
                 .logoTitle {
                     position: absolute;
-                    top: 10vh;
-                    left: 6vh;
+                    top: 100px;
+                    left: 110px;
                     font-size: 1.6em;
-                    color: #1883c2;
+                    color: #1396e2;
                     font-weight: 700;
                     text-shadow: 1px 1.5px rgb(36, 36, 36);
                     letter-spacing: 1.5px;
@@ -42,8 +44,12 @@
                     .navLink {
                         font-size: 1.2em;
                         font-weight: 400;
-                        margin: 3vh;
-                        margin-top: 8vh;
+                        margin: 30px;
+                        margin-top: 100px;
+                        width: 100px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                     }
                         .Link {
                             text-decoration: none;
@@ -54,6 +60,7 @@
                             &:hover {
                                 color: #0bf8ec;
                                 font-weight: 500;
+                                transition: 1.5s;
                             }
                         }
 }
@@ -61,8 +68,8 @@
 .navLink1 {
     font-size: 1.1em;
     font-weight: 500;
-    margin-left: 80vh;
-    margin-top: 1.8vh;
+    margin-left: 730px;
+    margin-top: 30px;
     position: absolute;
     text-shadow: 1px 1.5px rgb(36, 36, 36);
 }
@@ -70,10 +77,11 @@
 .navLink2{
     font-size: 1.1em;
     font-weight: 500;
-    margin-top: 1.8vh;
-    margin-left: 90vh;
+    margin-top: 30px;
+    margin-left: 800px;
     position: absolute;
 }
+
 .auth1 {
     color: #1883c2;
     text-decoration: none;
@@ -100,22 +108,70 @@
 
 .cart {
     position: absolute;
-    margin-top: 1.8vh;
-    margin-left: 69vh;
+    margin-top: 30px;
+    margin-left: 650px;
 }
 
 .badgenumber {
     color: #00f8e8;
     font-size: 1em;
     font-weight: bold;
-    position: absolute;
-    margin-top: -2vh;
-    margin-left: 2.8vh;
+    margin-top: -20px;
+    margin-left: 23px;
     background-color: #164561;
-    height: 2.5vh;
-    width: 2.5vh;
+    height: 20px;
+    width: 20px;
     border-radius: 10vh;
     border: 1px solid silver;
     box-shadow: 0.3px 0.3px 0.5px rgb(223, 223, 223);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1850px) {
+    .navParent {
+        .logoTitle {
+            left: 60px;
+        }
+
+        .navLink {
+        margin: 30px;
+        margin-top: 100px;
+        width: 50px;
+        }
+    }
+    .navLink1 {
+        margin-left: 630px;
+    }
+    .navLink2 {
+        margin-left: 700px;
+    }
+    .cart {
+        margin-left: 550px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .navParent {
+        .logoTitle {
+            left: 30px;
+        }
+
+        .navLink {
+        margin: 30px;
+        margin-top: 100px;
+        width: 30px;
+        }
+    }
+    .navLink1 {
+        margin-left: 530px;
+    }
+    .navLink2 {
+        margin-left: 600px;
+    }
+    .cart {
+        margin-left: 450px;
+    }
 }

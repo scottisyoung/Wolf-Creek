@@ -23,16 +23,15 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 4vh; }
+  margin-top: 20px; }
 
 .footerList {
-  margin-right: 15vh; }
+  margin-right: 100px; }
 
 .footLink {
   font-size: 1.2em;
   text-decoration: none;
   list-style-type: none;
-  margin-bottom: 3vh;
   color: #e5e7e7;
   font-family: 'Open Sans Condensed', sans-serif;
   display: flex;
@@ -50,12 +49,12 @@
   align-items: baseline;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 35px; }
+  margin-top: 25px; }
 
 .socialLink {
   height: 50px;
   width: 50px;
-  margin-right: 5vh;
+  margin-right: 40px;
   text-decoration: none; }
 
 .Link {
