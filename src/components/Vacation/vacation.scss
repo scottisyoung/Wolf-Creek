@@ -1,487 +1,369 @@
 .backgroundvacation {
     background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752713/Wolf%20Creek/downtown_winter.jpg");
     background-size: cover;
-    height: 100vh;
+    margin-top: 180px;
+    height: 712px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .backgroundvacationbelow {
-    margin-top: 0vh;
-    height: 235vh;
+    height: 1800px;
     width: 100%;
     background-color: rgb(226, 219, 219); /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(rgb(226, 219, 219),#b6b5b5); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgb(226, 219, 219), #b6b5b5); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgb(226, 219, 219), #b6b5b5); /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgb(226, 219, 219), #b6b5b5); /* Standard syntax */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
-
 
 .centerVacaTitle {
-    position: absolute;
-    top: 113vh;
-    right: 5%;
+    margin-top: -50px;
     color: rgb(255, 255, 255);
     font-size: 60px;
-    opacity: 0.7;
-}
-
-.centerVacationTitle {
-    position: absolute;
-    top: 135vh;
-    right: 9%;
-    color: rgba(128, 128, 128, 0.192);
-    font-size: 40px;
-    text-shadow: 0.5px 0.5px rgb(75, 75, 75);
-    opacity: 0.4;
-}
-
-.backgroundfootVacation {
-    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752714/Wolf%20Creek/Pagosa-Springs-Hot-Air-Balloons-Lake.jpg");
-    background-size: cover;
-    height: 70vh;
-    width: 100%;
-    opacity: 0.5;
+    text-shadow: 1px 1px 1px rgb(49, 49, 49);
 }
 
 .vacationFlex2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
-    margin-top: 45vh;
-    position: absolute;
-}
-
-.overLay1 {
-    position: absolute;
-    z-index: 1;
-    top: 0.2vh;
-    left: 0.6vh;
-    height: 40vh;
-    width: 69vh;
-    background-color: rgba(10, 163, 18, 0.527);
-        &:hover {
-            opacity: 0;
-        }
-}
-
-.overLay2 {
-    position: absolute;
-    z-index: 1;
-    top: 0.2vh;
-    height: 40vh;
-    width: 69vh;
-    background-color: rgba(10, 163, 18, 0.527);
-        &:hover {
-            opacity: 0;
-        }
-}
-
-.overLay3 {
-    position: absolute;
-    z-index: 1;
-    top: 0.2vh;
-    right: 0.6vh;
-    height: 40vh;
-    width: 69vh;
-    background-color: rgba(10, 163, 18, 0.527);
-        &:hover {
-            opacity: 0;
-        }
 }
 
 .DivVaca1 {
-    height: 40vh;
-    width: 69vh;
-    margin: 0.2vh;
-    margin-bottom: 2vh;
+    height: 450px;
+    width: 750px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
     background-color: gray;
     background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752713/Wolf%20Creek/Colorado-Wolf-Creek-Pass.jpg");
     background-size: cover;
     opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px rgb(75, 75, 75);
     font-size: 35px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .DivVaca2 {
-    height: 40vh;
-    width: 69vh;
-    margin: 0.2vh;
-    margin-bottom: 2vh;
+    height: 450px;
+    width: 750px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
     background-color: gray;
-    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752711/Wolf%20Creek/TheSpringsResort.jpg");
+    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521843572/wesley-tingey-176386-unsplash.jpg");
     background-size: cover;
     opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px rgb(75, 75, 75);
     font-size: 35px;
-
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .DivVaca3 {
-    height: 40vh;
-    width: 69vh;
-    margin: 0.2vh;
-    margin-bottom: 2vh;
+    height: 450px;
+    width: 750px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
     background-color: gray;
     background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752715/Wolf%20Creek/restaurant-fine-dining-1.jpg");
     background-size: cover;
     opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px rgb(75, 75, 75);
     font-size: 35px;
-}
-
-.DivVaca4 {
-    height: 45vh;
-    width: 69vh;
-    margin: 0.2vh;
-    background-color: rgb(68, 145, 187);
-    overflow: auto;
-        h4 {
-            margin-bottom: 1vh;
-            margin-left: 5vh;
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #0bf8ec;
-            text-shadow: 1px 1px rgb(75, 75, 75);
-        }
-
-        li {
-            list-style-type: none;
-            margin-left: 8vh;
-            font-size: 1.1em;
-            line-height: 3vh;
-            color: white;
-            text-shadow: 1px 1px rgb(75, 75, 75);
-        }
-    
-}
-
-.vacationFlex {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(56, 56, 56);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin-top: 145vh;
-    position: absolute;
+}
+
+.DivVaca4 {
+    height: 450px;
+    width: 750px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: gray;
+    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752712/Wolf%20Creek/child.jpg");
+    background-size: cover;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(75, 75, 75);
+    font-size: 35px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DivVaca5 {
+    height: 450px;
+    width: 750px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: gray;
+    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752710/Wolf%20Creek/ski.jpg");
+    background-size: cover;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(75, 75, 75);
+    font-size: 35px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DivVaca6 {
+    height: 450px;
+    width: 750px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: gray;
+    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752714/Wolf%20Creek/Molas-Pass.jpg");
+    background-size: cover;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(75, 75, 75);
+    font-size: 35px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .overlay1 {
     position: absolute;
     z-index: 1;
-    top: 0.2vh;
-    left: 0.6vh;
-    height: 40vh;
-    width: 69vh;
-    background-color: rgba(197, 105, 13, 0.589);
+    top: 0;
+    left: 0;
+    height: 450px;
+    width: 750px;
+    opacity: 0;
+    background-color: rgb(10, 89, 163);
         &:hover {
-            opacity: 0;
+            opacity: 1;
         }
 }
 
-.overlay2 {
-    position: absolute;
-    z-index: 1;
-    top: 0.2vh;
-    height: 40vh;
-    width: 69vh;
-    background-color: rgba(197, 105, 13, 0.589);
-        &:hover {
-            opacity: 0;
-        }
-}
-
-.overlay3 {
-    position: absolute;
-    z-index: 1;
-    top: 0.2vh;
-    right: 0.6vh;
-    height: 40vh;
-    width: 69vh;
-    background-color: rgba(197, 105, 13, 0.589);
-        &:hover {
-            opacity: 0;
-        }
-}
-
-.divVaca1 {
-    height: 40vh;
-    width: 69vh;
-    margin: 0.2vh;
-    margin-bottom: 2vh;
-    background-color: gray;
-    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752710/Wolf%20Creek/ski.jpg");
-    background-size: cover;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px rgb(75, 75, 75);
-    font-size: 35px;
-}
-
-.divVaca2 {
-    height: 40vh;
-    width: 69vh;
-    margin: 0.2vh;
-    margin-bottom: 2vh;
-    background-color: gray;
-    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752714/Wolf%20Creek/Molas-Pass.jpg");
-    background-size: cover;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px rgb(75, 75, 75);
-    font-size: 35px;
-
-}
-
-.divVaca3 {
-    height: 40vh;
-    width: 69vh;
-    margin: 0.2vh;
-    margin-bottom: 2vh;
-    background-color: gray;
-    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752712/Wolf%20Creek/child.jpg");
-    background-size: cover;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px rgb(75, 75, 75);
-    font-size: 35px;
-}
-
-.divVaca4 {
-    height: 45vh;
-    width: 69vh;
-    margin: 0.2vh;
-    background-color: rgb(79, 127, 153);
-    overflow: auto;
+.directions {
+    height: 450px;
+    width: 750px;
         h4 {
-            margin-bottom: 1vh;
-            margin-left: 5vh;
-            font-size: 1.2em;
+            margin-top: 8px;
+            margin-bottom: 5px;
+            margin-left: 20px;
+            font-size: 16px;
             font-weight: bold;
             color: #0bf8ec;
             text-shadow: 1px 1px rgb(75, 75, 75);
+            line-height: 1.2em;
         }
 
-        li {
-            list-style-type: none;
-            margin-left: 8vh;
-            font-size: 1.1em;
-            line-height: 3vh;
-            color: white;
+        .liParent {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .liTitle {
+            width: 100px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            color: rgb(243, 128, 20);
+            font-size: 14px;
+            margin-left: 60px;
+            margin-right: 30px;
+        }
+        .liDes {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            font-size: 14px;
+        }
+          
+}
+
+.directions2 {
+    height: 450px;
+    width: 750px;
+    overflow: auto;
+        h4 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #0bf8ec;
             text-shadow: 1px 1px rgb(75, 75, 75);
+            line-height: 1.3em;
         }
-    
+        .liParent {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .liTitle {
+            width: 250px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            color: rgb(243, 128, 20);
+            font-size: 16px;
+            margin-left: 60px;
+            margin-right: 10px;
+            line-height: 1.3em;
+        }
+        .liDes {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            font-size: 16px;
+            line-height: 1.3em;
+        }
+        .liDes2 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            font-size: 16px;
+            line-height: 1.3em;
+            margin-left: 60px;
+            margin-right: 10px;
+        }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.vacationBackground {
-    background-image:url(http://20dqe434dcuq54vwy1wai79h.wpengine.netdna-cdn.com/wp-content/uploads/2016/09/The-Springs-Resort-and-Spa-OutThere-Colorado-1.jpg);
+.backgroundfootVacation {
+    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752714/Wolf%20Creek/Pagosa-Springs-Hot-Air-Balloons-Lake.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 700px;
     width: 100%;
+    color: rgb(13, 56, 94);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    overflow: auto;
-}
-
-.vacationdivs1 {
-    height: 45vh;
-    width: 25%;
-    margin-top: 8vh;
-    margin-right: 1vh;
-    margin-left: 8vh;
-    margin-bottom: 4vh;
-    background-image:url(http://orecommunications.com/wordpress/wp-content/uploads/2012/11/downtown_winter.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    border-radius: 8vh;
-}
-
-.vacationdivs2 {
-    height: 45vh;
-    width: 25%;
-    margin-top: 8vh;
-    margin-right: 8vh;
-    margin-left: 8vh;
-    margin-bottom: 4vh;
-    background-image:url(https://photos.smugmug.com/Travel/Pagosa-Springs-Colorado/i-hdwxfGJ/0/6467cf64/L/The%20Springs%20Resort%209940W8C-L.jpg);
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    border-radius: 8vh;
-}
-
-.vacationdivs3 {
-    height: 45vh;
-    width: 25%;
-    margin-top: 8vh;
-    margin-right: 8vh;
-    margin-left: 8vh;
-    margin-bottom: 4vh;
-    background-image:url(http://epmgaa.media.clients.ellingtoncms.com/img/photos/2013/06/04/restaurant-fine-dining-1.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    border-radius: 8vh;
-}
-
-.vacationdivs4 {
-    height: 45vh;
-    width: 25%;
-    margin-top: 8vh;
-    margin-right: 8vh;
-    margin-left: 8vh;
-    margin-bottom: 4vh;
-    background-image:url(https://img1.onthesnow.com/image/la/13/13644.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    border-radius: 8vh;
-}
-
-.vacationdivs5 {
-    height: 45vh;
-    width: 25%;
-    margin-top: 8vh;
-    margin-right: 8vh;
-    margin-left: 8vh;
-    margin-bottom: 4vh;
-    background-image:url(https://ssl.c.photoshelter.com/img-get2/I0000B1v4HcPY3uQ/fit=1000x750/Molas-Pass.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    border-radius: 8vh;
-}
-
-.vacationdivs6 {
-    height: 45vh;
-    width: 25%;
-    margin-top: 8vh;
-    margin-right: 8vh;
-    margin-left: 8vh;
-    margin-bottom: 4vh;
-    background-image:url(http://childcareaware.org/wp-content/uploads/2016/03/shutterstock_201736367-e1467162959831.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    border-radius: 8vh;
-}
-
-.vacationdivs7 {
-    height: 45vh;
-    width: 25%;
-    margin-top: 8vh;
-    margin-right: 8vh;
-    margin-left: 8vh;
-    margin-bottom: 4vh;
-    background-image:url(https://usatunofficial.files.wordpress.com/2015/08/08-skb-skier.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    border-radius: 8vh;
-}
-
-
-
-.vacationDivs {
-    height: 45vh;
-    width: 50%;
-    margin-top: 3vh;
-    margin-right: 10vh;
-    margin-left: 10vh;
-    background-color: rgba(1, 7, 37, 0.712);
-    display: flex;
-    align-items: baseline;
     justify-content: flex-start;
-    border-radius: 6vh;
-    overflow: auto;
-    padding: 1vh;
-    padding-left: 5vh;
-    list-style-type: none;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1.5px rgb(24, 24, 24);
-    font-size: 1.2em;
-    
+    align-items: flex-start;
 }
 
-.vacationDivs h3 {
-    color: rgb(0, 247, 255);
+.footTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 210px;
+    margin-left: 60px;
+    color: white;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px black;
 }
 
-.vacationTitle {
-    margin-top: 2vh;
-    font-size: 2.2em;
-    font-weight: 900;
-    color:rgb(0, 247, 255);
-    text-shadow: 1px 1.5px rgb(46, 46, 46);
-    font-family: 'Julius Sans One', sans-serif;
+@media (max-width: 1850px) {
+    .DivVaca1 {
+        height: 450px;
+        width: 650px;
+    }
+    .DivVaca2 {
+        height: 450px;
+        width: 650px;        
+    }
+    .DivVaca3 {
+        height: 450px;
+        width: 650px;
+    }
+    .DivVaca4 {
+        height: 450px;
+        width: 650px;
+    }
+    .DivVaca5 {
+        height: 450px;
+        width: 650px;
+    }
+    .DivVaca6 {
+        height: 450px;
+        width: 650px;
+    }
+    .overlay1 {
+        height: 450px;
+        width: 650px;
+    }
 }
+
+@media (max-width: 1550px) {
+    .DivVaca1 {
+        height: 450px;
+        width: 550px;
+    }
+
+    .directions {
+        h4 {
+            font-size: 13px;
+        }
+    }
+    .DivVaca2 {
+        height: 450px;
+        width: 550px;        
+    }
+    .DivVaca3 {
+        height: 450px;
+        width: 550px;
+    }
+    .DivVaca4 {
+        height: 450px;
+        width: 550px;
+    }
+    .DivVaca5 {
+        height: 450px;
+        width: 550px;
+    }
+    .DivVaca6 {
+        height: 450px;
+        width: 550px;
+    }
+    .overlay1 {
+        height: 450px;
+        width: 550px;
+    }
+    .directions2 {
+        .liDes {
+            font-size: 14px;
+            line-height: 1.3em;
+        }
+        .liTitle {
+            margin-left: 40px;
+            margin-right: -20px;
+        }
+    }
+}
+
+
 

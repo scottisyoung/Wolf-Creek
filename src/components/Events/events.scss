@@ -27,9 +27,9 @@
 
 .eventsTitleParent {
     margin-top: -50px;
-    color: white;
-    opacity: 0.7;
+    color: rgb(255, 255, 255);
     font-size: 60px;
+    text-shadow: 1px 1px 1px rgb(49, 49, 49);
 }
 
 .parentingEvent {
@@ -81,14 +81,15 @@
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 250px;
-    font-size: 18px;
+    width: 200px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 10px;
+    color: rgb(185, 113, 65);
 }
 
 .evList {
-    margin-top: 10px;
+    margin-top: 5px;
     width: 300px;
     display: flex;
     justify-content: flex-start;
@@ -98,11 +99,18 @@
         li {
             list-style: none;
             font-size: 16px;
+            line-height: 1.3em;
         }
+
+        span {
+            color: rgb(255, 51, 0);
+            margin-right: 20px;
+        }
+
 }
 
 .evList2 {
-    margin-top: 10px;
+    margin-top: 5px;
     width: 350px;
     display: flex;
     justify-content: flex-start;
@@ -112,6 +120,11 @@
         li {
             list-style: none;
             font-size: 16px;
+            line-height: 1.3em;
+        }
+        span {
+            color: rgb(255, 51, 0);
+            margin-right: 15px;
         }
 }
 
@@ -132,6 +145,7 @@
         img {
             width: 200px;
             height: 250px;
+            box-shadow: 1px 1px 5px 1px rgb(43, 43, 43);
         }
 }
 
@@ -151,6 +165,7 @@
         img {
             width: 200px;
             height: 120px;
+            box-shadow: 1px 1px 5px 1px rgb(43, 43, 43);
         }
 }
 
@@ -160,6 +175,7 @@
 
 .calendar {
     margin-top: -30px;
+    box-shadow: 1px 1px 10px 1px rgb(43, 43, 43);
 }
 
 .backgoundfooterevents {
@@ -182,67 +198,78 @@
     margin-left: 60px;
     color: white;
     font-size: 60px;
+    text-shadow: 1px 1px 1px black;
 }
 
 @media (max-width: 1850px) {
     .eventList {
-        margin-right: 20px;
-        width: 200px;
-        height: 400px;
-        margin-left: 80px;
+        width: 180px;
+        margin-right: 10px;
+        margin-left: 50px;
     }
-    .centerEvent {
-        width: 200px;
+    .imgalign1 
+    {
+        margin-right: 130px;
+        margin-left: 60px;
+        width: 100px;
     }
-    .centParent2 {
-        width: 250px;
+    .imgalign2 {
+        margin-right: 50px;
+        margin-left: 60px;
+        width: 100px;
     }
-    .evList {
-        width: 300px;
-    }
-    .evList2 {
-        width: 350px;
-    }
-    .imagealign1 {
-        margin-right: 80px;
-        margin-left: 30px;
-        width: 200px;
-    }
-    .imagealign2 {
-        margin-right: 80px;
-        margin-left: 30px;
-        width: 200px;
-    }
+    
 }
-
-@media (max-width: 1500px) {
+    
+@media (max-width: 1550px) {
+    .parentingEvent {
+        margin-top: 20px;
+    }
     .eventList {
-        margin-right: 20px;
-        width: 200px;
-        height: 400px;
-        margin-left: 80px;
+        width: 160px;
+        margin-right: 10px;
+        margin-left: 30px;
     }
-    .centerEvent {
-        width: 200px;
+    .imgalign1 
+    {
+        margin-right: 100px;
+        margin-left: 40px;
+        width: 100px;
+        img {
+            width: 150px;
+            height: 200px;
+        }
     }
-    .centParent2 {
-        width: 250px;
+    .imgalign2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 100px;
+        img {
+            width: 150px;
+            height: 80px;
+        }
     }
+
     .evList {
-        width: 300px;
+        margin-top: -5px;
+        li {
+            font-size: 14px;
+            line-height: 1.2em;
+        }
     }
     .evList2 {
-        width: 350px;
+        margin-left: 50px;
+        margin-top: -5px;
+        li {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+
+        .calendar {
+            margin-top: -100px;
+        }
     }
-    .imagealign1 {
-        margin-right: 80px;
-        margin-left: 30px;
-        width: 200px;
-    }
-    .imagealign2 {
-        margin-right: 80px;
-        margin-left: 30px;
-        width: 200px;
-    }
+    
 }
 

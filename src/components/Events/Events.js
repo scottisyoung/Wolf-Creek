@@ -20,12 +20,12 @@ class Events extends Component {
                                                 <div className="centerevent">College & Local Appreciation Days</div>
                                                 <div className="centParent2">No Id Required</div>
                                                 <div className="evList">   
-                                                        <li>November: 8th, 15th, 27th, 29th<br /></li>
-                                                        <li>December: 6th <br /></li>
-                                                        <li>January: 24th, 28th<br /></li>
-                                                        <li>February: 4th, 28th<br /></li>
-                                                        <li>March: 25th, 28th<br /></li>
-                                                        <li>April: 1st<br /></li>
+                                                        <li><span>November:</span> 8th, 15th, 27th, 29th</li>
+                                                        <li><span>December:</span> 6th</li>
+                                                        <li><span>January:</span>&emsp;24th, 28th</li>
+                                                        <li><span>February:</span>&nbsp; 4th, 28th</li>
+                                                        <li><span>March:</span>&emsp;&nbsp; 25th, 28th</li>
+                                                        <li><span>April:</span>&emsp;&emsp;1st</li>
                                                 </div>
                                         </div>
                                         <div className="imgalign1"><a href="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg" target="_blank"><img className="laimg" src="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Special-Days.jpg?zoom=1.25&resize=240%2C311" alt="Events-Poster"/></a></div>
@@ -36,10 +36,10 @@ class Events extends Component {
                                                 <div className="centerevent">Races</div>
                                                 <div className="centParent2">14 Different Age Brackets<br/>Registration 9:30am - 10:30am</div>
                                                 <div className="evList">   
-                                                        <li>December: 9th</li>
-                                                        <li>January: 7th, 14th, 21st, 28th<br /></li>
-                                                        <li>February: 4th, 11th, 18th, 25th</li>
-                                                        <li>March: 10th, 17th, 24th<br /></li>
+                                                        <li><span>December:</span> 9th</li>
+                                                        <li><span>January:</span>&emsp;7th, 14th, 21st, 28th<br /></li>
+                                                        <li><span>February:</span>&nbsp; 4th, 11th, 18th, 25th</li>
+                                                        <li><span>March:</span>&emsp;&nbsp;10th, 17th, 24th<br /></li>
                                                 </div>
                                         </div>
                                         <div className="imgalign1"><a href="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Fun-Race.jpg" target="_blank"><img className="laimg" src="https://i0.wp.com/wolfcreekski.com/wp-content/uploads/2017/09/17-18-Fun-Race.jpg?zoom=1.25&resize=240%2C310" alt="Race-Poster"/></a></div>
@@ -50,10 +50,10 @@ class Events extends Component {
                                                 <div className="centerevent">Wolf Creek Cosmic Event</div>
                                                 <div className="centParent2">Saturday, November 18th 2017</div>
                                                 <div className="evList2">   
-                                                        <li>Race Course: 5 climbs and ± 5,000 ft.</li>
-                                                        <li>Mandatory Gear: Skis|Helmet|Beacon|Shovel|Probe</li>
-                                                        <li className="course2">Recreation Course: 3 climbs and ± 2,500 ft.</li>
-                                                        <li>Mandatory Gear: Skis / skins / helmet</li>
+                                                        <li><span>Race Course:</span>&emsp;&emsp;5 climbs and ± 5,000 ft.</li>
+                                                        <li><span>Mandatory Gear:</span>&nbsp;&nbsp;Skis|Helmet|Beacon|Shovel|Probe</li>
+                                                        <li className="course2"><span>Recreation Course:</span>3 climbs and ± 2,500 ft.</li>
+                                                        <li><span>Mandatory Gear:</span>&nbsp;&nbsp;Skis / skins / helmet</li>
                                                 </div>
                                         </div>
                                         <div className="imgalign2"><a href="https://www.webscorer.com/register?raceid=55916" target="_blank"><img className="race" src="https://s.ws-images.com/uploadedimages/medium/55916_8d2deeff2b83aab.jpg" alt="Cosmic_Event-Poster"/></a></div>
