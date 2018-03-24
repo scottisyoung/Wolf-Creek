@@ -13,13 +13,13 @@
   width: 100%;
   background-color: #e2dbdb;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#e2dbdb, #b6b5b5);
+  background: -webkit-linear-gradient(#dbdee2, #4e4e4e);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#e2dbdb, #b6b5b5);
+  background: -o-linear-gradient(#e2dbdb, #4e4e4e);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#e2dbdb, #b6b5b5);
+  background: -moz-linear-gradient(#e2dbdb, #4e4e4e);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#e2dbdb, #b6b5b5);
+  background: linear-gradient(#e2dbdb, #4e4e4e);
   /* Standard syntax */
   display: flex;
   justify-content: flex-start;
@@ -36,7 +36,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-family: Buda; }
 
 .DivVaca1 {
   height: 450px;
@@ -49,7 +50,7 @@
   background-size: cover;
   opacity: 1;
   color: white;
-  text-shadow: 1px 1px #4b4b4b;
+  text-shadow: 2px 2px 2px #161616;
   font-size: 35px;
   position: relative;
   border-radius: 5px;
@@ -69,7 +70,7 @@
   background-size: cover;
   opacity: 1;
   color: white;
-  text-shadow: 1px 1px #4b4b4b;
+  text-shadow: 2px 2px 2px #161616;
   font-size: 35px;
   position: relative;
   border-radius: 5px;
@@ -89,7 +90,7 @@
   background-size: cover;
   opacity: 1;
   color: white;
-  text-shadow: 1px 1px #4b4b4b;
+  text-shadow: 2px 2px 2px #161616;
   font-size: 35px;
   position: relative;
   border-radius: 5px;
@@ -109,7 +110,7 @@
   background-size: cover;
   opacity: 1;
   color: white;
-  text-shadow: 1px 1px #4b4b4b;
+  text-shadow: 2px 2px 2px #161616;
   font-size: 35px;
   position: relative;
   border-radius: 5px;
@@ -129,7 +130,7 @@
   background-size: cover;
   opacity: 1;
   color: white;
-  text-shadow: 1px 1px #4b4b4b;
+  text-shadow: 2px 2px 2px #161616;
   font-size: 35px;
   position: relative;
   border-radius: 5px;
@@ -149,7 +150,7 @@
   background-size: cover;
   opacity: 1;
   color: white;
-  text-shadow: 1px 1px #4b4b4b;
+  text-shadow: 2px 2px 2px #161616;
   font-size: 35px;
   position: relative;
   border-radius: 5px;
@@ -166,7 +167,16 @@
   height: 450px;
   width: 750px;
   opacity: 0;
-  background-color: #0a59a3; }
+  background-color: #062450;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#062450, #2b293f);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#062450, #2b293f);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#062450, #2b293f);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#062450, #2b293f);
+  /* Standard syntax */ }
   .overlay1:hover {
     opacity: 1; }
 
@@ -181,7 +191,7 @@
     font-weight: bold;
     color: #0bf8ec;
     text-shadow: 1px 1px #4b4b4b;
-    line-height: 1.2em; }
+    line-height: 1em; }
   .directions .liParent {
     display: flex;
     justify-content: flex-start;
@@ -191,15 +201,17 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    color: #f38014;
+    color: #b4b4b4;
     font-size: 14px;
     margin-left: 60px;
-    margin-right: 30px; }
+    margin-right: 30px;
+    line-height: 1.2em; }
   .directions .liDes {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    font-size: 14px; }
+    font-size: 14px;
+    line-height: 1em; }
 
 .directions2 {
   height: 450px;
@@ -223,7 +235,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    color: #f38014;
+    color: #b4b4b4;
     font-size: 16px;
     margin-left: 60px;
     margin-right: 10px;

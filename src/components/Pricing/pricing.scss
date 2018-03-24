@@ -42,13 +42,14 @@ $center-margin: 0px auto;
    overflow-y: auto;
 
       h1{
+        width: 100%;
       transform: translateZ(-1px);
           text-transform: uppercase;
             font-family: serif;
             letter-spacing: 0.06em;
-            font-size:7.5em;
-            color: #2376a7;
-            text-shadow: 1.5px 1.5px rgb(36, 36, 36);
+            font-size: 140px;
+            color: #004b77;
+            text-shadow: 2px 2px 1px rgb(8, 8, 8);
             opacity: 1;
             text-align: center;
       }
@@ -56,7 +57,7 @@ $center-margin: 0px auto;
 
   #aspen, #snow, #ski{
     width: 100%;
-   height: 100vh;
+   height: 50vh;
    perspective: 1px;
    transform: translateZ(-1px);
    overflow-x: hidden;
@@ -65,7 +66,7 @@ $center-margin: 0px auto;
 
   #mountain {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     perspective: 1px;
     transform: translateZ(-1px);
     overflow-x: hidden;
@@ -73,343 +74,133 @@ $center-margin: 0px auto;
   }
 
   .ParentCharts {
-    -webkit-box-shadow: 0px 75px 35px -55px #2b2d42;
-    -moz-box-shadow: 0px 75px 35px -55px #2b2d42;
-    box-shadow: 0px 75px 35px -55px #2b2d42;
-    background: rgba(77, 28, 28, 0.96); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#1d5d83,#0d4261); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#1d5d83, #0d4261); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#1d5d83, #0d4261); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#1d5d83, #0d4261); /* Standard syntax */
+    background: #014c77; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#014c77,#062d44); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#014c77, #062d44); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#014c77, #062d44); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#014c77, #062d44); /* Standard syntax */
     color: #EDF2F4;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 1.1em;
-    font-weight: 400;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
 
   .titleparents{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 30px;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: flex-start;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 3px 2px 1px #0f0f0f;
+    color: #0bf8ec;
+    font-weight: 700;
+  }
+
+  .parentOfPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    font-size: 1.4em;
-    font-weight: 700;
-    text-shadow: 1px 2px #2b2d42;
-          h3 {
-            color: #0bf8ec;
-            font-weight: 700;
-            font-size: 1.6em;
-            
-          }
   }
 
   .priceParent{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 450px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.425);
+    box-shadow: 1px 1px 5px 1px black;
+    margin-bottom: 30px;
   }
 
+  .priceParent2{
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 220px;
+    width: 420px;
+    background: rgba(0, 0, 0, 0.425);
+    box-shadow: 1px 1px 5px 1px black;
+    margin-bottom: 30px;
+  }
+  
   .listItems1 {
-    height: 2vh;
-    width: 10vh;
-    margin-top: 2vh;
-    margin-bottom: 9vh;
+    margin-top: 10px;;
+    margin-bottom: 30px;
+    margin-left: 20px;
     color: rgb(221, 225, 235);
     font-weight: 900;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
+    text-shadow: 1px 1.5px 1px rgb(36, 36, 36);
+    font-size: 23px;
+    text-shadow: 3px 2px 1px #0f0f0f;
   }
 
   .listItems2 {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
+    text-shadow: 1px 1px 1px #0f0f0f;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
   }
 
   .listItems3 {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-   
-  }
-
-  .listItems4 {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems5 {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems6 {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems7 {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems8 {
-    height: 2vh;
-    width: 20vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
+    text-shadow: 3px 2px 1px #0f0f0f;
+    margin-left: 10px;
+    height: 50px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
   }
 
   .pricediv{
-    margin-top: 2vh;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction:  row;
-    margin-left: 2vh;
   }
 
   .actual-price {
-    margin-left: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    width: 75px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight: 700;
     color: #0bf8ec;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
+    text-shadow: 3px 2px 1px rgb(15, 15, 15);
   }
 
   .indentdiv {
-    margin-left: 5vh;
-    width: 20vh;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 300px;
   }
 
-  .indentdivPass {
-    margin-left: 5vh;
-    width: 30vh;
-  }
-
-  .indentdivpass {
-    margin-left: 5vh;
-    width: 30vh;
-  }
-
-  .listItems1Pass {
-    height: 2vh;
-    width: 25vh;
-    margin-top: 2vh;
-    margin-bottom: 9vh;
-    color: #FFFFFF;
-    font-weight: 900;
-    margin-right: 3vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems2Pass {
-    height: 2vh;
-    width: 25vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems3Pass {
-    height: 2vh;
-    width: 30vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-   
-  }
-
-  .listItems4Pass {
-    height: 2vh;
-    width: 30vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems5Pass {
-    height: 2vh;
-    width: 30vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems6Pass {
-    height: 2vh;
-    width: 30vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems1Pass {
-    height: 2vh;
-    width: 15vh;
-    margin-top: 2vh;
-    margin-bottom: 9vh;
-    color: #FFFFFF;
-    font-weight: 900;
-    margin-right: 2vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems2pass {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems3pass {
-    height: 2vh;
-    width: 25vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-   
-  }
-
-  .listItems4pass {
-    height: 2vh;
-    width: 25vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems5pass {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems6pass {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 5vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems7pass {
-    height: 2vh;
-    width: 35vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .splitup {
-    height: 7vh;
-  }
-
-  .listItems1ER {
-    height: 2vh;
-    width: 15vh;
-    margin-top: 2vh;
-    margin-bottom: 9vh;
-    color: #FFFFFF;
-    font-weight: 900;
-    margin-left: -20vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems2ER {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 20vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems3ER {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 30vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-   
-  }
-
-  .listItems4ER {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 30vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems5ER {
-    height: 2vh;
-    width: 30vh;
-    margin-right: 25vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems6ER {
-    height: 2vh;
-    width: 30vh;
-    margin-right: 25vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .indentdivER {
-    margin-left: 5vh;
-    width: 50vh;
-  }
-
-  .listItems1S {
-    height: 2vh;
-    width: 15vh;
-    margin-top: 2vh;
-    margin-bottom: 9vh;
-    color: #FFFFFF;
-    font-weight: 900;
-    margin-left: -15vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems2S {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 25vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems3S {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 35vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems4S {
-    height: 2vh;
-    width: 20vh;
-    margin-right: 25vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems5S {
-    height: 2vh;
-    width: 30vh;
-    margin-right: 25vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .listItems6S {
-    height: 2vh;
-    width: 30vh;
-    margin-right: 25vh;
-    margin-bottom: 8vh;
-    text-shadow: 1px 1.5px rgb(36, 36, 36);
-  }
-
-  .indentdivS {
-    margin-left: 5vh;
-    width: 60vh;
-  }
+  
