@@ -39,5 +39,5 @@
   "now": {
     "alias": "wolf-creek-website"
   },
-  "proxy": "http://localhost:3080"
+  "proxy": "http://localhost:3050"
 }

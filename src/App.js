@@ -43,8 +43,6 @@ class App extends Component {
                   <Route path='/skimap' component={Skimap} />
                   <Route path='/lift_tickets' component={Lift_tickets}/>
                   <Route path='/season_passes' component={Season_passes}/>
-                  {/* <Route path='/equipment' component={Equipment}/>
-                  <Route path='/school' component={School}/> */}
                   <Route path='/cart' component={Cart}/>
                 </Switch>
               <Footer />

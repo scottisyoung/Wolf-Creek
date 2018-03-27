@@ -1,37 +1,33 @@
 .shopBackground {
-  height: 100vh;
+  margin-top: 30px;
+  height: 850px;
   width: 100%;
   background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752712/Wolf%20Creek/boarder.jpg");
   background-size: cover; }
 
 .centerShopTitle {
-  position: absolute;
-  top: 113vh;
-  right: 3%;
-  color: #838383;
-  opacity: 0.7;
-  font-size: 60px; }
-
-.footerShopBackground {
-  height: 80vh;
-  width: 100%;
-  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752713/Wolf%20Creek/board-fence.jpg");
-  background-size: cover;
-  opacity: 0.7; }
+  margin-top: -50px;
+  color: white;
+  font-size: 60px;
+  text-shadow: 1px 1px 1px #313131; }
 
 .shopParent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   background: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752711/Wolf%20Creek/snow.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 130vh;
-  padding-bottom: 15vh; }
+  height: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; }
+
+.shopItemsParent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; }
 
 .shopDivs {
   transform-style: preserve-3d;
@@ -43,8 +39,8 @@
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -o-transition: 1s;
-  height: 45vh;
-  width: 45vh;
+  height: 300px;
+  width: 330px;
   background: rgba(46, 42, 42, 0.96);
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#616060, #196496, #2c2b2b);
@@ -56,15 +52,14 @@
   background: linear-gradient(#292828, #196496, #292828);
   /* Standard syntax */
   box-shadow: 2px 2px 1px rgba(56, 56, 56, 0.719);
-  display: inline-block;
-  margin-top: 35vh;
-  margin-right: 2vh;
-  margin-left: 2vh;
+  margin-top: 0px;
+  margin-right: 50px;
+  margin-left: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 6vh; }
+  border-radius: 5px; }
   .shopDivs:hover {
     transform: rotatey(-180deg);
     -webkit-transform: rotatey(-180deg);
@@ -82,8 +77,8 @@
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -o-transition: 1s;
-  height: 45vh;
-  width: 45vh;
+  height: 300px;
+  width: 330px;
   background: rgba(46, 42, 42, 0.96);
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#616060, #196496, #2c2b2b);
@@ -96,14 +91,14 @@
   /* Standard syntax */
   box-shadow: 2px 2px 1px rgba(56, 56, 56, 0.719);
   display: inline-block;
-  margin-top: 5vh;
-  margin-right: 2vh;
-  margin-left: 2vh;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 6vh; }
+  border-radius: 5px; }
   .shopDivs1:hover {
     transform: rotatey(-180deg);
     -webkit-transform: rotatey(-180deg);
@@ -113,8 +108,8 @@
 
 .font, .back {
   position: fixed;
-  height: 95%;
-  width: 95%;
+  height: 90%;
+  width: 90%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -123,22 +118,18 @@
 
 .front {
   color: white;
-  font-size: 2.3em;
+  font-size: 25px;
   text-align: center;
   position: relative;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 900;
-  letter-spacing: 0.5vh;
+  letter-spacing: 4px;
   text-shadow: 1.5px 1.8px #1a1a1a;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   -o-backface-visibility: hidden; }
-  .front:hover {
-    color: white;
-    text-shadow: 1.5px 1.8px #1a1a1a;
-    font-weight: 900; }
 
 .back {
   transform: rotatey(-180deg);
@@ -148,13 +139,13 @@
   -o-transform: rotatey(-180deg);
   z-index: 1;
   word-wrap: break-word;
-  line-height: 1.15;
-  text-align: center;
+  line-height: 1em;
+  text-align: left;
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
-  text-shadow: 1.5px 1.5px #242424;
-  font-size: 1em;
-  letter-spacing: 0.2vh;
+  text-shadow: 1px 1px 1px #242424;
+  font-size: 16px;
+  letter-spacing: .05em;
   margin-top: 2vh;
   list-style-type: none;
   backface-visibility: hidden;
@@ -165,17 +156,19 @@
   overflow: auto;
   position: fixed;
   height: 90%;
-  width: 95%; }
+  width: 90%; }
 
 .purchaseParent {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1vh; }
+  margin: 10px; }
 
 .purchase {
-  height: 6vh;
-  width: 60%;
+  position: absolute;
+  bottom: 20px;
+  height: 50px;
+  width: 150px;
   border-radius: 5px;
   background-color: #363636;
   color: white;
@@ -188,3 +181,26 @@
   font-weight: 400; }
   .purchase:hover {
     background-color: #10da10; }
+
+.footerShopBackground {
+  height: 700px;
+  width: 100%;
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752713/Wolf%20Creek/board-fence.jpg");
+  background-size: cover;
+  opacity: 0.7; }
+
+@media (max-width: 1850px) {
+  .shopDivs {
+    margin-right: 20px;
+    margin-left: 20px; }
+  .shopDivs1 {
+    margin-right: 20px;
+    margin-left: 20px; } }
+
+@media (max-width: 1550px) {
+  .shopDivs {
+    margin-right: 5px;
+    margin-left: 5px; }
+  .shopDivs1 {
+    margin-right: 5px;
+    margin-left: 5px; } }

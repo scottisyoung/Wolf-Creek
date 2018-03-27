@@ -31,12 +31,22 @@ class Cart extends Component {
             return (
                 <div key={i} className='item-display'>
 
+               <div className="spaceKeeper"></div>
                <div className="CartParent"> 
                     <div className="CartName"><div><span className="itemspan">Item Name:</span><br /> {product.name}</div></div>
                     <div className="CartDescription"><div><span className="itemspan">Item Description:</span><br /> {product.description}</div></div>
                     <div className="CartPrice"><div><span className="itemspan">Price:</span><br />{product.price}<br /></div></div>
-                    <div className="QuantityCart"><div>Quantity <input type="number" value= {product.qty} name="quantity" min="1" max='999' 
-                    onChange={(e) => {}}/></div></div>
+                    <div className="QuantityCart"> Quantity 
+                            <div>
+                            <input className="number" 
+                                   type="number" 
+                                   value= {product.qty} 
+                                   name="quantity" 
+                                   min="1" 
+                                   max='999' 
+                                   onChange={(e) => {}}>
+                            </input></div>
+                    </div>
                     <div className ="RemoveCart" onClick={(e) => this.props.removeFromCart(product.id)}><div className="remove">REMOVE</div></div>
                 </div>
                 

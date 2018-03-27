@@ -20,7 +20,7 @@ app.use( express.static( `${__dirname}/../build` ) );
 
 massive( process.env.CONNECTION_STRING ).then(db => {
     app.set('db', db)
-    const PORT = 3080;
+    const PORT = 3050;
     app.listen(PORT, () => console.log(`listening on port:`, PORT));
 }).catch(err => console.log(err))
 

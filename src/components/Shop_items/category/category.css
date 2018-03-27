@@ -3,33 +3,32 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  margin-bottom: 4vh; }
+  margin-bottom: 25px; }
 
 .products {
-  width: 55%;
-  height: 5vh;
-  margin-left: 3vh;
-  margin-right: 3vh;
+  width: 400px;
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 1.1em;
   font-family: 'Julius Sans One', sans-serif; }
 
 .products2 {
-  width: 15%;
-  height: 5vh;
+  width: 120px;
+  height: 20px;
   font-size: 1.1em;
-  margin-right: 3vh;
+  margin-right: 20px;
   font-family: 'Julius Sans One', sans-serif; }
 
 .products3 {
   margin-right: 0vh;
-  margin-top: -2vh;
   width: 120px;
-  height: 5.5vh;
+  height: 40px;
   background-color: #2d2d2d;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0.5vh;
+  border-radius: 5px;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 0.9em;
   color: white;

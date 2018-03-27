@@ -190,3 +190,26 @@
   margin-right: 20px;
   margin-left: 20px;
   width: 300px; }
+
+@media (max-width: 1850px) {
+  .priceParent {
+    height: 450px;
+    width: 280px; }
+  .listItems2 {
+    width: 240px; } }
+
+@media (max-width: 1500px) {
+  .priceParent {
+    height: 450px;
+    width: 260px; }
+  .priceParent2 {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 380px; }
+  .actual-price {
+    width: 60px;
+    font-size: 16px; }
+  .indentdiv {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 200px; } }
