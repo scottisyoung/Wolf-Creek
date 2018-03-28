@@ -62,7 +62,6 @@ class Cart extends Component {
 
     return (
         <div>
-            <div>
                 <div className="CartBackground"> 
     
                         <div className="emptyParent">
@@ -90,12 +89,11 @@ class Cart extends Component {
                     </div>
 
                 </div>
+                        <div className="spaceKeeper"></div>
             
             
-            </div>
-
+                        </div>
                 </div>
-            </div>
         </div>
     )
 }

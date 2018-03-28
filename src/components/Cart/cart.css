@@ -35,8 +35,7 @@
     box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
 
 .spaceKeeper {
-  margin-top: 220px;
-  margin-bottom: 0px; }
+  margin-top: 220px; }
 
 .CartParent {
   display: flex;
@@ -167,6 +166,7 @@ input {
   margin-right: 30px;
   margin-left: 30px;
   margin-top: 30px;
+  margin-bottom: 150px;
   border-radius: 5px;
   background-color: #3068cc;
   text-shadow: 1px 1.5px #242424;
@@ -177,7 +177,6 @@ input {
   font-size: 1.8em;
   font-weight: 700;
   font-family: 'Buda', cursive;
-  overflow: auto;
   text-align: center;
   box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
 
@@ -188,6 +187,7 @@ input {
   margin-top: 30px;
   margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 150px;
   border-radius: 5px;
   background-color: #3068cc;
   text-shadow: 1px 1.5px #242424;
@@ -208,6 +208,7 @@ input {
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 30px;
+  margin-bottom: 150px;
   border-radius: 5px;
   background-color: #3068cc;
   text-shadow: 1px 1.5px #242424;
