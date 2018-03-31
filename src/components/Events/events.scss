@@ -174,7 +174,7 @@
 }
 
 .calendar {
-    margin-top: -30px;
+    margin-top: -50px;
     box-shadow: 1px 1px 10px 1px rgb(43, 43, 43);
 }
 
@@ -220,10 +220,11 @@
     }
     
 }
-    
-@media (max-width: 1550px) {
+
+@media (max-width: 1650px) {
     .parentingEvent {
         margin-top: 20px;
+        margin-left: 60px;
     }
     .eventList {
         width: 160px;
@@ -271,5 +272,113 @@
         }
     }
     
+}
+    
+@media (max-width: 1450px) {
+    .parentingEvent {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 80px;
+    }
+    .eventList {
+        width: 160px;
+        margin-right: 5px;
+        margin-left: 25px;
+    }
+    .imgalign1 
+    {
+        margin-right: 100px;
+        margin-left: 40px;
+        width: 80px;
+        img {
+            width: 130px;
+            height: 180px;
+        }
+    }
+    .imgalign2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 100px;
+        img {
+            width: 130px;
+            height: 80px;
+        }
+    }
+
+    .evList {
+        margin-top: -5px;
+        li {
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+    }
+    .evList2 {
+        margin-left: 50px;
+        margin-top: -5px;
+        li {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+
+        .calendar {
+            margin-top: -130px;
+            width: 1200px;
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    .parentingEvent {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 100px;
+    }
+    .eventList {
+        width: 160px;
+        margin-right: 5px;
+        margin-left: 15px;
+    }
+    .imgalign1 
+    {
+        margin-right: 100px;
+        margin-left: 40px;
+        width: 80px;
+        img {
+            width: 130px;
+            height: 180px;
+        }
+    }
+    .imgalign2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 100px;
+        img {
+            width: 130px;
+            height: 80px;
+        }
+    }
+
+    .evList {
+        margin-top: -5px;
+        li {
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+    }
+    .evList2 {
+        margin-left: 50px;
+        margin-top: -5px;
+        li {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+
+        .calendar {
+            margin-top: -130px;
+            width: 1200px;
+        }
+    }
 }
 

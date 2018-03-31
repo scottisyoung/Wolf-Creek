@@ -40,13 +40,21 @@
                             font-size: 1.2em;
                         }
                 }
-
+                
+                .navLinkParent {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    margin-left: 350px;
+                }
                     .navLink {
                         font-size: 1.2em;
                         font-weight: 400;
-                        margin: 30px;
+                        margin: 10px;
                         margin-top: 100px;
-                        width: 100px;
+                        width: 160px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -66,20 +74,25 @@
 }
 
 .navLink1 {
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
     font-size: 1.1em;
     font-weight: 500;
-    margin-left: 730px;
-    margin-top: 30px;
-    position: absolute;
+    margin-top: 85px;
     text-shadow: 1px 1.5px rgb(36, 36, 36);
 }
 
 .navLink2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
     font-size: 1.1em;
     font-weight: 500;
-    margin-top: 30px;
-    margin-left: 800px;
-    position: absolute;
+    margin-top: 85px;
 }
 
 .auth1 {
@@ -108,8 +121,8 @@
 
 .cart {
     position: absolute;
-    margin-top: 30px;
-    margin-left: 650px;
+    margin-top: 42px;
+    margin-left: 820px;
 }
 
 .badgenumber {
@@ -136,42 +149,192 @@
             left: 60px;
         }
 
+        .navLinkParent {
+            margin-left: 340px;
+        }
+
         .navLink {
-        margin: 30px;
+        margin: 10px;
         margin-top: 100px;
-        width: 50px;
+        width: 160px;
         }
     }
     .navLink1 {
-        margin-left: 630px;
-    }
-    .navLink2 {
-        margin-left: 700px;
+        margin-left: 140px;
     }
     .cart {
-        margin-left: 550px;
+        margin-left: 800px;
     }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1750px) {
     .navParent {
         .logoTitle {
             left: 30px;
         }
 
+        .navLinkParent {
+            margin-left: 300px;
+        }
+
         .navLink {
-        margin: 30px;
+        margin: 10px;
         margin-top: 100px;
-        width: 30px;
+        width: 160px;
         }
     }
     .navLink1 {
-        margin-left: 530px;
-    }
-    .navLink2 {
-        margin-left: 600px;
+        margin-left: 100px;
     }
     .cart {
-        margin-left: 450px;
+        margin-left: 770px;
+    }
+}
+
+@media (max-width: 1650px) {
+    .navParent {
+        .logoTitle {
+            left: 30px;
+        }
+
+        .navLinkParent {
+            margin-left: 260px;
+        }
+
+        .navLink {
+        margin: 10px;
+        margin-top: 100px;
+        width: 160px;
+        }
+    }
+    .navLink1 {
+        margin-left: 60px;
+    }
+    .cart {
+        margin-left: 740px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .navParent {
+        .logoTitle {
+            left: 30px;
+        }
+
+        .navLinkParent {
+            margin-left: 320px;
+        }
+
+        .navLink {
+        margin: 10px;
+        margin-top: 100px;
+        width: 120px;
+        }
+    }
+    .navLink1 {
+        margin-left: 100px;
+    }
+    .cart {
+        margin-left: 680px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .navParent {
+        .logoTitle {
+            left: 30px;
+        }
+
+        .navLinkParent {
+            margin-left: 280px;
+        }
+
+        .navLink {
+        margin: 10px;
+        margin-top: 100px;
+        width: 120px;
+        }
+    }
+    .navLink1 {
+        margin-left: 60px;
+    }
+    .cart {
+        margin-left: 630px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .navParent {
+        .logoTitle {
+            left: 30px;
+        }
+
+        .navLinkParent {
+            margin-left: 290px;
+        }
+
+        .navLink {
+        margin: 10px;
+        margin-top: 100px;
+        width: 100px;
+        }
+    }
+    .navLink1 {
+        margin-left: 40px;
+    }
+    .cart {
+        margin-left: 580px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .navParent {
+        .logoTitle {
+            left: 30px;
+        }
+
+        .navLinkParent {
+            margin-left: 280px;
+        }
+
+        .navLink {
+        margin: 10px;
+        margin-top: 100px;
+        width: 80px;
+        }
+    }
+    .navLink1 {
+        margin-left: 40px;
+    }
+    .cart {
+        margin-left: 520px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .navParent {
+        .logoTitle {
+            left: 30px;
+        }
+
+        .navLinkParent {
+            margin-left: 300px;
+        }
+
+        .navLink {
+        margin: 10px;
+        margin-top: 100px;
+        width: 80px;
+        }
+    }
+    .navLink1 {
+        margin-left: 50px;
+        width: 60px;
+    }
+    .navLink2 {
+        width: 60px;
+    }
+    .cart {
+        margin-left: 520px;
     }
 }

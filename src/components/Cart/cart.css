@@ -221,3 +221,53 @@ input {
   font-family: 'Buda', cursive;
   text-align: center;
   box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+@media (max-width: 1600px) {
+  .CartName {
+    width: 250px;
+    font-size: 1.2em; }
+  .CartDescription {
+    width: 350px;
+    font-size: 1.2em; }
+  .CartPrice {
+    width: 120px;
+    font-size: 1.2em; }
+  .QuantityCart {
+    width: 120px;
+    font-size: 1em; }
+  .RemoveCart {
+    width: 120px; }
+  .CartTotal {
+    width: 150px;
+    height: 80px; }
+  .cartTotal {
+    width: 150px;
+    height: 80px; }
+  .total {
+    width: 150px;
+    height: 80px; } }
+
+@media (max-width: 1200px) {
+  .CartName {
+    width: 200px;
+    font-size: 1.1em; }
+  .CartDescription {
+    width: 320px;
+    font-size: 1.1em; }
+  .CartPrice {
+    width: 100px;
+    font-size: 1.1em; }
+  .QuantityCart {
+    width: 100px;
+    font-size: .8em; }
+  .RemoveCart {
+    width: 100px; }
+  .CartTotal {
+    width: 130px;
+    height: 60px; }
+  .cartTotal {
+    width: 130px;
+    height: 60px; }
+  .total {
+    width: 130px;
+    height: 60px; } }

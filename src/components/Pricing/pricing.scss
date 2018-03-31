@@ -88,6 +88,21 @@ $center-margin: 0px auto;
     flex-direction: column;
   }
 
+  .ParentCharts2 {
+    background: #014c77; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#014c77,#062d44); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#014c77, #062d44); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#014c77, #062d44); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#014c77, #062d44); /* Standard syntax */
+    color: #EDF2F4;
+    font-family: 'Julius Sans One', sans-serif;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
 
   .titleparents{
     margin-top: 30px;
@@ -202,34 +217,270 @@ $center-margin: 0px auto;
     margin-left: 20px;
     width: 300px;
   }
+
+  .indentdiv2 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 300px;
+  }
   
-  @media (max-width: 1850px) {
+  @media (max-width: 1900px) {
     .priceParent {
       height: 450px;
-      width: 280px;
+      width: 330px;
     }
     .listItems2 {
-      width: 240px;
+      width: 300px;
     }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
+  .priceParent {
+    height: 450px;
+    width: 300px;
+  }
+  .listItems2 {
+    width: 270px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .priceParent {
+    height: 450px;
+    width: 280px;
+  }
+  .listItems2 {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .priceParent {
+    height: 450px;
+    width: 280px;
+  }
+  .actual-price {
+    width: 60px;
+    font-size: 16px;
+  }
+  .indentdiv {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 250px;
+  }
+  .pricediv {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1550px) {
     .priceParent {
       height: 450px;
       width: 260px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
     .priceParent2 {
-      margin-left: 40px;
-      margin-right: 40px;
+      margin-left: 30px;
+      margin-right: 30px;
       width: 380px;
+      height: 220px;
+      margin-bottom: 30px;
+    }
+
+    .pricediv {
+      margin-left: 50px;
     }
     .actual-price {
       width: 60px;
-      font-size: 16px;
+      font-size: 14px;
     }
     .indentdiv {
-      margin-right: 5px;
-      margin-left: 5px;
+      margin-right: -20px;
+      margin-left: -20px;
+      width: 250px;
+    }
+
+    .indentdiv2 {
+      margin-right: -20px;
+      margin-left: -20px;
+      width: 250px;
+    }
+
+    .listItems2 {
+      font-size: 14px;
       width: 200px;
+      margin-left: 40px;
+    }
+    .listItems3 {
+      font-size: 14px;
+      margin-left: 20px;
+      width: 380px;
     }
 } 
+
+@media (max-width: 1450px) {
+  .priceParent {
+    height: 450px;
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .priceParent2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    height: 230px;
+    margin-bottom: 10px;
+  }
+
+  .pricediv {
+    margin-left: 50px;
+  }
+  .actual-price {
+    width: 60px;
+    font-size: 16px;
+  }
+  .indentdiv {
+    margin-right: -20px;
+    margin-left: -20px;
+    width: 110px;
+  }
+
+  .indentdiv2 {
+    margin-right: -20px;
+    margin-left: -20px;
+    width: 200px;
+  }
+  .listItems2 {
+    font-size: 14px;
+    width: 200px;
+    margin-left: 40px;
+  }
+  .listItems3 {
+    font-size: 13px;
+    margin-top: 4px;
+    margin-left: 0px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .priceParent {
+    height: 450px;
+    width: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .priceParent2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    height: 230px;
+    margin-bottom: 10px;
+  }
+
+  .pricediv {
+    margin-left: 50px;
+  }
+  .actual-price {
+    width: 60px;
+    font-size: 16px;
+  }
+  .indentdiv {
+    margin-right: -30px;
+    margin-left: -30px;
+    width: 110px;
+  }
+  .indentdiv2 {
+    margin-right: 0px;
+    margin-left: 40px;
+    width: 250px;
+  }
+  .listItems2 {
+    font-size: 14px;
+    width: 200px;
+    margin-left: 40px;
+  }
+  .listItems3 {
+    margin-left: -20px;
+    width: 310px;
+  }
+}
+
+@media (max-width: 1270px) {
+  .priceParent {
+    height: 450px;
+    width: 220px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .priceParent2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 310px;
+    height: 230px;
+    margin-bottom: 10px;
+  }
+
+  .pricediv {
+    margin-left: 50px;
+  }
+  .actual-price {
+    width: 60px;
+    font-size: 14px;
+  }
+  .indentdiv {
+    margin-right: -40px;
+    margin-left: -40px;
+    width: 110px;
+  }
+  .listItems2 {
+    font-size: 13px;
+    width: 180px;
+    margin-left: 40px;
+  }
+  .listItems3 {
+    margin-left: -20px;
+    width: 310px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .priceParent {
+    height: 450px;
+    width: 200px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .priceParent2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 310px;
+    height: 230px;
+    margin-bottom: 10px;
+  }
+
+  .pricediv {
+    margin-left: 50px;
+  }
+  .actual-price {
+    width: 60px;
+    font-size: 14px;
+  }
+  .indentdiv {
+    margin-right: -50px;
+    margin-left: -50px;
+    width: 110px;
+  }
+  .listItems2 {
+    font-size: 13px;
+    width: 180px;
+    margin-left: 40px;
+  }
+  .listItems3 {
+    margin-left: -20px;
+    width: 310px;
+  }
+}

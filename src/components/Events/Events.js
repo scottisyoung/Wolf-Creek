@@ -61,7 +61,7 @@ class Events extends Component {
                         </div>
 
                         <div className="calendar">
-                                <iframe src="https://calendar.google.com/calendar/embed?src=3d2qpgeeghdu7kqh7ppld6j7sg%40group.calendar.google.com&ctz=America/Denver" style={{border: 0}} width="1400" height="690" frameBorder="0" scrolling="no"></iframe>
+                                <iframe src="https://calendar.google.com/calendar/embed?src=3d2qpgeeghdu7kqh7ppld6j7sg%40group.calendar.google.com&ctz=America/Denver" style={{border: 0}} width="1250" height="690" frameBorder="0" scrolling="no"></iframe>
                         </div>
                 </div>
 
